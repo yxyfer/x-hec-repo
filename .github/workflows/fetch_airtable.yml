@@ -80,8 +80,6 @@ jobs:
     - name: Copy build to docs directory
       run: |
         mkdir -p docs
-        cp -r batches/out/* docs/
-        touch docs/.nojekyll  # Prévient le traitement Jekyll sur GitHub Pages
 
     - name: Commit & push if changed
       env:
