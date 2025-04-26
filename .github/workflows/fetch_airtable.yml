@@ -7,6 +7,8 @@ on:
   push:
     branches: [ main ]          # run on commits to main
   workflow_dispatch:            # allow manual run
+permissions:
+  contents: read
 
 concurrency:
   group: airtable-sync-${{ github.ref }}
