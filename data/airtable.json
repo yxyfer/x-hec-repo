@@ -66,7 +66,7 @@
     "Programme": [
       "Launchpad Paris"
     ],
-    "# FTEs": "5",
+    "# FTEs (incl. founders)": "5",
     "Statut": [
       "En activité"
     ]
@@ -224,9 +224,13 @@
     "founder_1": "Théo Lion",
     "lien_entreprise": "https://www.coudac.com/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/coudac/",
+    "Programme": [
+      "Launchpad Paris"
+    ],
     "Founders": [
       "recvVwovzPZSr7sxr"
     ],
+    "Sector": "Ad agency",
     "Statut": [
       "En activité"
     ]
@@ -283,7 +287,7 @@
       "Launchpad Paris"
     ],
     "Sector": "Web3",
-    "# FTEs": "2",
+    "# FTEs (incl. founders)": "2",
     "Statut": [
       "Arrêtée"
     ]
@@ -304,6 +308,7 @@
       "En activité"
     ]
   },
+  {},
   {
     "Startup": "Vesto",
     "inception_year": 2020,
@@ -485,6 +490,9 @@
     "lien_founder_1": "https://www.linkedin.com/in/pierre-amans-lapeyre/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/martin-vaz/overlay/about-this-profile/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/bib-batteries/",
+    "Programme": [
+      "Launchpad Paris"
+    ],
     "Founders": [
       "recWrbZZfuDvolMYt",
       "recPkljwTa1IvxPrQ"
@@ -770,10 +778,15 @@
     "founder_1": "Matthias Walter",
     "lien_entreprise": "https://www.fioro.ai/",
     "lien_founder_1": "https://www.linkedin.com/in/matthias-j-walter/",
+    "Linkedin_entreprise": "https://www.linkedin.com/company/fioro-ai/",
     "Programme": [
       "Launchpad Paris"
     ],
-    "Sector": "Education"
+    "Sector": "Education",
+    "# FTEs (incl. founders)": "3",
+    "Statut": [
+      "En activité"
+    ]
   },
   {
     "Startup": "Suny Club",
@@ -1028,13 +1041,32 @@
     "Startup": "Hinfact",
     "inception_year": 2021,
     "founder_1": "Thomas Bessiere",
+    "lien_entreprise": "https://hinfact.com/fr/accueil/",
     "lien_founder_1": "https://www.linkedin.com/in/thomas-bessiere-hinfact/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/hinfact/",
+    "Programme": [
+      "Launchpad Paris"
+    ],
     "Founders": [
       "reckSnEMKERs0OaF9"
     ],
     "Statut": [
       "En activité"
+    ]
+  },
+  {
+    "Startup": "Seerona",
+    "inception_year": 2022,
+    "founder_1": "Marin Desneuf",
+    "lien_founder_1": "https://www.linkedin.com/in/marindesneuf/",
+    "Linkedin_entreprise": "https://www.linkedin.com/company/seerona/",
+    "Programme": [
+      "Launchpad Paris"
+    ],
+    "Sector": "Health",
+    "# FTEs (incl. founders)": "1",
+    "Statut": [
+      "Arrêtée"
     ]
   },
   {
