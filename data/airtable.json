@@ -12,8 +12,9 @@
     ]
   },
   {
-    "Startup": "Vega",
+    "Startup": "VegaSpark Technologies",
     "inception_year": 2025,
+    "founder_1": "Valentin Pruvost",
     "Programme": [
       "Launchpad Paris"
     ],
@@ -65,6 +66,10 @@
     "Linkedin_entreprise": "https://www.linkedin.com/company/pimster-app/",
     "Programme": [
       "Launchpad Paris"
+    ],
+    "Founders": [
+      "recWy4pWQcqzXDBwy",
+      "recHN9eKwL1OxPZMn"
     ],
     "# FTEs (incl. founders)": "5",
     "Statut": [
@@ -190,6 +195,10 @@
     "Programme": [
       "Launchpad Paris"
     ],
+    "Founders": [
+      "recgYwkoLFBtRi7Ie",
+      "recJ8DZnw6BufX8c6"
+    ],
     "Statut": [
       "En activité"
     ]
@@ -213,6 +222,9 @@
     "Linkedin_entreprise": "https://www.linkedin.com/company/goodvest-epargne/",
     "Programme": [
       "Launchpad Paris"
+    ],
+    "Founders": [
+      "recIUIOYDhfYcpIzu"
     ],
     "Statut": [
       "En activité"
@@ -246,6 +258,10 @@
     "Linkedin_entreprise": "https://www.linkedin.com/company/via-sana/posts/?feedView=all",
     "Programme": [
       "Launchpad Paris"
+    ],
+    "Founders": [
+      "recy2HLcOC9FHAHrf",
+      "rec5z96wJXA5WaYgw"
     ],
     "Statut": [
       "En activité"
@@ -286,6 +302,9 @@
     "Programme": [
       "Launchpad Paris"
     ],
+    "Founders": [
+      "rec9XvhCUMslkYeyf"
+    ],
     "Sector": "Web3",
     "# FTEs (incl. founders)": "2",
     "Statut": [
@@ -308,7 +327,12 @@
       "En activité"
     ]
   },
-  {},
+  {
+    "Startup": "Moonz",
+    "inception_year": 2021,
+    "founder_1": "Fethy A TERKI",
+    "lien_founder_1": "https://www.linkedin.com/in/fethy-abbas-terki/"
+  },
   {
     "Startup": "Vesto",
     "inception_year": 2020,
@@ -568,6 +592,9 @@
     "Programme": [
       "Launchpad Paris"
     ],
+    "Founders": [
+      "recQRVt5IuYylR2H5"
+    ],
     "Statut": [
       "En activité"
     ]
@@ -591,7 +618,9 @@
     "founder_1": "Camille Defline",
     "lien_founder_1": "https://www.linkedin.com/in/camille-defline/overlay/about-this-profile/",
     "Founders": [
-      "rechMDSoR1VeS0fR8"
+      "rechMDSoR1VeS0fR8",
+      "recc0FOfclfOtH0Sb",
+      "recW9DFv09Rszt1C7"
     ],
     "Statut": [
       "En activité"
@@ -724,6 +753,10 @@
     "Programme": [
       "Launchpad Paris"
     ],
+    "Founders": [
+      "recheKRt59NLursmY",
+      "recpXbLfajdMam5c1"
+    ],
     "Sector": "Fintech",
     "Statut": [
       "En activité"
@@ -781,6 +814,9 @@
     "Linkedin_entreprise": "https://www.linkedin.com/company/fioro-ai/",
     "Programme": [
       "Launchpad Paris"
+    ],
+    "Founders": [
+      "rec55ZSq7URlFwLxZ"
     ],
     "Sector": "Education",
     "# FTEs (incl. founders)": "3",
@@ -919,6 +955,9 @@
     "lien_entreprise": "https://www.nefture.com/",
     "lien_founder_1": "https://www.linkedin.com/in/celim-starck/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/nefture/",
+    "Founders": [
+      "recsV15ew4bsV3YgV"
+    ],
     "Sector": "Web3",
     "Statut": [
       "En activité"
@@ -1062,6 +1101,9 @@
     "Linkedin_entreprise": "https://www.linkedin.com/company/seerona/",
     "Programme": [
       "Launchpad Paris"
+    ],
+    "Founders": [
+      "recgQ4LBsNyyObVRr"
     ],
     "Sector": "Health",
     "# FTEs (incl. founders)": "1",
