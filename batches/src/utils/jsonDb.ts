@@ -1,6 +1,3 @@
-import fs from "fs";
-import path from "path";
-
 type Startup = {
   Startup: string;
   inception_year: number;
