@@ -43,6 +43,14 @@
     ]
   },
   {
+    "Startup": "Pimster",
+    "inception_year": 2021,
+    "founder_1": "Grégoire Galichon",
+    "founder_2": "Aubry d'Andoque de Sériège",
+    "lien_entreprise": "https://www.pimster.app/",
+    "Linkedin_entreprise": "https://www.linkedin.com/company/pimster-app/"
+  },
+  {
     "Startup": "Redesk",
     "inception_year": 2023,
     "founder_1": "Jules Prétot",
@@ -206,6 +214,9 @@
     "founder_2": "Bastien Rambaud",
     "lien_founder_1": "https://www.linkedin.com/in/wilfriddumas/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/bastien-rambaud-839337107/overlay/about-this-profile/",
+    "Programme": [
+      "Launchpad Paris"
+    ],
     "Founders": [
       "recqI2DMWLv7HLURc",
       "recv4plkBjq9pX8ZY"
@@ -218,6 +229,9 @@
     "founder_2": "Tristan Kalos",
     "lien_founder_1": "https://www.linkedin.com/in/acarossio/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/tkalos/overlay/about-this-profile/?locale=en_US",
+    "Programme": [
+      "L2L Berkeley"
+    ],
     "Founders": [
       "rec3np2Iglv2U1PdK",
       "recDi478bivjZrnlR"
@@ -582,6 +596,9 @@
     "lien_founder_1": "https://www.linkedin.com/in/oliver-yates/",
     "lien_founder_2": "https://www.linkedin.com/in/sdouyer/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/aplocrypto/",
+    "Programme": [
+      "Launchpad Paris"
+    ],
     "Founders": [
       "recWqEBIAu4thoG33",
       "recCR046Zh8s7hqU9"
