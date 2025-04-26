@@ -1,0 +1,73 @@
+# .github/workflows/airtable_sync.yml
+name: Sync Airtable → JSON
+
+on:
+  schedule:
+    - cron: '0 2 * * *'        # every day 02:00 UTC
+  push:
+    branches: [ main ]          # run on commits to main
+  workflow_dispatch:            # allow manual run
+
+concurrency:
+  group: airtable-sync-${{ github.ref }}
+  cancel-in-progress: true      # skip overlapping runs
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20        # Node ≥18 has global fetch
+
+    - name: Fetch Airtable & create JSON
+      env:
+        AIRTABLE_API_KEY:  ${{ secrets.AIRTABLE_API_KEY }}
+        AIRTABLE_BASE_ID:  ${{ secrets.AIRTABLE_BASE_ID }}
+        AIRTABLE_TABLE:    ${{ secrets.AIRTABLE_TABLE_NAME }}
+      run: |
+        node - <<'EOF'
+        import fs from 'node:fs';
+        import { mkdirSync } from 'node:fs';
+
+        const apiKey   = process.env.AIRTABLE_API_KEY;
+        const baseId   = process.env.AIRTABLE_BASE_ID;
+        const table    = encodeURIComponent(process.env.AIRTABLE_TABLE);
+        const headers  = { Authorization: `Bearer ${apiKey}` };
+
+        async function fetchAll() {
+          let url = `https://api.airtable.com/v0/${baseId}/${table}?pageSize=100`;
+          let all = [];
+
+          while (url) {
+            const res = await fetch(url, { headers });
+            if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
+            const body = await res.json();
+            all.push(...body.records.map(r => r.fields));
+            url = body.offset ? `${url.split('?')[0]}?pageSize=100&offset=${body.offset}` : null;
+          }
+          return all;
+        }
+
+        (async () => {
+          const records = await fetchAll();
+          mkdirSync('data', { recursive: true });
+          fs.writeFileSync('data/airtable.json', JSON.stringify(records, null, 2));
+          console.log(`✅ Wrote ${records.length} records to data/airtable.json`);
+        })().catch(e => { console.error(e); process.exit(1); });
+        EOF
+
+    - name: Commit & push if changed
+      run: |
+        git config --global user.name  "github-actions"
+        git config --global user.email "github-actions@github.com"
+        git add data/airtable.json
+        timestamp=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+        git diff --staged --quiet || \
+          (git commit -m "chore: update Airtable JSON (${timestamp})" && git push)
+
