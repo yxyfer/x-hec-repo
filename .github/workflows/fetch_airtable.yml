@@ -27,12 +27,12 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 20        # Node ≥18 has global fetch
-        cache: 'npm'
+        cache: 'yarn'
 
     - name: Install dependencies
       run: |
         cd batches
-        npm ci
+        yarn build
 
     - name: Fetch Airtable & create JSON
       env:
