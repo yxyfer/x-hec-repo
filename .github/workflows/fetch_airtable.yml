@@ -74,6 +74,7 @@ jobs:
 
     - name: Build app
       run: |
+	rm -rf docs
         cd batches
         yarn build
 
