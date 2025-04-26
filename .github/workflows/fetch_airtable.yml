@@ -1,5 +1,5 @@
 # .github/workflows/airtable_sync.yml
-name: Sync Airtable → JSON
+name: Sync Airtable → JSON et déploiement
 
 on:
   schedule:
@@ -27,6 +27,12 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 20        # Node ≥18 has global fetch
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: |
+        cd batches
+        npm ci
 
     - name: Fetch Airtable & create JSON
       env:
@@ -59,11 +65,22 @@ jobs:
 
         (async () => {
           const records = await fetchAll();
-          mkdirSync('data', { recursive: true });
-          fs.writeFileSync('data/airtable.json', JSON.stringify(records, null, 2));
-          console.log(`✅ Wrote ${records.length} records to data/airtable.json`);
+          mkdirSync('batches/public', { recursive: true });
+          fs.writeFileSync('batches/public/airtable.json', JSON.stringify(records, null, 2));
+          console.log(`✅ Wrote ${records.length} records to batches/public/airtable.json`);
         })().catch(e => { console.error(e); process.exit(1); });
         EOF
+
+    - name: Build app
+      run: |
+        cd batches
+        npm run build
+
+    - name: Copy build to docs directory
+      run: |
+        mkdir -p docs
+        cp -r batches/out/* docs/
+        touch docs/.nojekyll  # Prévient le traitement Jekyll sur GitHub Pages
 
     - name: Commit & push if changed
       env:
@@ -71,8 +88,8 @@ jobs:
       run: |
         git config --global user.name  "github-actions"
         git config --global user.email "github-actions@github.com"
-        git add data/airtable.json
+        git add batches/public/airtable.json docs
         timestamp=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
         git diff --staged --quiet || \
-          (git commit -m "chore: update Airtable JSON (${timestamp})" && \
+          (git commit -m "chore: update Airtable JSON et déploiement (${timestamp})" && \
            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }})

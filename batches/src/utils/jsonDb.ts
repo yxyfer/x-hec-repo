@@ -14,24 +14,31 @@ type Startup = {
   Programme?: string[];
   Founders?: string[];
   lien_entreprise?: string;
+  Sector?: string;
+  Statut?: string[];
 };
 
 export class JsonDb {
-  private filePath: string;
-  private data: Startup[];
+  private data: Startup[] = [];
+  private isLoaded: boolean = false;
 
   constructor() {
-    this.filePath = path.join(process.cwd(), "..", "data", "airtable.json");
-    this.data = this.loadData();
+    // Le constructeur ne fait plus rien de bloquant
   }
 
-  private loadData(): Startup[] {
+  public async loadData(): Promise<void> {
+    if (this.isLoaded) return;
+    
     try {
-      const fileContent = fs.readFileSync(this.filePath, "utf-8");
-      return JSON.parse(fileContent);
+      const response = await fetch('/airtable.json');
+      if (!response.ok) {
+        throw new Error(`Erreur HTTP: ${response.status}`);
+      }
+      this.data = await response.json();
+      this.isLoaded = true;
     } catch (error) {
-      console.error("Error loading JSON data:", error);
-      return [];
+      console.error("Erreur lors du chargement des données JSON:", error);
+      this.data = [];
     }
   }
 
@@ -47,16 +54,5 @@ export class JsonDb {
     return this.data.filter((startup) => startup.inception_year === year);
   }
 
-  public addStartup(newStartup: Startup): void {
-    this.data.push(newStartup);
-    this.saveData();
-  }
-
-  private saveData(): void {
-    try {
-      fs.writeFileSync(this.filePath, JSON.stringify(this.data, null, 2), "utf-8");
-    } catch (error) {
-      console.error("Error saving JSON data:", error);
-    }
-  }
+  // Méthodes de modification supprimées car un site statique ne peut pas modifier les fichiers
 }
