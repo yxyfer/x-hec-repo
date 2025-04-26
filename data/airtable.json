@@ -3,7 +3,10 @@
     "Startup": "Clarity",
     "inception_year": 2023,
     "founder_1": "Raphael Certain",
-    "lien_founder_1": "https://www.linkedin.com/in/raphael-certain/overlay/about-this-profile/"
+    "lien_founder_1": "https://www.linkedin.com/in/raphael-certain/overlay/about-this-profile/",
+    "Founders": [
+      "rec40gIu75UXhLM6K"
+    ]
   },
   {
     "Startup": "Vega",
@@ -19,7 +22,11 @@
     "founder_2": "Gabrielle Francey",
     "lien_founder_1": "https://www.linkedin.com/in/nils-riethmuller/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/gabrielle-francey/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/ako-ai/posts/?feedView=all"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/ako-ai/posts/?feedView=all",
+    "Founders": [
+      "recjYlimXJ1KZfawJ",
+      "recZsnU9A5Fc5TfPY"
+    ]
   },
   {
     "Startup": "Veeton",
@@ -28,13 +35,21 @@
     "founder_2": "Co-CTO 1",
     "founder_3": "Co-CTO 2",
     "lien_founder_1": "https://www.linkedin.com/in/flore-lestrade/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/veeton/posts/?feedView=all"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/veeton/posts/?feedView=all",
+    "Founders": [
+      "recKknGT4MyMCajX4",
+      "recxI3jVmgbVEp6cr",
+      "recaW6JJwpfUSiJcB"
+    ]
   },
   {
     "Startup": "Redesk",
     "inception_year": 2023,
     "founder_1": "Jules Prétot",
-    "lien_founder_1": "https://www.linkedin.com/in/jules-pr%C3%A9tot-7060281b4/overlay/about-this-profile/"
+    "lien_founder_1": "https://www.linkedin.com/in/jules-pr%C3%A9tot-7060281b4/overlay/about-this-profile/",
+    "Founders": [
+      "recpbdokWeywaljhD"
+    ]
   },
   {
     "Startup": "Simio",
@@ -44,7 +59,10 @@
     "lien_entreprise": "https://www.getsimio.com/",
     "lien_founder_1": "https://www.linkedin.com/in/thibaut-regerat/",
     "lien_founder_2": "https://www.linkedin.com/in/tiphaine-venet/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/getsimio/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/getsimio/",
+    "Programme": [
+      "Launchpad Paris"
+    ]
   },
   {
     "Startup": "ROBIN",
@@ -73,14 +91,20 @@
     "inception_year": 2021,
     "founder_1": "Louis Frank",
     "lien_founder_1": "https://www.linkedin.com/in/louisfrank14/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/fingreen-ai/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/fingreen-ai/",
+    "Founders": [
+      "recWn477WleHbY0Ii"
+    ]
   },
   {
     "Startup": "Algorithme.AI",
     "inception_year": 2023,
     "founder_1": "Charles Dana",
     "lien_founder_1": "https://www.linkedin.com/in/charles-dana/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/algorithmeai/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/algorithmeai/",
+    "Founders": [
+      "rectnqpzRpCH6s7tr"
+    ]
   },
   {
     "Startup": "Predikeep",
@@ -89,6 +113,19 @@
     "lien_founder_1": "https://www.linkedin.com/in/florine-dubois-graffin-253331b1/overlay/about-this-profile/",
     "Founders": [
       "recHwdSF2zPdJJMUg"
+    ]
+  },
+  {
+    "Startup": "Kesako",
+    "inception_year": 2024,
+    "founder_1": "Oscar Benoit",
+    "founder_2": "Brieuc Villette",
+    "lien_entreprise": "https://www.kesako-groupe.com/",
+    "lien_founder_1": "https://www.linkedin.com/in/oscar-benoit/",
+    "lien_founder_2": "https://www.linkedin.com/in/brieucvillette/",
+    "Linkedin_entreprise": "https://www.linkedin.com/company/kesako-groupe/posts/?feedView=all",
+    "Programme": [
+      "Launchpad Paris"
     ]
   },
   {
@@ -112,7 +149,10 @@
   {
     "Startup": "Coudac",
     "inception_year": 2021,
-    "founder_1": "Théo Lion"
+    "founder_1": "Théo Lion",
+    "Founders": [
+      "recvVwovzPZSr7sxr"
+    ]
   },
   {
     "Startup": "Via Sana",
@@ -131,14 +171,20 @@
     "Startup": "Vocca.AI",
     "inception_year": 2024,
     "founder_1": "Hugo Danet",
-    "lien_founder_1": "https://www.linkedin.com/in/hugo-danet/overlay/about-this-profile/"
+    "lien_founder_1": "https://www.linkedin.com/in/hugo-danet/overlay/about-this-profile/",
+    "Founders": [
+      "rec9AIHEIbXf4CNf6"
+    ]
   },
   {
     "Startup": "Embrace",
     "inception_year": 2023,
     "founder_1": "Valentin Garnier",
     "lien_founder_1": "https://www.linkedin.com/in/valentingarnier/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/drinkembrace/people/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/drinkembrace/people/",
+    "Founders": [
+      "rec7JL1uK7gMQZ8yM"
+    ]
   },
   {
     "Startup": "Les Demeures du Chêne",
@@ -147,7 +193,11 @@
     "founder_2": "Charlotte Kerjean",
     "lien_founder_1": "https://www.linkedin.com/in/fanny-blanchon/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/charlotte-kerjean-852701170/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/les-demeures-du-ch%C3%AAne/people/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/les-demeures-du-ch%C3%AAne/people/",
+    "Founders": [
+      "recOlO5rNsyrCZaQ8",
+      "recTXOXYwSMqUPoOM"
+    ]
   },
   {
     "Startup": "Vesto",
@@ -180,14 +230,21 @@
     "founder_2": "Joshua Kelly",
     "lien_founder_1": "https://www.linkedin.com/in/julia-sisto-32a673b2/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/joshcdkelly/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/s%C3%A8veapp/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/s%C3%A8veapp/",
+    "Founders": [
+      "recwOkLmSeZWUWHEa",
+      "recqxnwm28CbLWQWE"
+    ]
   },
   {
     "Startup": "Lola Health",
     "inception_year": 2021,
     "founder_1": "Sixtine Deslandes",
     "lien_founder_1": "https://www.linkedin.com/in/sixtine-deslandes/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/lolainsurance/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/lolainsurance/",
+    "Founders": [
+      "rec9bSALNfESGNTvt"
+    ]
   },
   {
     "Startup": "Buddy",
@@ -197,7 +254,12 @@
     "founder_3": "Clara Meurer",
     "lien_founder_1": "https://www.linkedin.com/in/celinebertrix/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/mehdi-benharrats/overlay/about-this-profile/",
-    "lien_founder_3": "https://www.linkedin.com/in/clara-meurer-788a50149/overlay/about-this-profile/"
+    "lien_founder_3": "https://www.linkedin.com/in/clara-meurer-788a50149/overlay/about-this-profile/",
+    "Founders": [
+      "recMAoAYpYTiWUCrZ",
+      "recTgGJSBPn8ssRV8",
+      "recEVbehIX7aFwxG7"
+    ]
   },
   {
     "Startup": "Gynger",
@@ -205,14 +267,21 @@
     "founder_1": "Quentin Marquet",
     "founder_2": "Emmanuelle Gautier",
     "lien_founder_1": "https://www.linkedin.com/in/quentin-marquet-pharmacist-hec-gynger-qvt-rse-marqueemployeur/overlay/about-this-profile/",
-    "lien_founder_2": "https://www.linkedin.com/in/emmanuelle-gautier/overlay/about-this-profile/"
+    "lien_founder_2": "https://www.linkedin.com/in/emmanuelle-gautier/overlay/about-this-profile/",
+    "Founders": [
+      "rec9oxAW1MZYVffk5",
+      "recfq3Zf3J8ZJKQwS"
+    ]
   },
   {
     "Startup": "Deskape",
     "inception_year": 2021,
     "founder_1": "Ariane Berlan",
     "lien_founder_1": "https://www.linkedin.com/in/ariane-berlan-5084a814b/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/deskapefrance/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/deskapefrance/",
+    "Founders": [
+      "recyiRhgVBYXI9Pvk"
+    ]
   },
   {
     "Startup": "Grâce",
@@ -220,7 +289,11 @@
     "founder_1": "Quentin Roy",
     "founder_2": "Lou DANA",
     "lien_founder_1": "https://www.linkedin.com/in/quentin-roy-65862315a/overlay/about-this-profile/",
-    "lien_founder_2": "https://www.linkedin.com/in/lou-dana-085b51163/overlay/about-this-profile/"
+    "lien_founder_2": "https://www.linkedin.com/in/lou-dana-085b51163/overlay/about-this-profile/",
+    "Founders": [
+      "rec3ziPLkFTjQOym4",
+      "recRwUiMlrT67aWH5"
+    ]
   },
   {
     "Startup": "Sage Drinks",
@@ -239,7 +312,12 @@
     "founder_3": "Yassine M'hamdi",
     "lien_founder_1": "https://www.linkedin.com/in/valentinflageat/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/aymeric-vaudelin/overlay/about-this-profile/",
-    "lien_founder_3": "https://www.linkedin.com/in/yassine-mhamdi/overlay/about-this-profile/"
+    "lien_founder_3": "https://www.linkedin.com/in/yassine-mhamdi/overlay/about-this-profile/",
+    "Founders": [
+      "rectUwnYhRC3AX4VW",
+      "recQXS077NX540YLW",
+      "rec0S4NAXUN622pbc"
+    ]
   },
   {
     "Startup": "Bib Batteries",
@@ -248,7 +326,11 @@
     "founder_2": "Martin Vaz",
     "lien_founder_1": "https://www.linkedin.com/in/pierre-amans-lapeyre/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/martin-vaz/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/bib-batteries/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/bib-batteries/",
+    "Founders": [
+      "recWrbZZfuDvolMYt",
+      "recPkljwTa1IvxPrQ"
+    ]
   },
   {
     "Startup": "AmonAI",
@@ -258,13 +340,21 @@
     "founder_3": "Naima Tijani",
     "lien_founder_1": "https://www.linkedin.com/in/alexis-moret-5b3980239/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/l%C3%A9onie-mathian-b9b65518b/overlay/about-this-profile/",
-    "lien_founder_3": "https://www.linkedin.com/in/naima-tijani/overlay/about-this-profile/"
+    "lien_founder_3": "https://www.linkedin.com/in/naima-tijani/overlay/about-this-profile/",
+    "Founders": [
+      "rec8HC0mWWGOSfh0M",
+      "recwRiD0uRqdA4tZQ",
+      "rechLPcD4ZYZEETVg"
+    ]
   },
   {
     "Startup": "Vision Janine",
     "inception_year": 2023,
     "founder_1": "Zoé Lechevalier",
-    "lien_founder_1": "https://www.linkedin.com/in/zo%C3%A9-lechevalier-1a1632153/overlay/about-this-profile/"
+    "lien_founder_1": "https://www.linkedin.com/in/zo%C3%A9-lechevalier-1a1632153/overlay/about-this-profile/",
+    "Founders": [
+      "recZ3DoMOcUkcmg0k"
+    ]
   },
   {
     "Startup": "Mauna",
@@ -273,13 +363,20 @@
     "founder_2": "Gaspard Espitallier",
     "lien_founder_1": "https://www.linkedin.com/in/oscar-stubler-6708181a6/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/gaspard-espitallier-0037491bb/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/ai-mauna/people/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/ai-mauna/people/",
+    "Founders": [
+      "recxkFx7ZcoX8H1Xl",
+      "reciROxf3uHUhVB1s"
+    ]
   },
   {
     "Startup": "Dollyglot",
     "inception_year": 2023,
     "founder_1": "Thomas Minassian",
-    "lien_founder_1": "https://www.linkedin.com/in/thomas-minassian-b25626102/overlay/about-this-profile/"
+    "lien_founder_1": "https://www.linkedin.com/in/thomas-minassian-b25626102/overlay/about-this-profile/",
+    "Founders": [
+      "recwggB2a63INj156"
+    ]
   },
   {
     "Startup": "Fringuant",
@@ -295,13 +392,19 @@
     "inception_year": 2022,
     "founder_1": "Hedi Marinier",
     "lien_founder_1": "https://www.linkedin.com/in/hedi-marinier-interfast/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/interfast0/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/interfast0/",
+    "Founders": [
+      "reczw6a9udx7CeDGH"
+    ]
   },
   {
     "Startup": "Simio",
     "inception_year": 2023,
     "founder_1": "Camille Defline",
-    "lien_founder_1": "https://www.linkedin.com/in/camille-defline/overlay/about-this-profile/"
+    "lien_founder_1": "https://www.linkedin.com/in/camille-defline/overlay/about-this-profile/",
+    "Founders": [
+      "rechMDSoR1VeS0fR8"
+    ]
   },
   {
     "Startup": "Makehub.AI",
@@ -315,7 +418,10 @@
     "inception_year": 2023,
     "founder_1": "Baptiste Valin",
     "lien_founder_1": "https://www.linkedin.com/in/baptiste-valin-691900189/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/becchi-pinsa/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/becchi-pinsa/",
+    "Founders": [
+      "recQa7JlAXnMCukWr"
+    ]
   },
   {
     "Startup": "Coda",
@@ -323,7 +429,11 @@
     "founder_1": "Marin Vogler",
     "founder_2": "Léni Maroglou",
     "lien_founder_1": "https://www.linkedin.com/in/marin-vogler/overlay/about-this-profile/",
-    "lien_founder_2": "https://www.linkedin.com/in/leni-maroglou/overlay/about-this-profile/"
+    "lien_founder_2": "https://www.linkedin.com/in/leni-maroglou/overlay/about-this-profile/",
+    "Founders": [
+      "recYJGuKpPidbkaqZ",
+      "rec1Vhj9DDOl0hnWk"
+    ]
   },
   {
     "Startup": "Phospho",
@@ -331,7 +441,11 @@
     "founder_1": "Paul-Louis Venard",
     "founder_2": "Pierre-Louis Biojout",
     "lien_founder_1": "https://www.linkedin.com/in/paul-louis-venard-9269b5116/overlay/about-this-profile/",
-    "lien_founder_2": "https://www.linkedin.com/in/plbiojout/overlay/about-this-profile/"
+    "lien_founder_2": "https://www.linkedin.com/in/plbiojout/overlay/about-this-profile/",
+    "Founders": [
+      "recVxAmuEqhi2ynpI",
+      "recDOu8mY2GGhYLZG"
+    ]
   },
   {
     "Startup": "Peppers",
@@ -360,21 +474,46 @@
     "founder_3": "Guillaume Perrot",
     "lien_founder_1": "https://www.linkedin.com/in/anatole-blanc-05a539153/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/florent-sciberras-8a963313/overlay/about-this-profile/",
-    "lien_founder_3": "https://www.linkedin.com/in/guillaume-perrot-831b08149/overlay/about-this-profile/"
+    "lien_founder_3": "https://www.linkedin.com/in/guillaume-perrot-831b08149/overlay/about-this-profile/",
+    "Founders": [
+      "recG7mz4sAtqi2yfb",
+      "rechw98ZjkE4cijkU",
+      "rechw7EgAONS0wgl0"
+    ]
   },
   {
     "Startup": "Broko",
     "inception_year": 2022,
     "founder_1": "François Lerouxel",
     "lien_founder_1": "https://www.linkedin.com/in/francoislerouxel/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/broko-france/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/broko-france/",
+    "Founders": [
+      "rect1qdaEHsThAb2k"
+    ]
+  },
+  {
+    "Startup": "Karmen",
+    "inception_year": 2021,
+    "founder_1": "Baptiste Weil",
+    "founder_2": "Gabriel Thierry",
+    "lien_entreprise": "https://www.karmen.io/?utm_source=linkedin&utm_medium=social&utm_campaign=lkdpage",
+    "lien_founder_1": "https://www.linkedin.com/in/baptistewiel/?locale=en_US",
+    "lien_founder_2": "https://www.linkedin.com/in/gabriel-thierry001/",
+    "Linkedin_entreprise": "https://www.linkedin.com/company/karmen-io/",
+    "Programme": [
+      "Launchpad Paris"
+    ],
+    "Sector": "Fintech"
   },
   {
     "Startup": "Logiadapt’",
     "inception_year": 2021,
     "founder_1": "Pierre-Hugues Moreau",
     "lien_founder_1": "https://www.linkedin.com/in/pierrehuguesmoreau/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/logiadapt/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/logiadapt/",
+    "Founders": [
+      "rec4ZBmCrhbTlXjxO"
+    ]
   },
   {
     "Startup": "Solteo",
@@ -382,7 +521,11 @@
     "founder_1": "Manon Hias",
     "founder_2": "Alexandre d'Auvigny",
     "lien_founder_1": "https://www.linkedin.com/in/manonhias/overlay/about-this-profile/",
-    "lien_founder_2": "https://www.linkedin.com/in/adauvigny/overlay/about-this-profile/"
+    "lien_founder_2": "https://www.linkedin.com/in/adauvigny/overlay/about-this-profile/",
+    "Founders": [
+      "recO4HfUGbKK9VqHX",
+      "recU6VKc1qX2NGc5e"
+    ]
   },
   {
     "Startup": "Eledone",
@@ -390,7 +533,11 @@
     "founder_1": "Bruno Heckel",
     "founder_2": "Arno Heckel",
     "lien_founder_1": "https://www.linkedin.com/in/brunoheckel/overlay/about-this-profile/",
-    "lien_founder_2": "https://www.linkedin.com/in/arno-heckel-6686b31b6/overlay/about-this-profile/"
+    "lien_founder_2": "https://www.linkedin.com/in/arno-heckel-6686b31b6/overlay/about-this-profile/",
+    "Founders": [
+      "recz2sXq2nZ1m8HLe",
+      "recQH3C38nCNwRJzS"
+    ]
   },
   {
     "Startup": "Suny Club",
@@ -399,7 +546,11 @@
     "founder_2": "Mayssa Hadife",
     "lien_founder_1": "https://www.linkedin.com/in/felix-deleuze-57ba48221/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/mayssahadife/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/sunyclub/people/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/sunyclub/people/",
+    "Founders": [
+      "recg9RzJ65J6RyED8",
+      "recmoOMbMCA1udYlc"
+    ]
   },
   {
     "Startup": "Corma",
@@ -409,7 +560,12 @@
     "founder_3": "Héloïse Rozès",
     "lien_founder_1": "https://www.linkedin.com/in/samuelbismut/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/nikolai-fomm/overlay/about-this-profile/",
-    "lien_founder_3": "https://www.linkedin.com/in/heloiserozes/overlay/about-this-profile/"
+    "lien_founder_3": "https://www.linkedin.com/in/heloiserozes/overlay/about-this-profile/",
+    "Founders": [
+      "rec3pXPGbG9BA09K4",
+      "recSYTmXluNmneED9",
+      "recTdvbvcDqFOHjBJ"
+    ]
   },
   {
     "Startup": "TerraGrow",
@@ -428,15 +584,17 @@
     "Linkedin_entreprise": "https://www.linkedin.com/company/aplocrypto/",
     "Founders": [
       "recWqEBIAu4thoG33",
-      "recCR046Zh8s7hqU9",
-      "recAOPWkLBaWNuJnl"
+      "recCR046Zh8s7hqU9"
     ]
   },
   {
     "Startup": "Yumi",
     "inception_year": 2023,
     "founder_1": "Violette Beaume",
-    "lien_founder_1": "https://www.linkedin.com/in/violette-beaume/overlay/about-this-profile/"
+    "lien_founder_1": "https://www.linkedin.com/in/violette-beaume/overlay/about-this-profile/",
+    "Founders": [
+      "recdHkSejEMD9gENU"
+    ]
   },
   {
     "Startup": "Revolty",
@@ -444,7 +602,11 @@
     "founder_1": "Mathilde Janicot",
     "founder_2": "Valentin Heuzé",
     "lien_founder_1": "https://www.linkedin.com/in/mathilde-janicot-2324581a4/overlay/about-this-profile/",
-    "lien_founder_2": "https://www.linkedin.com/in/valentin-heuze/overlay/about-this-profile/"
+    "lien_founder_2": "https://www.linkedin.com/in/valentin-heuze/overlay/about-this-profile/",
+    "Founders": [
+      "recRhZTMiIhi4WL6j",
+      "rec8I0eb8qHECiEFL"
+    ]
   },
   {
     "Startup": "Orus Energy",
@@ -454,13 +616,30 @@
     "founder_3": "Alexandre Girard",
     "lien_founder_1": "https://www.linkedin.com/in/fanny-sauvee/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/theophile-karila/overlay/about-this-profile/",
-    "lien_founder_3": "https://www.linkedin.com/in/alexandre-girard-orus-energy/overlay/about-this-profile/"
+    "lien_founder_3": "https://www.linkedin.com/in/alexandre-girard-orus-energy/overlay/about-this-profile/",
+    "Founders": [
+      "recVxsapEFFpguzOq",
+      "recds1cLJwUJlhbwo",
+      "rectS4elzDPpJVoSh"
+    ]
   },
   {
     "Startup": "Intacte",
     "inception_year": 2023,
     "founder_1": "Olivia Bally",
-    "lien_founder_1": "https://www.linkedin.com/in/olivia-bally/overlay/about-this-profile/"
+    "lien_founder_1": "https://www.linkedin.com/in/olivia-bally/overlay/about-this-profile/",
+    "Founders": [
+      "recOrXX5Y6CqEWRM2"
+    ]
+  },
+  {
+    "Startup": "Nefture",
+    "inception_year": 2022,
+    "founder_1": "Célim Starck",
+    "lien_entreprise": "https://www.nefture.com/",
+    "lien_founder_1": "https://www.linkedin.com/in/celim-starck/",
+    "Linkedin_entreprise": "https://www.linkedin.com/company/nefture/",
+    "Sector": "Web3"
   },
   {
     "Startup": "Ida",
@@ -470,7 +649,12 @@
     "founder_3": "Alex Chataigner",
     "lien_founder_1": "https://www.linkedin.com/in/mathieu-grosso-5a0750143/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/mateo-beacco-6b10a3164/overlay/about-this-profile/",
-    "lien_founder_3": "https://www.linkedin.com/in/alex-chataigner-877766133/overlay/about-this-profile/"
+    "lien_founder_3": "https://www.linkedin.com/in/alex-chataigner-877766133/overlay/about-this-profile/",
+    "Founders": [
+      "recoA33Rrn4l7ICN9",
+      "recZ9mUvsTCL4VfTW",
+      "recGHWZsVmh0QsG7U"
+    ]
   },
   {
     "Startup": "OMENA",
@@ -481,7 +665,8 @@
     "lien_founder_2": "https://www.linkedin.com/in/hahyeonpark/overlay/about-this-profile/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/omena-app/",
     "Founders": [
-      "recAOPWkLBaWNuJnl"
+      "recAOPWkLBaWNuJnl",
+      "recDPLyQBeILX6pZm"
     ]
   },
   {
@@ -503,7 +688,13 @@
     "lien_founder_1": "https://www.linkedin.com/in/alfredrichard/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/octave-locqueville/overlay/about-this-profile/",
     "lien_founder_3": "https://www.linkedin.com/in/inesmultrier/overlay/about-this-profile/",
-    "lien_founder_4": "https://www.linkedin.com/in/julien-bou-abboud-683319188/overlay/about-this-profile/"
+    "lien_founder_4": "https://www.linkedin.com/in/julien-bou-abboud-683319188/overlay/about-this-profile/",
+    "Founders": [
+      "recOD5NE29gaUU7Kl",
+      "recr06OzcbcTg4l6k",
+      "recmtuIqGeqDJ7FlR",
+      "rec6nXt7XgvdnDiud"
+    ]
   },
   {
     "Startup": "Lakaa",
@@ -523,14 +714,21 @@
     "lien_entreprise": "https://xn--tranch-gva.com/",
     "lien_founder_1": "https://www.linkedin.com/in/marie-debie-hec/overlay/about-this-profile/",
     "lien_founder_2": "https://www.linkedin.com/in/augustin-rivoire-9a0436168/overlay/about-this-profile/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/tranch%C3%A9/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/tranch%C3%A9/",
+    "Founders": [
+      "recaMcma8PmmhZqmZ",
+      "rec20O28Yq2g21FNW"
+    ]
   },
   {
     "Startup": "Hinfact",
     "inception_year": 2021,
     "founder_1": "Thomas Bessiere",
     "lien_founder_1": "https://www.linkedin.com/in/thomas-bessiere-hinfact/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/hinfact/"
+    "Linkedin_entreprise": "https://www.linkedin.com/company/hinfact/",
+    "Founders": [
+      "reckSnEMKERs0OaF9"
+    ]
   },
   {
     "Startup": "Klaire",
@@ -538,6 +736,10 @@
     "founder_1": "Félix des Rotours",
     "founder_2": "Alain du Pavillon",
     "lien_founder_1": "https://www.linkedin.com/in/f%C3%A9lix-des-rotours-b6a1a822a/overlay/about-this-profile/",
-    "lien_founder_2": "https://www.linkedin.com/in/alain-du-pavillon-3b4264148/overlay/about-this-profile/"
+    "lien_founder_2": "https://www.linkedin.com/in/alain-du-pavillon-3b4264148/overlay/about-this-profile/",
+    "Founders": [
+      "recY1K5SIaT2A8YE5",
+      "recqy0HugldMtmosQ"
+    ]
   }
 ]
