@@ -67,12 +67,12 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold text-blue-800 mb-6 text-center">Startups XHEC</h1>
+    <div className="min-h-screen bg-gray-100 p-4">
+      <div className="max-w-5xl mx-auto">
+        <h1 className="text-3xl font-bold text-blue-800 mt-24 mb-24 text-center">Startups XHEC</h1>
         
         <div className="flex flex-col md:flex-row justify-between gap-4 mb-6">
-          <div className="w-full md:w-2/3 border border-gray-200 rounded-lg bg-white shadow-sm">
+          <div className="w-full md:w-3/4 border border-gray-200 rounded-lg bg-white shadow-sm">
             <div className="relative">
               <input
                 type="text"
@@ -84,7 +84,7 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="w-full md:w-1/3 flex items-center gap-2 justify-end">
+          <div className="w-full md:w-1/4 flex items-center gap-2 justify-end">
             <span className="text-gray-700 whitespace-nowrap">Trier par</span>
             <div className="relative w-full md:w-40">
               <select
@@ -112,7 +112,7 @@ export default function Home() {
         <div className="space-y-4">
           {sortedStartups.map((startup, index) => (
             <div key={index} className="border border-gray-200 rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow">
-              <div className="flex flex-col md:flex-row p-6 items-start">
+              <div className="flex flex-col md:flex-row p-4 items-start">
                 <div className="w-20 h-20 rounded-full bg-gray-200 flex-shrink-0 mr-6 mb-4 md:mb-0 overflow-hidden relative">
                   <div className="w-full h-full flex items-center justify-center text-2xl font-bold text-gray-400">
                     {startup.Startup?.charAt(0)}

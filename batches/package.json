@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && rm -rf ../docs && mv -f out ../docs",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export && rm -rf ../docs && mv -f out ../docs"
+    "export": "next export"
   },
   "dependencies": {
     "next": "15.3.1",
