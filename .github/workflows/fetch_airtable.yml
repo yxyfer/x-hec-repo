@@ -28,6 +28,7 @@ jobs:
       with:
         node-version: 20        # Node ≥18 has global fetch
         cache: 'yarn'
+        cache-dependency-path: batches/yarn.lock
 
     - name: Install dependencies
       run: |
