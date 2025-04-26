@@ -122,11 +122,16 @@
     "Startup": "Paire",
     "inception_year": 2021,
     "founder_1": "Pierre Saudin",
+    "lien_entreprise": "https://www.paire.tech/fr",
     "lien_founder_1": "https://www.linkedin.com/in/pierre-saudin/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/paire-tech/",
+    "Programme": [
+      "Launchpad Paris"
+    ],
     "Founders": [
       "recMr2C1I1kmqPmYL"
     ],
+    "Sector": "Medtech",
     "Statut": [
       "En activité"
     ]
@@ -162,11 +167,15 @@
     "inception_year": 2020,
     "founder_1": "Florine Dubois-Graffin",
     "lien_founder_1": "https://www.linkedin.com/in/florine-dubois-graffin-253331b1/overlay/about-this-profile/",
+    "Programme": [
+      "L2L Berkeley"
+    ],
     "Founders": [
       "recHwdSF2zPdJJMUg"
     ],
+    "Sector": "Retail",
     "Statut": [
-      "En activité"
+      "Arrêtée"
     ]
   },
   {
@@ -213,6 +222,8 @@
     "Startup": "Coudac",
     "inception_year": 2021,
     "founder_1": "Théo Lion",
+    "lien_entreprise": "https://www.coudac.com/",
+    "Linkedin_entreprise": "https://www.linkedin.com/company/coudac/",
     "Founders": [
       "recvVwovzPZSr7sxr"
     ],
@@ -330,6 +341,7 @@
       "rec3np2Iglv2U1PdK",
       "recDi478bivjZrnlR"
     ],
+    "Sector": "Infrastructure tech",
     "Statut": [
       "En activité"
     ]
@@ -354,11 +366,16 @@
     "Startup": "Lola Health",
     "inception_year": 2021,
     "founder_1": "Sixtine Deslandes",
+    "lien_entreprise": "https://www.lolahealth.fr/",
     "lien_founder_1": "https://www.linkedin.com/in/sixtine-deslandes/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/lolainsurance/",
+    "Programme": [
+      "Launchpad Paris"
+    ],
     "Founders": [
       "rec9bSALNfESGNTvt"
     ],
+    "Sector": "Medtech",
     "Statut": [
       "En activité"
     ]
@@ -429,11 +446,16 @@
     "inception_year": 2020,
     "founder_1": "Audrey Bruneau",
     "lien_founder_1": "https://www.linkedin.com/in/audreybruneau/overlay/about-this-profile/",
+    "Linkedin_entreprise": "https://www.linkedin.com/company/sagedrinks/",
+    "Programme": [
+      "Launchpad Paris"
+    ],
     "Founders": [
       "recp5dbwSsBpvCrgj"
     ],
+    "Sector": "Food & Beverages",
     "Statut": [
-      "En activité"
+      "Arrêtée"
     ]
   },
   {
@@ -467,6 +489,7 @@
       "recWrbZZfuDvolMYt",
       "recPkljwTa1IvxPrQ"
     ],
+    "Sector": "Energy",
     "Statut": [
       "En activité"
     ]
@@ -742,6 +765,17 @@
     ]
   },
   {
+    "Startup": "Fioro",
+    "inception_year": 2020,
+    "founder_1": "Matthias Walter",
+    "lien_entreprise": "https://www.fioro.ai/",
+    "lien_founder_1": "https://www.linkedin.com/in/matthias-j-walter/",
+    "Programme": [
+      "Launchpad Paris"
+    ],
+    "Sector": "Education"
+  },
+  {
     "Startup": "Suny Club",
     "inception_year": 2024,
     "founder_1": "Felix Deleuze",
@@ -801,6 +835,7 @@
       "recWqEBIAu4thoG33",
       "recCR046Zh8s7hqU9"
     ],
+    "Sector": "Cryptocurrency",
     "Statut": [
       "En activité"
     ]
@@ -899,13 +934,18 @@
     "inception_year": 2021,
     "founder_1": "Mathilde Neme",
     "founder_2": "Hahyeon Park",
+    "lien_entreprise": "https://www.omena.app/",
     "lien_founder_1": "https://www.linkedin.com/in/mathilde-neme-332667154/",
     "lien_founder_2": "https://www.linkedin.com/in/hahyeonpark/overlay/about-this-profile/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/omena-app/",
+    "Programme": [
+      "Launchpad Paris"
+    ],
     "Founders": [
       "recAOPWkLBaWNuJnl",
       "recDPLyQBeILX6pZm"
     ],
+    "Sector": "Medtech",
     "Statut": [
       "En activité"
     ]
