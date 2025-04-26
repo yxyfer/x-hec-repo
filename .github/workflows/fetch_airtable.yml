@@ -3,9 +3,7 @@ name: Sync Airtable → JSON et déploiement
 
 on:
   schedule:
-    - cron: '0 2 * * *'        # every day 02:00 UTC
-  push:
-    branches: [ main ]          # run on commits to main
+    - cron: '0 2 * * *'        # every day 02:00 UTC       # run on commits to main
   workflow_dispatch:            # allow manual run
 
 permissions:
