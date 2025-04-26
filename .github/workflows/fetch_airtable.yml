@@ -32,7 +32,7 @@ jobs:
     - name: Install dependencies
       run: |
         cd batches
-        yarn build
+        yarn install
 
     - name: Fetch Airtable & create JSON
       env:
@@ -74,7 +74,7 @@ jobs:
     - name: Build app
       run: |
         cd batches
-        npm run build
+        yarn build
 
     - name: Copy build to docs directory
       run: |
