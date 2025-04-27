@@ -42,6 +42,7 @@
   {
     "Startup": "Veeton",
     "inception_year": 2023,
+    "lien_entreprise": "https://veeton.co",
     "Linkedin_entreprise": "https://www.linkedin.com/company/veeton/posts/?feedView=all",
     "Founders": [
       "recKknGT4MyMCajX4",
@@ -131,6 +132,7 @@
   {
     "Startup": "FinGreen AI",
     "inception_year": 2021,
+    "lien_entreprise": "https://fingreen.ai",
     "Linkedin_entreprise": "https://www.linkedin.com/company/fingreen-ai/",
     "Founders": [
       "recWn477WleHbY0Ii"
@@ -143,6 +145,7 @@
   {
     "Startup": "Algorithme.AI",
     "inception_year": 2023,
+    "lien_entreprise": "https://www.algorithme.ai",
     "Linkedin_entreprise": "https://www.linkedin.com/company/algorithmeai/",
     "Founders": [
       "rectnqpzRpCH6s7tr"
@@ -263,6 +266,7 @@
   {
     "Startup": "Embrace",
     "inception_year": 2023,
+    "lien_entreprise": "https://drinkembrace.eu\n",
     "Linkedin_entreprise": "https://www.linkedin.com/company/drinkembrace/people/",
     "Founders": [
       "rec7JL1uK7gMQZ8yM"
@@ -364,6 +368,7 @@
   {
     "Startup": "Sève",
     "inception_year": 2021,
+    "lien_entreprise": "http://www.seve.app",
     "Linkedin_entreprise": "https://www.linkedin.com/company/s%C3%A8veapp/",
     "Founders": [
       "recwOkLmSeZWUWHEa",
@@ -421,6 +426,7 @@
   {
     "Startup": "Deskape",
     "inception_year": 2021,
+    "lien_entreprise": "https://www.deskape.fr/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/deskapefrance/",
     "Founders": [
       "recyiRhgVBYXI9Pvk"
@@ -447,6 +453,7 @@
   {
     "Startup": "Sage Drinks",
     "inception_year": 2020,
+    "lien_entreprise": "http://www.sage-drinks.fr/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/sagedrinks/",
     "Programme": [
       "Launchpad Paris"
@@ -525,6 +532,7 @@
   {
     "Startup": "Mauna",
     "inception_year": 2023,
+    "lien_entreprise": "https://mauna-ai.com/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/ai-mauna/people/",
     "Founders": [
       "recxkFx7ZcoX8H1Xl",
@@ -736,6 +744,7 @@
   {
     "Startup": "Logiadapt’",
     "inception_year": 2021,
+    "lien_entreprise": "https://logiadapt.fr",
     "Linkedin_entreprise": "https://www.linkedin.com/company/logiadapt/",
     "Founders": [
       "rec4ZBmCrhbTlXjxO"
@@ -790,7 +799,8 @@
   {
     "Startup": "Suny Club",
     "inception_year": 2024,
-    "Linkedin_entreprise": "https://www.linkedin.com/company/sunyclub/people/",
+    "lien_entreprise": "https://linktr.ee/SUNYCLUB",
+    "Linkedin_entreprise": "https://www.linkedin.com/company/sunyclub",
     "Founders": [
       "recg9RzJ65J6RyED8",
       "recmoOMbMCA1udYlc"
@@ -803,6 +813,8 @@
   {
     "Startup": "Corma",
     "inception_year": 2023,
+    "lien_entreprise": "https://www.corma.io/fr",
+    "Linkedin_entreprise": "https://www.linkedin.com/company/getcorma/?originalSubdomain=fr",
     "Founders": [
       "rec3pXPGbG9BA09K4",
       "recSYTmXluNmneED9",
