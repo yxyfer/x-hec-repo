@@ -37,20 +37,22 @@ jobs:
 
     - name: Fetch Airtable & create JSON
       env:
-        AIRTABLE_API_KEY:  ${{ secrets.AIRTABLE_API_KEY }}
-        AIRTABLE_BASE_ID:  ${{ secrets.AIRTABLE_BASE_ID }}
-        AIRTABLE_TABLE:    ${{ secrets.AIRTABLE_TABLE_NAME }}
+        AIRTABLE_API_KEY:         ${{ secrets.AIRTABLE_API_KEY }}
+        AIRTABLE_BASE_ID:         ${{ secrets.AIRTABLE_BASE_ID }}
+        AIRTABLE_STARTUPS_TABLE:  ${{ secrets.AIRTABLE_STARTUPS_TABLE_NAME }}
+        AIRTABLE_FOUNDERS_TABLE:  ${{ secrets.AIRTABLE_FOUNDERS_TABLE_NAME }}
       run: |
         node - <<'EOF'
         import fs from 'node:fs';
         import { mkdirSync } from 'node:fs';
 
-        const apiKey   = process.env.AIRTABLE_API_KEY;
-        const baseId   = process.env.AIRTABLE_BASE_ID;
-        const table    = encodeURIComponent(process.env.AIRTABLE_TABLE);
-        const headers  = { Authorization: `Bearer ${apiKey}` };
+        const apiKey       = process.env.AIRTABLE_API_KEY;
+        const baseId       = process.env.AIRTABLE_BASE_ID;
+        const startupsTbl  = encodeURIComponent(process.env.AIRTABLE_STARTUPS_TABLE);
+        const foundersTbl  = encodeURIComponent(process.env.AIRTABLE_FOUNDERS_TABLE);
+        const headers      = { Authorization: `Bearer ${apiKey}` };
 
-        async function fetchAll() {
+        async function fetchAll(table) {
           let url = `https://api.airtable.com/v0/${baseId}/${table}?pageSize=100`;
           let all = [];
 
@@ -59,17 +61,36 @@ jobs:
             if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
             const body = await res.json();
             all.push(...body.records.map(r => r.fields));
-            url = body.offset ? `${url.split('?')[0]}?pageSize=100&offset=${body.offset}` : null;
+            url = body.offset
+              ? `${url.split('?')[0]}?pageSize=100&offset=${body.offset}`
+              : null;
           }
           return all;
         }
 
         (async () => {
-          const records = await fetchAll();
+          const [startups, founders] = await Promise.all([
+            fetchAll(startupsTbl),
+            fetchAll(foundersTbl)
+          ]);
+
           mkdirSync('src/data', { recursive: true });
-          fs.writeFileSync('src/data/startups.json', JSON.stringify(records, null, 2));
-          console.log(`✅ Wrote ${records.length} records to src/data/startups.json`);
-        })().catch(e => { console.error(e); process.exit(1); });
+
+          fs.writeFileSync(
+            'src/data/startups.json',
+            JSON.stringify(startups, null, 2)
+          );
+          console.log(`✅ Wrote ${startups.length} startup records to src/data/startups.json`);
+
+          fs.writeFileSync(
+            'src/data/founders.json',
+            JSON.stringify(founders, null, 2)
+          );
+          console.log(`✅ Wrote ${founders.length} founder records to src/data/founders.json`);
+        })().catch(e => {
+          console.error(e);
+          process.exit(1);
+        });
         EOF
 
     - name: Commit & push if changed
@@ -78,7 +99,7 @@ jobs:
       run: |
         git config --global user.name  "github-actions"
         git config --global user.email "github-actions@github.com"
-        git add src/data/startups.json
+        git add src/data/startups.json src/data/founders.json
         timestamp=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
         git diff --staged --quiet || \
           (git commit -m "chore: update Airtable data (${timestamp})" && \
