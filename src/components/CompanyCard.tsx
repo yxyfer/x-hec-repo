@@ -1,4 +1,5 @@
 import React from 'react';
+/* eslint-disable @next/next/no-img-element */
 import { Startup } from '@/types/Startup';
 
 interface CompanyCardProps {

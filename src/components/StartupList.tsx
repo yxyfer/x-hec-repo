@@ -52,7 +52,7 @@ export default function CompanyDirectory() {
           .map((fid) => (founderMap[fid] ? `${founderMap[fid].prenom} ${founderMap[fid].nom}` : fid))
           .join(', '),
       })),
-    []
+    [founderMap]
   );
 
   const yearFacet = useMemo(() => buildFacet(processedStartups.map((s) => s.inception_year)), [processedStartups]);
