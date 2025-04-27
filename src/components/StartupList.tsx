@@ -5,6 +5,9 @@
 import { useState, useMemo } from 'react';
 import startups from '@/data/startups.json';
 import FacetBlock from './FacetBlock';
+import SearchSortBar from './SearchSortBar';
+import CompanyCard from './CompanyCard';
+import NoResultsMessage from './NoResultsMessage';
 import { buildFacet, toggleValue } from '@/utils/utils';
 
 export type Startup = {
@@ -104,97 +107,19 @@ export default function CompanyDirectory() {
 
         {/* Main content */}
         <div className="flex-1">
-          {/* Search / sort bar */}
-          <div className="sticky top-4 z-10 flex flex-col gap-4 md:flex-row md:items-center rounded-3xl bg-white/70 dark:bg-white/10 backdrop-blur-md shadow-lg border border-white/40 dark:border-white/20 px-6 py-4">
-            <input
-              type="text"
-              placeholder="Search companies…"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              className="w-full md:max-w-sm px-4 py-2 rounded-xl bg-white/90 dark:bg-white/5 border border-gray-300 dark:border-white/20 focus:ring-2 focus:ring-indigo-500 focus:outline-none text-sm placeholder-gray-400 dark:placeholder-gray-500"
-            />
-            <div className="flex gap-2 w-full md:w-auto">
-              <select
-                value={sortKey}
-                onChange={(e) => setSortKey(e.target.value as SortKey)}
-                className="w-full md:w-48 px-3 py-2 rounded-xl bg-white/90 dark:bg-white/5 border border-gray-300 dark:border-white/20 text-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none"
-              >
-                <option value="default">Default (A‑Z)</option>
-                <option value="inception_year">Year</option>
-                <option value="Sector">Sector</option>
-                <option value="Statut">Status</option>
-              </select>
-              <button
-                type="button"
-                onClick={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}
-                title="Toggle sort order"
-                className="inline-flex items-center justify-center rounded-xl border border-gray-300 dark:border-white/20 px-3 py-2 text-lg hover:bg-gray-50 dark:hover:bg-white/10 transition"
-              >
-                {sortOrder === 'asc' ? '▲' : '▼'}
-              </button>
-            </div>
-          </div>
-
-          {/* Single‑column list */}
+          <SearchSortBar
+            query={query}
+            setQuery={setQuery}
+            sortKey={sortKey}
+            setSortKey={setSortKey}
+            sortOrder={sortOrder}
+            toggleSortOrder={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}
+          />
           <div className="mt-10 grid gap-8 grid-cols-1">
-            {filtered.map((s) => (
-              <article
-                key={s.id_startup}
-                className="relative overflow-hidden rounded-3xl bg-white dark:bg-white/5 shadow-xl transition-transform hover:-translate-y-1 hover:shadow-2xl group"
-              >
-                <span className="absolute inset-x-0 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" />
-                <div className="p-6 flex flex-col h-full">
-                  <header>
-                    <h2 className="text-lg font-semibold group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
-                      {s.Startup}
-                    </h2>
-                    <p className="text-xs text-gray-500 dark:text-gray-400">Founded {s.inception_year}</p>
-                  </header>
-                  {s.Programme && (
-                    <span className="mt-3 inline-block self-start rounded-full bg-indigo-50 dark:bg-indigo-400/20 text-indigo-600 dark:text-indigo-300 text-[10px] font-semibold px-2 py-1 uppercase tracking-wide">
-                      {s.Programme}
-                    </span>
-                  )}
-                  <dl className="mt-4 space-y-1 text-sm text-gray-600 dark:text-gray-300 flex-1">
-                    <div className="flex justify-between">
-                      <dt className="font-medium">Sector</dt>
-                      <dd>{s.Sector}</dd>
-                    </div>
-                    <div className="flex justify-between">
-                      <dt className="font-medium">Status</dt>
-                      <dd>{s.Statut}</dd>
-                    </div>
-                  </dl>
-                  <footer className="pt-4 flex gap-4 text-sm">
-                    {s.lien_entreprise && (
-                      <a
-                        href={s.lien_entreprise}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-indigo-600 dark:text-indigo-400 hover:underline"
-                      >
-                        Website
-                      </a>
-                    )}
-                    {s.Linkedin_entreprise && (
-                      <a
-                        href={s.Linkedin_entreprise}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-indigo-600 dark:text-indigo-400 hover:underline"
-                      >
-                        LinkedIn
-                      </a>
-                    )}
-                  </footer>
-                </div>
-              </article>
+            {filtered.map((company) => (
+              <CompanyCard key={company.id_startup} company={company} />
             ))}
-            {filtered.length === 0 && (
-              <p className="mt-16 text-center text-gray-500 dark:text-gray-400">
-                No companies match your search.
-              </p>
-            )}
+            {filtered.length === 0 && <NoResultsMessage />}
           </div>
         </div>
       </div>
