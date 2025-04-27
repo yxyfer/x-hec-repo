@@ -1,10 +1,13 @@
 # .github/workflows/airtable_sync.yml
-name: Sync Airtable → JSON et déploiement
+name: Sync Airtable → JSON
 
 on:
   schedule:
-    - cron: '0 2 * * *'        # every day 02:00 UTC       # run on commits to main
+    - cron: '0 2 * * *'        # every day 02:00 UTC
   workflow_dispatch:            # allow manual run
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write               # allow pushing to the repo
@@ -64,21 +67,11 @@ jobs:
 
         (async () => {
           const records = await fetchAll();
-          mkdirSync('batches/public', { recursive: true });
-          fs.writeFileSync('batches/public/airtable.json', JSON.stringify(records, null, 2));
-          console.log(`✅ Wrote ${records.length} records to batches/public/airtable.json`);
+          mkdirSync('src/data', { recursive: true });
+          fs.writeFileSync('src/data/startups.json', JSON.stringify(records, null, 2));
+          console.log(`✅ Wrote ${records.length} records to src/data/startups.json`);
         })().catch(e => { console.error(e); process.exit(1); });
         EOF
-
-    - name: Build app
-      run: |
-        rm -rf docs
-        cd batches
-        yarn build
-
-    - name: Copy build to docs directory
-      run: |
-        mkdir -p docs
 
     - name: Commit & push if changed
       env:
@@ -86,8 +79,8 @@ jobs:
       run: |
         git config --global user.name  "github-actions"
         git config --global user.email "github-actions@github.com"
-        git add batches/public/airtable.json docs
+        git add src/data/startups.json
         timestamp=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
         git diff --staged --quiet || \
-          (git commit -m "chore: update Airtable JSON et déploiement (${timestamp})" && \
+          (git commit -m "chore: update Airtable data (${timestamp})" && \
            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }})
