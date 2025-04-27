@@ -39,8 +39,8 @@ jobs:
       env:
         AIRTABLE_API_KEY:         ${{ secrets.AIRTABLE_API_KEY }}
         AIRTABLE_BASE_ID:         ${{ secrets.AIRTABLE_BASE_ID }}
-        AIRTABLE_STARTUPS_TABLE:  ${{ secrets.AIRTABLE_STARTUPS_TABLE_NAME }}
-        AIRTABLE_FOUNDERS_TABLE:  ${{ secrets.AIRTABLE_FOUNDERS_TABLE_NAME }}
+        AIRTABLE_STARTUPS_TABLE:  'startupList'
+        AIRTABLE_FOUNDERS_TABLE:  'foundersList'
       run: |
         node - <<'EOF'
         import fs from 'node:fs';
