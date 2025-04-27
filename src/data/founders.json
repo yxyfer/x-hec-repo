@@ -1,1405 +1,1222 @@
-{
-    "records": [
-        {
-            "id": "rec0S4NAXUN622pbc",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "M'hamdi",
-                "prenom": "Yassine",
-                "linkedin": "https://www.linkedin.com/in/yassine-mhamdi/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recTLiq2VC0t5PFLd"
-                ],
-                "id_founders": 40
-            }
-        },
-        {
-            "id": "rec1Vhj9DDOl0hnWk",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Maroglou",
-                "prenom": "Léni",
-                "linkedin": "https://www.linkedin.com/in/leni-maroglou/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "receQqkwdOUjGpQ9r"
-                ],
-                "id_founders": 42
-            }
-        },
-        {
-            "id": "rec20O28Yq2g21FNW",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Rivoire",
-                "prenom": "Augustin",
-                "linkedin": "https://www.linkedin.com/in/augustin-rivoire-9a0436168/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recyTvPY4TftCDhTH"
-                ],
-                "id_founders": 34
-            }
-        },
-        {
-            "id": "rec3np2Iglv2U1PdK",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Carossio",
-                "prenom": "Antoine",
-                "linkedin": "https://www.linkedin.com/in/acarossio/overlay/about-this-profile/",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "recLIbuGOgpxVjzrJ"
-                ],
-                "id_founders": 3
-            }
-        },
-        {
-            "id": "rec3pXPGbG9BA09K4",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Bismut",
-                "prenom": "Samuel",
-                "linkedin": "https://www.linkedin.com/in/samuelbismut/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recmWFhBxcjjPFuOi"
-                ],
-                "id_founders": 61
-            }
-        },
-        {
-            "id": "rec3trzPOHIQh53w0",
-            "createdTime": "2025-04-26T06:54:49.000Z",
-            "fields": {
-                "nom": "Battle\n",
-                "prenom": "Romain",
-                "linkedin": "https://www.linkedin.com/in/romain-batlle-546772194/",
-                "xhecbatch": "XH.25",
-                "startupList": [
-                    "recctsySUYnBcJdzX"
-                ],
-                "id_founders": 117
-            }
-        },
-        {
-            "id": "rec3ziPLkFTjQOym4",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Roy",
-                "prenom": "Quentin",
-                "linkedin": "https://www.linkedin.com/in/quentin-roy-65862315a/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recR39fvr5Xp6Waod"
-                ],
-                "id_founders": 50
-            }
-        },
-        {
-            "id": "rec40gIu75UXhLM6K",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Certain",
-                "prenom": "Raphael",
-                "linkedin": "https://www.linkedin.com/in/raphael-certain/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "rec00U8blN0eFRoTZ"
-                ],
-                "id_founders": 75
-            }
-        },
-        {
-            "id": "rec4ZBmCrhbTlXjxO",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Moreau",
-                "prenom": "Pierre-Hugues",
-                "linkedin": "https://www.linkedin.com/in/pierrehuguesmoreau/overlay/about-this-profile/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "rechRBOaNYj1w43nQ"
-                ],
-                "id_founders": 27
-            }
-        },
-        {
-            "id": "rec55ZSq7URlFwLxZ",
-            "createdTime": "2025-04-26T06:40:20.000Z",
-            "fields": {
-                "nom": "Walter",
-                "prenom": "Matthias",
-                "linkedin": "https://www.linkedin.com/in/matthias-j-walter/",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "recj62MIIs722VnhQ"
-                ],
-                "id_founders": 110
-            }
-        },
-        {
-            "id": "rec5z96wJXA5WaYgw",
-            "createdTime": "2025-04-26T06:40:32.000Z",
-            "fields": {
-                "nom": "Vallier",
-                "prenom": "Ulysse",
-                "linkedin": "https://www.linkedin.com/in/ulysse-vallier/",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "recH7mBlrIiDKmBGT"
-                ],
-                "id_founders": 97
-            }
-        },
-        {
-            "id": "rec6chizM682dQVGw",
-            "createdTime": "2025-04-26T06:58:23.000Z",
-            "fields": {
-                "nom": "Florido Poka",
-                "prenom": "Samir Fernando",
-                "linkedin": "https://www.linkedin.com/in/samir-fernando-florido-poka/",
-                "xhecbatch": "XH.25",
-                "startupList": [
-                    "recctsySUYnBcJdzX"
-                ],
-                "id_founders": 118
-            }
-        },
-        {
-            "id": "rec6nXt7XgvdnDiud",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Abboud",
-                "prenom": "Julien",
-                "linkedin": "https://www.linkedin.com/in/julien-bou-abboud-683319188/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recuTR2frhV0WMQ5Z"
-                ],
-                "id_founders": 32
-            }
-        },
-        {
-            "id": "rec7JL1uK7gMQZ8yM",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Garnier",
-                "prenom": "Valentin",
-                "linkedin": "https://www.linkedin.com/in/valentingarnier/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recIE0vY0ykBurRjo"
-                ],
-                "id_founders": 73
-            }
-        },
-        {
-            "id": "rec8HC0mWWGOSfh0M",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Moret",
-                "prenom": "Alexis",
-                "linkedin": "https://www.linkedin.com/in/alexis-moret-5b3980239/overlay/about-this-profile/",
-                "xhecbatch": "XH.24",
-                "startupList": [
-                    "recVDhtqmviYcfaTA"
-                ],
-                "id_founders": 91
-            }
-        },
-        {
-            "id": "rec8I0eb8qHECiEFL",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Heuzé",
-                "prenom": "Valentin",
-                "linkedin": "https://www.linkedin.com/in/valentin-heuze/overlay/about-this-profile/",
-                "xhecbatch": "XH.24",
-                "startupList": [
-                    "recpbUev3AkM6xrLb"
-                ],
-                "id_founders": 88
-            }
-        },
-        {
-            "id": "rec97XoFdjze3PrJB",
-            "createdTime": "2025-04-26T07:03:43.000Z",
-            "fields": {
-                "nom": "Terki",
-                "prenom": "Fethy Abbas",
-                "linkedin": "https://www.linkedin.com/in/fethy-abbas-terki/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "recKbgJQh3n5LQfbp"
-                ],
-                "id_founders": 122
-            }
-        },
-        {
-            "id": "rec9AIHEIbXf4CNf6",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Danet",
-                "prenom": "Hugo",
-                "linkedin": "https://www.linkedin.com/in/hugo-danet/overlay/about-this-profile/",
-                "xhecbatch": "XH.24",
-                "startupList": [
-                    "recHN8wdKkvSGeD0a"
-                ],
-                "id_founders": 84
-            }
-        },
-        {
-            "id": "rec9XvhCUMslkYeyf",
-            "createdTime": "2025-04-26T06:40:20.000Z",
-            "fields": {
-                "nom": "Cavaglione",
-                "prenom": "Ava",
-                "linkedin": "https://www.linkedin.com/in/ava-cavaglione-080642129/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "recIUj0jZBy2vqgq4"
-                ],
-                "id_founders": 109
-            }
-        },
-        {
-            "id": "rec9bSALNfESGNTvt",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Deslandes",
-                "prenom": "Sixtine",
-                "linkedin": "https://www.linkedin.com/in/sixtine-deslandes/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "recNL4HhukruksRBX"
-                ],
-                "id_founders": 19
-            }
-        },
-        {
-            "id": "rec9oxAW1MZYVffk5",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Marquet",
-                "prenom": "Quentin",
-                "linkedin": "https://www.linkedin.com/in/quentin-marquet-pharmacist-hec-gynger-qvt-rse-marqueemployeur/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recP9534obM4weqyD"
-                ],
-                "id_founders": 69
-            }
-        },
-        {
-            "id": "recAOPWkLBaWNuJnl",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Neme",
-                "prenom": "Mathilde",
-                "linkedin": "https://www.linkedin.com/in/mathilde-neme-332667154/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "rectMWaVjAhBeN3Jr"
-                ],
-                "id_founders": 17
-            }
-        },
-        {
-            "id": "recC3mo0WbOcIM2eX",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Frelot",
-                "prenom": "Baptiste",
-                "linkedin": "https://www.linkedin.com/in/baptiste-frelot/overlay/about-this-profile/",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "recwmUM5tz1N1z4bY"
-                ],
-                "id_founders": 7
-            }
-        },
-        {
-            "id": "recCR046Zh8s7hqU9",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Douyer",
-                "prenom": "Simon",
-                "linkedin": "https://www.linkedin.com/in/sdouyer/",
-                "xhecbatch": "XH.19",
-                "startupList": [
-                    "recoLgxdcFOEnIl4h"
-                ],
-                "id_founders": 2
-            }
-        },
-        {
-            "id": "recCX0j7M8oXgFZf6",
-            "createdTime": "2025-04-26T06:54:57.000Z",
-            "fields": {
-                "nom": "Ilunze",
-                "prenom": "Marc-Alexandre",
-                "linkedin": "https://www.linkedin.com/in/marc-alexandre-ilunze-a452921b7/",
-                "xhecbatch": "XH.25",
-                "startupList": [
-                    "recEukfOOsKnwcKOO"
-                ],
-                "id_founders": 114
-            }
-        },
-        {
-            "id": "recDDKd2XiMHU95wr",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Klein",
-                "prenom": "Maxime",
-                "linkedin": "https://www.linkedin.com/in/maximeklein/overlay/about-this-profile/",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "recfnXM6pHSQwYY3B"
-                ],
-                "id_founders": 9
-            }
-        },
-        {
-            "id": "recDMPb4fEBUfeRho",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Treppoz",
-                "prenom": "Léopold",
-                "linkedin": "https://www.linkedin.com/in/leopold-treppoz/overlay/about-this-profile/",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "recfnXM6pHSQwYY3B"
-                ],
-                "id_founders": 10
-            }
-        },
-        {
-            "id": "recDOu8mY2GGhYLZG",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Biojout",
-                "prenom": "Pierre-Louis",
-                "linkedin": "https://www.linkedin.com/in/plbiojout/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recfRlQUIc2qkKPPR"
-                ],
-                "id_founders": 68
-            }
-        },
-        {
-            "id": "recDPLyQBeILX6pZm",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Park",
-                "prenom": "Hahyeon",
-                "linkedin": "https://www.linkedin.com/in/hahyeonpark/overlay/about-this-profile/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "rectMWaVjAhBeN3Jr"
-                ],
-                "id_founders": 18
-            }
-        },
-        {
-            "id": "recDi478bivjZrnlR",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Kalos",
-                "prenom": "Tristan",
-                "linkedin": "https://www.linkedin.com/in/tkalos/overlay/about-this-profile/?locale=en_US",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "recLIbuGOgpxVjzrJ"
-                ],
-                "id_founders": 4
-            }
-        },
-        {
-            "id": "recEVbehIX7aFwxG7",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Meurer",
-                "prenom": "Clara",
-                "linkedin": "https://www.linkedin.com/in/clara-meurer-788a50149/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recOdfrw5ETZExtXJ"
-                ],
-                "id_founders": 48
-            }
-        },
-        {
-            "id": "recEjgBXdzvtADkop",
-            "createdTime": "2025-04-26T06:54:56.000Z",
-            "fields": {
-                "nom": "Mabrouk",
-                "prenom": "Ismaël",
-                "linkedin": "https://www.linkedin.com/in/isma%C3%ABl-mabrouk/",
-                "xhecbatch": "XH.25",
-                "startupList": [
-                    "recEukfOOsKnwcKOO"
-                ],
-                "id_founders": 115
-            }
-        },
-        {
-            "id": "recEtqbWyFmq1i4Wk",
-            "createdTime": "2025-04-26T06:58:19.000Z",
-            "fields": {
-                "nom": "de Vergeron\n",
-                "prenom": "Hector",
-                "linkedin": "https://www.linkedin.com/in/hector-de-vergeron/",
-                "xhecbatch": "XH.25",
-                "startupList": [
-                    "recff47HxlQFVXO2j"
-                ],
-                "id_founders": 120
-            }
-        },
-        {
-            "id": "recG7mz4sAtqi2yfb",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Blanc",
-                "prenom": "Anatole",
-                "linkedin": "https://www.linkedin.com/in/anatole-blanc-05a539153/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recfvxgxyvK1KpMEK"
-                ],
-                "id_founders": 35
-            }
-        },
-        {
-            "id": "recGHWZsVmh0QsG7U",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Chataigner",
-                "prenom": "Alex",
-                "linkedin": "https://www.linkedin.com/in/alex-chataigner-877766133/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recsRBHembmauI5gk"
-                ],
-                "id_founders": 54
-            }
-        },
-        {
-            "id": "recGPd1VQd5qrJeNi",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Chastel",
-                "prenom": "Stanislas",
-                "linkedin": "https://www.linkedin.com/in/stanislas-chastel/overlay/about-this-profile/",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "recfnXM6pHSQwYY3B"
-                ],
-                "id_founders": 8
-            }
-        },
-        {
-            "id": "recHN9eKwL1OxPZMn",
-            "createdTime": "2025-04-26T06:41:15.000Z",
-            "fields": {
-                "nom": "d'Andoque de Sériège",
-                "prenom": "Aubry",
-                "linkedin": "https://www.linkedin.com/in/aubry-d-andoque-de-seriege/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "rec3g3qkr6KL7v9NT"
-                ],
-                "id_founders": 108
-            }
-        },
-        {
-            "id": "recHwdSF2zPdJJMUg",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Dubois-Graffin",
-                "prenom": "Florine",
-                "linkedin": "https://www.linkedin.com/in/florine-dubois-graffin-253331b1/overlay/about-this-profile/",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "recAgnQVOXegiqVY4"
-                ],
-                "id_founders": 15
-            }
-        },
-        {
-            "id": "recIRzVMETK1pX0wv",
-            "createdTime": "2025-04-26T06:58:17.000Z",
-            "fields": {
-                "nom": "d'Hauteville",
-                "prenom": "Tancrède",
-                "linkedin": "https://www.linkedin.com/in/tancr%C3%A8de-d-hauteville-9884a61b6/",
-                "xhecbatch": "XH.25",
-                "startupList": [
-                    "recff47HxlQFVXO2j"
-                ],
-                "id_founders": 121
-            }
-        },
-        {
-            "id": "recIUIOYDhfYcpIzu",
-            "createdTime": "2025-04-26T06:40:20.000Z",
-            "fields": {
-                "nom": "Choueifaty",
-                "prenom": "Joseph",
-                "linkedin": "https://www.linkedin.com/in/josephchoueifaty/",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "recF9152ASJWWL9TD"
-                ],
-                "id_founders": 99
-            }
-        },
-        {
-            "id": "recJ8DZnw6BufX8c6",
-            "createdTime": "2025-04-26T06:41:02.000Z",
-            "fields": {
-                "nom": "Villette",
-                "prenom": "Brieuc",
-                "linkedin": "https://www.linkedin.com/in/brieucvillette/",
-                "xhecbatch": "XH.24",
-                "startupList": [
-                    "recEKHzNPuvctG20M"
-                ],
-                "id_founders": 105
-            }
-        },
-        {
-            "id": "recKknGT4MyMCajX4",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Lestrade",
-                "prenom": "Flore",
-                "linkedin": "https://www.linkedin.com/in/flore-lestrade/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "rec2xN4oHI7jZqIDi"
-                ],
-                "id_founders": 64
-            }
-        },
-        {
-            "id": "recMAoAYpYTiWUCrZ",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Bertrix",
-                "prenom": "Céline",
-                "linkedin": "https://www.linkedin.com/in/celinebertrix/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recOdfrw5ETZExtXJ"
-                ],
-                "id_founders": 46
-            }
-        },
-        {
-            "id": "recMr2C1I1kmqPmYL",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Saudin",
-                "prenom": "Pierre",
-                "linkedin": "https://www.linkedin.com/in/pierre-saudin/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "rec8hz5giEZmqkDxw"
-                ],
-                "id_founders": 16
-            }
-        },
-        {
-            "id": "recO4HfUGbKK9VqHX",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Hias",
-                "prenom": "Manon",
-                "linkedin": "https://www.linkedin.com/in/manonhias/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "reci3gAo10RKcoCOY"
-                ],
-                "id_founders": 56
-            }
-        },
-        {
-            "id": "recOD5NE29gaUU7Kl",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Richard",
-                "prenom": "Alfred",
-                "linkedin": "https://www.linkedin.com/in/alfredrichard/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recuTR2frhV0WMQ5Z"
-                ],
-                "id_founders": 29
-            }
-        },
-        {
-            "id": "recOlO5rNsyrCZaQ8",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Blanchon",
-                "prenom": "Fanny",
-                "linkedin": "https://www.linkedin.com/in/fanny-blanchon/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recJ0uSGz0VmE03Be"
-                ],
-                "id_founders": 43
-            }
-        },
-        {
-            "id": "recOrXX5Y6CqEWRM2",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Bally",
-                "prenom": "Olivia",
-                "linkedin": "https://www.linkedin.com/in/olivia-bally/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recrakLoFULESbB6q"
-                ],
-                "id_founders": 80
-            }
-        },
-        {
-            "id": "recPkljwTa1IvxPrQ",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Vaz",
-                "prenom": "Martin",
-                "linkedin": "https://www.linkedin.com/in/martin-vaz/overlay/about-this-profile/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "recV6Q5PZTlDlDHnb"
-                ],
-                "id_founders": 23
-            }
-        },
-        {
-            "id": "recQH3C38nCNwRJzS",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Heckel",
-                "prenom": "Arno",
-                "linkedin": "https://www.linkedin.com/in/arno-heckel-6686b31b6/overlay/about-this-profile/",
-                "xhecbatch": "XH.24",
-                "startupList": [
-                    "reciCFOqtgMiCO5Ql"
-                ],
-                "id_founders": 90
-            }
-        },
-        {
-            "id": "recQRVt5IuYylR2H5",
-            "createdTime": "2025-04-26T06:40:20.000Z",
-            "fields": {
-                "nom": "Tournant",
-                "prenom": "Zoé",
-                "linkedin": "https://www.linkedin.com/in/zo%C3%A9-tournant/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recYzRVH2sqeArQ95"
-                ],
-                "id_founders": 98
-            }
-        },
-        {
-            "id": "recQXS077NX540YLW",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Vaudelin",
-                "prenom": "Aymeric",
-                "linkedin": "https://www.linkedin.com/in/aymeric-vaudelin/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recTLiq2VC0t5PFLd"
-                ],
-                "id_founders": 39
-            }
-        },
-        {
-            "id": "recQa7JlAXnMCukWr",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Valin",
-                "prenom": "Baptiste",
-                "linkedin": "https://www.linkedin.com/in/baptiste-valin-691900189/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recdibIEFIWImGy4p"
-                ],
-                "id_founders": 76
-            }
-        },
-        {
-            "id": "recRhZTMiIhi4WL6j",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Janicot",
-                "prenom": "Mathilde",
-                "linkedin": "https://www.linkedin.com/in/mathilde-janicot-2324581a4/overlay/about-this-profile/",
-                "xhecbatch": "XH.24",
-                "startupList": [
-                    "recpbUev3AkM6xrLb"
-                ],
-                "id_founders": 87
-            }
-        },
-        {
-            "id": "recRwUiMlrT67aWH5",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "DANA",
-                "prenom": "Lou",
-                "linkedin": "https://www.linkedin.com/in/lou-dana-085b51163/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recR39fvr5Xp6Waod"
-                ],
-                "id_founders": 51
-            }
-        },
-        {
-            "id": "recSYTmXluNmneED9",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Fomm",
-                "prenom": "Nikolai",
-                "linkedin": "https://www.linkedin.com/in/nikolai-fomm/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recmWFhBxcjjPFuOi"
-                ],
-                "id_founders": 62
-            }
-        },
-        {
-            "id": "recTXOXYwSMqUPoOM",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Kerjean",
-                "prenom": "Charlotte",
-                "linkedin": "https://www.linkedin.com/in/charlotte-kerjean-852701170/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recJ0uSGz0VmE03Be"
-                ],
-                "id_founders": 44
-            }
-        },
-        {
-            "id": "recTdvbvcDqFOHjBJ",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Rozès",
-                "prenom": "Héloïse",
-                "linkedin": "https://www.linkedin.com/in/heloiserozes/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recmWFhBxcjjPFuOi"
-                ],
-                "id_founders": 63
-            }
-        },
-        {
-            "id": "recTgGJSBPn8ssRV8",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Benharrats",
-                "prenom": "Mehdi",
-                "linkedin": "https://www.linkedin.com/in/mehdi-benharrats/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recOdfrw5ETZExtXJ"
-                ],
-                "id_founders": 47
-            }
-        },
-        {
-            "id": "recU6VKc1qX2NGc5e",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "d'Auvigny",
-                "prenom": "Alexandre",
-                "linkedin": "https://www.linkedin.com/in/adauvigny/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "reci3gAo10RKcoCOY"
-                ],
-                "id_founders": 57
-            }
-        },
-        {
-            "id": "recVxAmuEqhi2ynpI",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Venard",
-                "prenom": "Paul-Louis",
-                "linkedin": "https://www.linkedin.com/in/paul-louis-venard-9269b5116/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recfRlQUIc2qkKPPR"
-                ],
-                "id_founders": 67
-            }
-        },
-        {
-            "id": "recVxsapEFFpguzOq",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Sauvée",
-                "prenom": "Fanny",
-                "linkedin": "https://www.linkedin.com/in/fanny-sauvee/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recpsMV0PhAH7PlwT"
-                ],
-                "id_founders": 58
-            }
-        },
-        {
-            "id": "recW9DFv09Rszt1C7",
-            "createdTime": "2025-04-26T06:40:55.000Z",
-            "fields": {
-                "nom": "Venet",
-                "prenom": "Tiphaine",
-                "linkedin": "https://www.linkedin.com/in/tiphaine-venet/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recak1wTQQWwihfDf"
-                ],
-                "id_founders": 101
-            }
-        },
-        {
-            "id": "recWn477WleHbY0Ii",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Frank",
-                "prenom": "Louis",
-                "linkedin": "https://www.linkedin.com/in/louisfrank14/overlay/about-this-profile/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "rec965IU11e5g89GM"
-                ],
-                "id_founders": 26
-            }
-        },
-        {
-            "id": "recWqEBIAu4thoG33",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Yates",
-                "prenom": "Olivier",
-                "linkedin": "https://www.linkedin.com/in/oliver-yates/",
-                "xhecbatch": "XH.19",
-                "startupList": [
-                    "recoLgxdcFOEnIl4h"
-                ],
-                "id_founders": 1
-            }
-        },
-        {
-            "id": "recWrbZZfuDvolMYt",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Lapeyre",
-                "prenom": "Pierre-Amans",
-                "linkedin": "https://www.linkedin.com/in/pierre-amans-lapeyre/overlay/about-this-profile/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "recV6Q5PZTlDlDHnb"
-                ],
-                "id_founders": 22
-            }
-        },
-        {
-            "id": "recWy4pWQcqzXDBwy",
-            "createdTime": "2025-04-26T06:40:20.000Z",
-            "fields": {
-                "nom": "Galichon",
-                "prenom": "Grégoire",
-                "linkedin": "https://www.linkedin.com/in/celim-starck/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "rec3g3qkr6KL7v9NT"
-                ],
-                "id_founders": 107
-            }
-        },
-        {
-            "id": "recY1K5SIaT2A8YE5",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "des Rotours",
-                "prenom": "Félix",
-                "linkedin": "https://www.linkedin.com/in/f%C3%A9lix-des-rotours-b6a1a822a/overlay/about-this-profile/",
-                "xhecbatch": "XH.24",
-                "startupList": [
-                    "reczIXtBmOOolIEN9"
-                ],
-                "id_founders": 85
-            }
-        },
-        {
-            "id": "recYJGuKpPidbkaqZ",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Vogler",
-                "prenom": "Marin",
-                "linkedin": "https://www.linkedin.com/in/marin-vogler/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "receQqkwdOUjGpQ9r"
-                ],
-                "id_founders": 41
-            }
-        },
-        {
-            "id": "recZ3DoMOcUkcmg0k",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Lechevalier",
-                "prenom": "Zoé",
-                "linkedin": "https://www.linkedin.com/in/zo%C3%A9-lechevalier-1a1632153/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recVEy3XIECaWacXT"
-                ],
-                "id_founders": 83
-            }
-        },
-        {
-            "id": "recZ9mUvsTCL4VfTW",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Beacco",
-                "prenom": "Mateo",
-                "linkedin": "https://www.linkedin.com/in/mateo-beacco-6b10a3164/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recsRBHembmauI5gk"
-                ],
-                "id_founders": 53
-            }
-        },
-        {
-            "id": "recZsnU9A5Fc5TfPY",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Francey",
-                "prenom": "Gabrielle",
-                "linkedin": "https://www.linkedin.com/in/gabrielle-francey/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "rec1jZq4XyjNBkd9g"
-                ],
-                "id_founders": 79
-            }
-        },
-        {
-            "id": "recaMcma8PmmhZqmZ",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Debié",
-                "prenom": "Marie",
-                "linkedin": "https://www.linkedin.com/in/marie-debie-hec/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recyTvPY4TftCDhTH"
-                ],
-                "id_founders": 33
-            }
-        },
-        {
-            "id": "recaW6JJwpfUSiJcB",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "François",
-                "prenom": "Tristan",
-                "linkedin": "https://www.linkedin.com/in/tristan-fran%C3%A7ois/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "rec2xN4oHI7jZqIDi"
-                ],
-                "id_founders": 66
-            }
-        },
-        {
-            "id": "recc0FOfclfOtH0Sb",
-            "createdTime": "2025-04-26T06:40:20.000Z",
-            "fields": {
-                "nom": "Regerat",
-                "prenom": "Thibaut",
-                "linkedin": "https://www.linkedin.com/in/thibaut-regerat/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recak1wTQQWwihfDf"
-                ],
-                "id_founders": 100
-            }
-        },
-        {
-            "id": "recdHkSejEMD9gENU",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Beaume",
-                "prenom": "Violette",
-                "linkedin": "https://www.linkedin.com/in/violette-beaume/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recorJaO5BkozCrR5"
-                ],
-                "id_founders": 82
-            }
-        },
-        {
-            "id": "recds1cLJwUJlhbwo",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "KARILA",
-                "prenom": "Théophile",
-                "linkedin": "https://www.linkedin.com/in/theophile-karila/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recpsMV0PhAH7PlwT"
-                ],
-                "id_founders": 59
-            }
-        },
-        {
-            "id": "recfLbQnDIGTGBeEM",
-            "createdTime": "2025-04-26T06:54:43.000Z",
-            "fields": {
-                "nom": "Pruvost\n",
-                "prenom": "Valentin",
-                "linkedin": "https://www.linkedin.com/in/valentin-pruvost-544911227/",
-                "xhecbatch": "XH.25",
-                "startupList": [
-                    "rec1KjlVF3hbiF4AZ"
-                ],
-                "id_founders": 112
-            }
-        },
-        {
-            "id": "recfq3Zf3J8ZJKQwS",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Gautier",
-                "prenom": "Emmanuelle",
-                "linkedin": "https://www.linkedin.com/in/emmanuelle-gautier/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recP9534obM4weqyD"
-                ],
-                "id_founders": 70
-            }
-        },
-        {
-            "id": "recg9RzJ65J6RyED8",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Deleuze",
-                "prenom": "Felix",
-                "linkedin": "https://www.linkedin.com/in/felix-deleuze-57ba48221/overlay/about-this-profile/",
-                "xhecbatch": "XH.24",
-                "startupList": [
-                    "reckL9BuozB7QTBGn"
-                ],
-                "id_founders": 94
-            }
-        },
-        {
-            "id": "recgLBVHcjUO0W96D",
-            "createdTime": "2025-04-26T06:54:56.000Z",
-            "fields": {
-                "nom": "Terrey",
-                "prenom": "Charles",
-                "linkedin": "https://www.linkedin.com/in/charles-terrey/",
-                "xhecbatch": "XH.25",
-                "startupList": [
-                    "recn4ACRF4tGCShsI"
-                ],
-                "id_founders": 116
-            }
-        },
-        {
-            "id": "recgQ4LBsNyyObVRr",
-            "createdTime": "2025-04-26T06:40:20.000Z",
-            "fields": {
-                "nom": "Desneuf",
-                "prenom": "Marin",
-                "linkedin": "https://www.linkedin.com/in/marindesneuf/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "reczEJVPvzWF9S6PY"
-                ],
-                "id_founders": 111
-            }
-        },
-        {
-            "id": "recgYwkoLFBtRi7Ie",
-            "createdTime": "2025-04-26T06:40:20.000Z",
-            "fields": {
-                "nom": "Benoit",
-                "prenom": "Oscar",
-                "linkedin": "https://www.linkedin.com/in/oscar-benoit/",
-                "xhecbatch": "XH.24",
-                "startupList": [
-                    "recEKHzNPuvctG20M"
-                ],
-                "id_founders": 104
-            }
-        },
-        {
-            "id": "rechLPcD4ZYZEETVg",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Tijani",
-                "prenom": "Naima",
-                "linkedin": "https://www.linkedin.com/in/naima-tijani/overlay/about-this-profile/",
-                "xhecbatch": "XH.24",
-                "startupList": [
-                    "recVDhtqmviYcfaTA"
-                ],
-                "id_founders": 93
-            }
-        },
-        {
-            "id": "rechMDSoR1VeS0fR8",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Defline",
-                "prenom": "Camille",
-                "linkedin": "https://www.linkedin.com/in/camille-defline/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recak1wTQQWwihfDf"
-                ],
-                "id_founders": 81
-            }
-        },
-        {
-            "id": "recheKRt59NLursmY",
-            "createdTime": "2025-04-26T06:40:20.000Z",
-            "fields": {
-                "nom": "Weil",
-                "prenom": "Baptiste",
-                "linkedin": "https://www.linkedin.com/in/baptistewiel/?locale=en_US",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "rechQftxw4BNcracq"
-                ],
-                "id_founders": 102
-            }
-        },
-        {
-            "id": "rechw7EgAONS0wgl0",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Perrot",
-                "prenom": "Guillaume",
-                "linkedin": "https://www.linkedin.com/in/guillaume-perrot-831b08149/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recfvxgxyvK1KpMEK"
-                ],
-                "id_founders": 37
-            }
-        },
-        {
-            "id": "rechw98ZjkE4cijkU",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Sciberras",
-                "prenom": "Florent",
-                "linkedin": "https://www.linkedin.com/in/florent-sciberras-8a963313/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recfvxgxyvK1KpMEK"
-                ],
-                "id_founders": 36
-            }
-        },
-        {
-            "id": "reciROxf3uHUhVB1s",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Espitallier",
-                "prenom": "Gaspard",
-                "linkedin": "https://www.linkedin.com/in/gaspard-espitallier-0037491bb/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recXhb333w4WgMpLp"
-                ],
-                "id_founders": 72
-            }
-        },
-        {
-            "id": "reciRZcgJ5yj1Dmo3",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Moustial",
-                "prenom": "Raphaëlle",
-                "linkedin": "https://www.linkedin.com/in/rapha%C3%ABlle-moustial-55314353/overlay/about-this-profile/",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "rec8hyBxP5RAXSeX9"
-                ],
-                "id_founders": 12
-            }
-        },
-        {
-            "id": "recjYlimXJ1KZfawJ",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Riethmuller",
-                "prenom": "Nils",
-                "linkedin": "https://www.linkedin.com/in/nils-riethmuller/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "rec1jZq4XyjNBkd9g"
-                ],
-                "id_founders": 78
-            }
-        },
-        {
-            "id": "reckSnEMKERs0OaF9",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Bessiere",
-                "prenom": "Thomas",
-                "linkedin": "https://www.linkedin.com/in/thomas-bessiere-hinfact/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "recyxgacPKh5SJohG"
-                ],
-                "id_founders": 21
-            }
-        },
-        {
-            "id": "recmoOMbMCA1udYlc",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Hadife",
-                "prenom": "Mayssa",
-                "linkedin": "https://www.linkedin.com/in/mayssahadife/overlay/about-this-profile/",
-                "xhecbatch": "XH.24",
-                "startupList": [
-                    "reckL9BuozB7QTBGn"
-                ],
-                "id_founders": 95
-            }
-        },
-        {
-            "id": "recmtuIqGeqDJ7FlR",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Multrier",
-                "prenom": "Inès",
-                "linkedin": "https://www.linkedin.com/in/inesmultrier/overlay/about-this-profile/",
-                "xhecbatch": "XH.22",
-                "startupList": [
-                    "recuTR2frhV0WMQ5Z"
-                ],
-                "id_founders": 31
-            }
-        },
-        {
-            "id": "recn2dnw8qZsaBAca",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Latouche",
-                "prenom": "Julien",
-                "linkedin": "https://www.linkedin.com/in/julien-latouche/overlay/about-this-profile/",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "rec8hyBxP5RAXSeX9"
-                ],
-                "id_founders": 13
-            }
-        },
-        {
-            "id": "recoA33Rrn4l7ICN9",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Grosso",
-                "prenom": "Mathieu",
-                "linkedin": "https://www.linkedin.com/in/mathieu-grosso-5a0750143/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "recsRBHembmauI5gk"
-                ],
-                "id_founders": 52
-            }
-        },
-        {
-            "id": "recp5dbwSsBpvCrgj",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Bruneau",
-                "prenom": "Audrey",
-                "linkedin": "https://www.linkedin.com/in/audreybruneau/overlay/about-this-profile/",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "recSnmOP0yYaSPVcW"
-                ],
-                "id_founders": 14
-            }
-        },
-        {
-            "id": "recpXbLfajdMam5c1",
-            "createdTime": "2025-04-26T06:40:58.000Z",
-            "fields": {
-                "nom": "Thierry",
-                "prenom": "Gabriel",
-                "linkedin": "https://www.linkedin.com/in/gabriel-thierry001/",
-                "xhecbatch": "XH.21",
-                "startupList": [
-                    "rechQftxw4BNcracq"
-                ],
-                "id_founders": 103
-            }
-        },
-        {
-            "id": "recpbdokWeywaljhD",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Prétot",
-                "prenom": "Jules",
-                "linkedin": "https://www.linkedin.com/in/jules-pr%C3%A9tot-7060281b4/overlay/about-this-profile/",
-                "xhecbatch": "XH.23",
-                "startupList": [
-                    "rec6A5sNxgewwQjxg"
-                ],
-                "id_founders": 55
-            }
-        },
-        {
-            "id": "recqI2DMWLv7HLURc",
-            "createdTime": "2025-04-26T05:46:30.000Z",
-            "fields": {
-                "nom": "Dumas",
-                "prenom": "Wilfrid",
-                "linkedin": "https://www.linkedin.com/in/wilfriddumas/overlay/about-this-profile/",
-                "xhecbatch": "XH.20",
-                "startupList": [
-                    "recL27iYTPpDFeECv"
-                ],
-                "id_founders": 5
-            }
-        }
+[
+  {
+    "nom": "M'hamdi",
+    "prenom": "Yassine",
+    "linkedin": "https://www.linkedin.com/in/yassine-mhamdi/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recTLiq2VC0t5PFLd"
     ],
-    "offset": "itrRaBpUftJCsqq5J/recqI2DMWLv7HLURc"
-}
+    "id_founders": 40
+  },
+  {
+    "nom": "Maroglou",
+    "prenom": "Léni",
+    "linkedin": "https://www.linkedin.com/in/leni-maroglou/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "receQqkwdOUjGpQ9r"
+    ],
+    "id_founders": 42
+  },
+  {
+    "nom": "Rivoire",
+    "prenom": "Augustin",
+    "linkedin": "https://www.linkedin.com/in/augustin-rivoire-9a0436168/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recyTvPY4TftCDhTH"
+    ],
+    "id_founders": 34
+  },
+  {
+    "nom": "Carossio",
+    "prenom": "Antoine",
+    "linkedin": "https://www.linkedin.com/in/acarossio/overlay/about-this-profile/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recLIbuGOgpxVjzrJ"
+    ],
+    "id_founders": 3
+  },
+  {
+    "nom": "Bismut",
+    "prenom": "Samuel",
+    "linkedin": "https://www.linkedin.com/in/samuelbismut/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recmWFhBxcjjPFuOi"
+    ],
+    "id_founders": 61
+  },
+  {
+    "nom": "Battle\n",
+    "prenom": "Romain",
+    "linkedin": "https://www.linkedin.com/in/romain-batlle-546772194/",
+    "xhecbatch": "XH.25",
+    "startupList": [
+      "recctsySUYnBcJdzX"
+    ],
+    "id_founders": 117
+  },
+  {
+    "nom": "Roy",
+    "prenom": "Quentin",
+    "linkedin": "https://www.linkedin.com/in/quentin-roy-65862315a/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recR39fvr5Xp6Waod"
+    ],
+    "id_founders": 50
+  },
+  {
+    "nom": "Certain",
+    "prenom": "Raphael",
+    "linkedin": "https://www.linkedin.com/in/raphael-certain/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "rec00U8blN0eFRoTZ"
+    ],
+    "id_founders": 75
+  },
+  {
+    "nom": "Moreau",
+    "prenom": "Pierre-Hugues",
+    "linkedin": "https://www.linkedin.com/in/pierrehuguesmoreau/overlay/about-this-profile/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "rechRBOaNYj1w43nQ"
+    ],
+    "id_founders": 27
+  },
+  {
+    "nom": "Walter",
+    "prenom": "Matthias",
+    "linkedin": "https://www.linkedin.com/in/matthias-j-walter/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recj62MIIs722VnhQ"
+    ],
+    "id_founders": 110
+  },
+  {
+    "nom": "Vallier",
+    "prenom": "Ulysse",
+    "linkedin": "https://www.linkedin.com/in/ulysse-vallier/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recH7mBlrIiDKmBGT"
+    ],
+    "id_founders": 97
+  },
+  {
+    "nom": "Florido Poka",
+    "prenom": "Samir Fernando",
+    "linkedin": "https://www.linkedin.com/in/samir-fernando-florido-poka/",
+    "xhecbatch": "XH.25",
+    "startupList": [
+      "recctsySUYnBcJdzX"
+    ],
+    "id_founders": 118
+  },
+  {
+    "nom": "Abboud",
+    "prenom": "Julien",
+    "linkedin": "https://www.linkedin.com/in/julien-bou-abboud-683319188/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recuTR2frhV0WMQ5Z"
+    ],
+    "id_founders": 32
+  },
+  {
+    "nom": "Garnier",
+    "prenom": "Valentin",
+    "linkedin": "https://www.linkedin.com/in/valentingarnier/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recIE0vY0ykBurRjo"
+    ],
+    "id_founders": 73
+  },
+  {
+    "nom": "Moret",
+    "prenom": "Alexis",
+    "linkedin": "https://www.linkedin.com/in/alexis-moret-5b3980239/overlay/about-this-profile/",
+    "xhecbatch": "XH.24",
+    "startupList": [
+      "recVDhtqmviYcfaTA"
+    ],
+    "id_founders": 91
+  },
+  {
+    "nom": "Heuzé",
+    "prenom": "Valentin",
+    "linkedin": "https://www.linkedin.com/in/valentin-heuze/overlay/about-this-profile/",
+    "xhecbatch": "XH.24",
+    "startupList": [
+      "recpbUev3AkM6xrLb"
+    ],
+    "id_founders": 88
+  },
+  {
+    "nom": "Terki",
+    "prenom": "Fethy Abbas",
+    "linkedin": "https://www.linkedin.com/in/fethy-abbas-terki/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "recKbgJQh3n5LQfbp"
+    ],
+    "id_founders": 122
+  },
+  {
+    "nom": "Danet",
+    "prenom": "Hugo",
+    "linkedin": "https://www.linkedin.com/in/hugo-danet/overlay/about-this-profile/",
+    "xhecbatch": "XH.24",
+    "startupList": [
+      "recHN8wdKkvSGeD0a"
+    ],
+    "id_founders": 84
+  },
+  {
+    "nom": "Cavaglione",
+    "prenom": "Ava",
+    "linkedin": "https://www.linkedin.com/in/ava-cavaglione-080642129/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "recIUj0jZBy2vqgq4"
+    ],
+    "id_founders": 109
+  },
+  {
+    "nom": "Deslandes",
+    "prenom": "Sixtine",
+    "linkedin": "https://www.linkedin.com/in/sixtine-deslandes/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "recNL4HhukruksRBX"
+    ],
+    "id_founders": 19
+  },
+  {
+    "nom": "Marquet",
+    "prenom": "Quentin",
+    "linkedin": "https://www.linkedin.com/in/quentin-marquet-pharmacist-hec-gynger-qvt-rse-marqueemployeur/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recP9534obM4weqyD"
+    ],
+    "id_founders": 69
+  },
+  {
+    "nom": "Neme",
+    "prenom": "Mathilde",
+    "linkedin": "https://www.linkedin.com/in/mathilde-neme-332667154/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "rectMWaVjAhBeN3Jr"
+    ],
+    "id_founders": 17
+  },
+  {
+    "nom": "Frelot",
+    "prenom": "Baptiste",
+    "linkedin": "https://www.linkedin.com/in/baptiste-frelot/overlay/about-this-profile/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recwmUM5tz1N1z4bY"
+    ],
+    "id_founders": 7
+  },
+  {
+    "nom": "Douyer",
+    "prenom": "Simon",
+    "linkedin": "https://www.linkedin.com/in/sdouyer/",
+    "xhecbatch": "XH.19",
+    "startupList": [
+      "recoLgxdcFOEnIl4h"
+    ],
+    "id_founders": 2
+  },
+  {
+    "nom": "Ilunze",
+    "prenom": "Marc-Alexandre",
+    "linkedin": "https://www.linkedin.com/in/marc-alexandre-ilunze-a452921b7/",
+    "xhecbatch": "XH.25",
+    "startupList": [
+      "recEukfOOsKnwcKOO"
+    ],
+    "id_founders": 114
+  },
+  {
+    "nom": "Klein",
+    "prenom": "Maxime",
+    "linkedin": "https://www.linkedin.com/in/maximeklein/overlay/about-this-profile/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recfnXM6pHSQwYY3B"
+    ],
+    "id_founders": 9
+  },
+  {
+    "nom": "Treppoz",
+    "prenom": "Léopold",
+    "linkedin": "https://www.linkedin.com/in/leopold-treppoz/overlay/about-this-profile/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recfnXM6pHSQwYY3B"
+    ],
+    "id_founders": 10
+  },
+  {
+    "nom": "Biojout",
+    "prenom": "Pierre-Louis",
+    "linkedin": "https://www.linkedin.com/in/plbiojout/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recfRlQUIc2qkKPPR"
+    ],
+    "id_founders": 68
+  },
+  {
+    "nom": "Park",
+    "prenom": "Hahyeon",
+    "linkedin": "https://www.linkedin.com/in/hahyeonpark/overlay/about-this-profile/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "rectMWaVjAhBeN3Jr"
+    ],
+    "id_founders": 18
+  },
+  {
+    "nom": "Kalos",
+    "prenom": "Tristan",
+    "linkedin": "https://www.linkedin.com/in/tkalos/overlay/about-this-profile/?locale=en_US",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recLIbuGOgpxVjzrJ"
+    ],
+    "id_founders": 4
+  },
+  {
+    "nom": "Meurer",
+    "prenom": "Clara",
+    "linkedin": "https://www.linkedin.com/in/clara-meurer-788a50149/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recOdfrw5ETZExtXJ"
+    ],
+    "id_founders": 48
+  },
+  {
+    "nom": "Mabrouk",
+    "prenom": "Ismaël",
+    "linkedin": "https://www.linkedin.com/in/isma%C3%ABl-mabrouk/",
+    "xhecbatch": "XH.25",
+    "startupList": [
+      "recEukfOOsKnwcKOO"
+    ],
+    "id_founders": 115
+  },
+  {
+    "nom": "de Vergeron\n",
+    "prenom": "Hector",
+    "linkedin": "https://www.linkedin.com/in/hector-de-vergeron/",
+    "xhecbatch": "XH.25",
+    "startupList": [
+      "recff47HxlQFVXO2j"
+    ],
+    "id_founders": 120
+  },
+  {
+    "nom": "Blanc",
+    "prenom": "Anatole",
+    "linkedin": "https://www.linkedin.com/in/anatole-blanc-05a539153/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recfvxgxyvK1KpMEK"
+    ],
+    "id_founders": 35
+  },
+  {
+    "nom": "Chataigner",
+    "prenom": "Alex",
+    "linkedin": "https://www.linkedin.com/in/alex-chataigner-877766133/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recsRBHembmauI5gk"
+    ],
+    "id_founders": 54
+  },
+  {
+    "nom": "Chastel",
+    "prenom": "Stanislas",
+    "linkedin": "https://www.linkedin.com/in/stanislas-chastel/overlay/about-this-profile/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recfnXM6pHSQwYY3B"
+    ],
+    "id_founders": 8
+  },
+  {
+    "nom": "d'Andoque de Sériège",
+    "prenom": "Aubry",
+    "linkedin": "https://www.linkedin.com/in/aubry-d-andoque-de-seriege/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "rec3g3qkr6KL7v9NT"
+    ],
+    "id_founders": 108
+  },
+  {
+    "nom": "Dubois-Graffin",
+    "prenom": "Florine",
+    "linkedin": "https://www.linkedin.com/in/florine-dubois-graffin-253331b1/overlay/about-this-profile/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recAgnQVOXegiqVY4"
+    ],
+    "id_founders": 15
+  },
+  {
+    "nom": "d'Hauteville",
+    "prenom": "Tancrède",
+    "linkedin": "https://www.linkedin.com/in/tancr%C3%A8de-d-hauteville-9884a61b6/",
+    "xhecbatch": "XH.25",
+    "startupList": [
+      "recff47HxlQFVXO2j"
+    ],
+    "id_founders": 121
+  },
+  {
+    "nom": "Choueifaty",
+    "prenom": "Joseph",
+    "linkedin": "https://www.linkedin.com/in/josephchoueifaty/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recF9152ASJWWL9TD"
+    ],
+    "id_founders": 99
+  },
+  {
+    "nom": "Villette",
+    "prenom": "Brieuc",
+    "linkedin": "https://www.linkedin.com/in/brieucvillette/",
+    "xhecbatch": "XH.24",
+    "startupList": [
+      "recEKHzNPuvctG20M"
+    ],
+    "id_founders": 105
+  },
+  {
+    "nom": "Lestrade",
+    "prenom": "Flore",
+    "linkedin": "https://www.linkedin.com/in/flore-lestrade/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "rec2xN4oHI7jZqIDi"
+    ],
+    "id_founders": 64
+  },
+  {
+    "nom": "Bertrix",
+    "prenom": "Céline",
+    "linkedin": "https://www.linkedin.com/in/celinebertrix/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recOdfrw5ETZExtXJ"
+    ],
+    "id_founders": 46
+  },
+  {
+    "nom": "Saudin",
+    "prenom": "Pierre",
+    "linkedin": "https://www.linkedin.com/in/pierre-saudin/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "rec8hz5giEZmqkDxw"
+    ],
+    "id_founders": 16
+  },
+  {
+    "nom": "Hias",
+    "prenom": "Manon",
+    "linkedin": "https://www.linkedin.com/in/manonhias/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "reci3gAo10RKcoCOY"
+    ],
+    "id_founders": 56
+  },
+  {
+    "nom": "Richard",
+    "prenom": "Alfred",
+    "linkedin": "https://www.linkedin.com/in/alfredrichard/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recuTR2frhV0WMQ5Z"
+    ],
+    "id_founders": 29
+  },
+  {
+    "nom": "Blanchon",
+    "prenom": "Fanny",
+    "linkedin": "https://www.linkedin.com/in/fanny-blanchon/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recJ0uSGz0VmE03Be"
+    ],
+    "id_founders": 43
+  },
+  {
+    "nom": "Bally",
+    "prenom": "Olivia",
+    "linkedin": "https://www.linkedin.com/in/olivia-bally/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recrakLoFULESbB6q"
+    ],
+    "id_founders": 80
+  },
+  {
+    "nom": "Vaz",
+    "prenom": "Martin",
+    "linkedin": "https://www.linkedin.com/in/martin-vaz/overlay/about-this-profile/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "recV6Q5PZTlDlDHnb"
+    ],
+    "id_founders": 23
+  },
+  {
+    "nom": "Heckel",
+    "prenom": "Arno",
+    "linkedin": "https://www.linkedin.com/in/arno-heckel-6686b31b6/overlay/about-this-profile/",
+    "xhecbatch": "XH.24",
+    "startupList": [
+      "reciCFOqtgMiCO5Ql"
+    ],
+    "id_founders": 90
+  },
+  {
+    "nom": "Tournant",
+    "prenom": "Zoé",
+    "linkedin": "https://www.linkedin.com/in/zo%C3%A9-tournant/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recYzRVH2sqeArQ95"
+    ],
+    "id_founders": 98
+  },
+  {
+    "nom": "Vaudelin",
+    "prenom": "Aymeric",
+    "linkedin": "https://www.linkedin.com/in/aymeric-vaudelin/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recTLiq2VC0t5PFLd"
+    ],
+    "id_founders": 39
+  },
+  {
+    "nom": "Valin",
+    "prenom": "Baptiste",
+    "linkedin": "https://www.linkedin.com/in/baptiste-valin-691900189/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recdibIEFIWImGy4p"
+    ],
+    "id_founders": 76
+  },
+  {
+    "nom": "Janicot",
+    "prenom": "Mathilde",
+    "linkedin": "https://www.linkedin.com/in/mathilde-janicot-2324581a4/overlay/about-this-profile/",
+    "xhecbatch": "XH.24",
+    "startupList": [
+      "recpbUev3AkM6xrLb"
+    ],
+    "id_founders": 87
+  },
+  {
+    "nom": "DANA",
+    "prenom": "Lou",
+    "linkedin": "https://www.linkedin.com/in/lou-dana-085b51163/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recR39fvr5Xp6Waod"
+    ],
+    "id_founders": 51
+  },
+  {
+    "nom": "Fomm",
+    "prenom": "Nikolai",
+    "linkedin": "https://www.linkedin.com/in/nikolai-fomm/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recmWFhBxcjjPFuOi"
+    ],
+    "id_founders": 62
+  },
+  {
+    "nom": "Kerjean",
+    "prenom": "Charlotte",
+    "linkedin": "https://www.linkedin.com/in/charlotte-kerjean-852701170/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recJ0uSGz0VmE03Be"
+    ],
+    "id_founders": 44
+  },
+  {
+    "nom": "Rozès",
+    "prenom": "Héloïse",
+    "linkedin": "https://www.linkedin.com/in/heloiserozes/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recmWFhBxcjjPFuOi"
+    ],
+    "id_founders": 63
+  },
+  {
+    "nom": "Benharrats",
+    "prenom": "Mehdi",
+    "linkedin": "https://www.linkedin.com/in/mehdi-benharrats/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recOdfrw5ETZExtXJ"
+    ],
+    "id_founders": 47
+  },
+  {
+    "nom": "d'Auvigny",
+    "prenom": "Alexandre",
+    "linkedin": "https://www.linkedin.com/in/adauvigny/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "reci3gAo10RKcoCOY"
+    ],
+    "id_founders": 57
+  },
+  {
+    "nom": "Venard",
+    "prenom": "Paul-Louis",
+    "linkedin": "https://www.linkedin.com/in/paul-louis-venard-9269b5116/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recfRlQUIc2qkKPPR"
+    ],
+    "id_founders": 67
+  },
+  {
+    "nom": "Sauvée",
+    "prenom": "Fanny",
+    "linkedin": "https://www.linkedin.com/in/fanny-sauvee/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recpsMV0PhAH7PlwT"
+    ],
+    "id_founders": 58
+  },
+  {
+    "nom": "Venet",
+    "prenom": "Tiphaine",
+    "linkedin": "https://www.linkedin.com/in/tiphaine-venet/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recak1wTQQWwihfDf"
+    ],
+    "id_founders": 101
+  },
+  {
+    "nom": "Frank",
+    "prenom": "Louis",
+    "linkedin": "https://www.linkedin.com/in/louisfrank14/overlay/about-this-profile/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "rec965IU11e5g89GM"
+    ],
+    "id_founders": 26
+  },
+  {
+    "nom": "Yates",
+    "prenom": "Olivier",
+    "linkedin": "https://www.linkedin.com/in/oliver-yates/",
+    "xhecbatch": "XH.19",
+    "startupList": [
+      "recoLgxdcFOEnIl4h"
+    ],
+    "id_founders": 1
+  },
+  {
+    "nom": "Lapeyre",
+    "prenom": "Pierre-Amans",
+    "linkedin": "https://www.linkedin.com/in/pierre-amans-lapeyre/overlay/about-this-profile/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "recV6Q5PZTlDlDHnb"
+    ],
+    "id_founders": 22
+  },
+  {
+    "nom": "Galichon",
+    "prenom": "Grégoire",
+    "linkedin": "https://www.linkedin.com/in/celim-starck/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "rec3g3qkr6KL7v9NT"
+    ],
+    "id_founders": 107
+  },
+  {
+    "nom": "des Rotours",
+    "prenom": "Félix",
+    "linkedin": "https://www.linkedin.com/in/f%C3%A9lix-des-rotours-b6a1a822a/overlay/about-this-profile/",
+    "xhecbatch": "XH.24",
+    "startupList": [
+      "reczIXtBmOOolIEN9"
+    ],
+    "id_founders": 85
+  },
+  {
+    "nom": "Vogler",
+    "prenom": "Marin",
+    "linkedin": "https://www.linkedin.com/in/marin-vogler/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "receQqkwdOUjGpQ9r"
+    ],
+    "id_founders": 41
+  },
+  {
+    "nom": "Lechevalier",
+    "prenom": "Zoé",
+    "linkedin": "https://www.linkedin.com/in/zo%C3%A9-lechevalier-1a1632153/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recVEy3XIECaWacXT"
+    ],
+    "id_founders": 83
+  },
+  {
+    "nom": "Beacco",
+    "prenom": "Mateo",
+    "linkedin": "https://www.linkedin.com/in/mateo-beacco-6b10a3164/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recsRBHembmauI5gk"
+    ],
+    "id_founders": 53
+  },
+  {
+    "nom": "Francey",
+    "prenom": "Gabrielle",
+    "linkedin": "https://www.linkedin.com/in/gabrielle-francey/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "rec1jZq4XyjNBkd9g"
+    ],
+    "id_founders": 79
+  },
+  {
+    "nom": "Debié",
+    "prenom": "Marie",
+    "linkedin": "https://www.linkedin.com/in/marie-debie-hec/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recyTvPY4TftCDhTH"
+    ],
+    "id_founders": 33
+  },
+  {
+    "nom": "François",
+    "prenom": "Tristan",
+    "linkedin": "https://www.linkedin.com/in/tristan-fran%C3%A7ois/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "rec2xN4oHI7jZqIDi"
+    ],
+    "id_founders": 66
+  },
+  {
+    "nom": "Regerat",
+    "prenom": "Thibaut",
+    "linkedin": "https://www.linkedin.com/in/thibaut-regerat/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recak1wTQQWwihfDf"
+    ],
+    "id_founders": 100
+  },
+  {
+    "nom": "Beaume",
+    "prenom": "Violette",
+    "linkedin": "https://www.linkedin.com/in/violette-beaume/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recorJaO5BkozCrR5"
+    ],
+    "id_founders": 82
+  },
+  {
+    "nom": "KARILA",
+    "prenom": "Théophile",
+    "linkedin": "https://www.linkedin.com/in/theophile-karila/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recpsMV0PhAH7PlwT"
+    ],
+    "id_founders": 59
+  },
+  {
+    "nom": "Pruvost\n",
+    "prenom": "Valentin",
+    "linkedin": "https://www.linkedin.com/in/valentin-pruvost-544911227/",
+    "xhecbatch": "XH.25",
+    "startupList": [
+      "rec1KjlVF3hbiF4AZ"
+    ],
+    "id_founders": 112
+  },
+  {
+    "nom": "Gautier",
+    "prenom": "Emmanuelle",
+    "linkedin": "https://www.linkedin.com/in/emmanuelle-gautier/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recP9534obM4weqyD"
+    ],
+    "id_founders": 70
+  },
+  {
+    "nom": "Deleuze",
+    "prenom": "Felix",
+    "linkedin": "https://www.linkedin.com/in/felix-deleuze-57ba48221/overlay/about-this-profile/",
+    "xhecbatch": "XH.24",
+    "startupList": [
+      "reckL9BuozB7QTBGn"
+    ],
+    "id_founders": 94
+  },
+  {
+    "nom": "Terrey",
+    "prenom": "Charles",
+    "linkedin": "https://www.linkedin.com/in/charles-terrey/",
+    "xhecbatch": "XH.25",
+    "startupList": [
+      "recn4ACRF4tGCShsI"
+    ],
+    "id_founders": 116
+  },
+  {
+    "nom": "Desneuf",
+    "prenom": "Marin",
+    "linkedin": "https://www.linkedin.com/in/marindesneuf/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "reczEJVPvzWF9S6PY"
+    ],
+    "id_founders": 111
+  },
+  {
+    "nom": "Benoit",
+    "prenom": "Oscar",
+    "linkedin": "https://www.linkedin.com/in/oscar-benoit/",
+    "xhecbatch": "XH.24",
+    "startupList": [
+      "recEKHzNPuvctG20M"
+    ],
+    "id_founders": 104
+  },
+  {
+    "nom": "Tijani",
+    "prenom": "Naima",
+    "linkedin": "https://www.linkedin.com/in/naima-tijani/overlay/about-this-profile/",
+    "xhecbatch": "XH.24",
+    "startupList": [
+      "recVDhtqmviYcfaTA"
+    ],
+    "id_founders": 93
+  },
+  {
+    "nom": "Defline",
+    "prenom": "Camille",
+    "linkedin": "https://www.linkedin.com/in/camille-defline/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recak1wTQQWwihfDf"
+    ],
+    "id_founders": 81
+  },
+  {
+    "nom": "Weil",
+    "prenom": "Baptiste",
+    "linkedin": "https://www.linkedin.com/in/baptistewiel/?locale=en_US",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "rechQftxw4BNcracq"
+    ],
+    "id_founders": 102
+  },
+  {
+    "nom": "Perrot",
+    "prenom": "Guillaume",
+    "linkedin": "https://www.linkedin.com/in/guillaume-perrot-831b08149/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recfvxgxyvK1KpMEK"
+    ],
+    "id_founders": 37
+  },
+  {
+    "nom": "Sciberras",
+    "prenom": "Florent",
+    "linkedin": "https://www.linkedin.com/in/florent-sciberras-8a963313/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recfvxgxyvK1KpMEK"
+    ],
+    "id_founders": 36
+  },
+  {
+    "nom": "Espitallier",
+    "prenom": "Gaspard",
+    "linkedin": "https://www.linkedin.com/in/gaspard-espitallier-0037491bb/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recXhb333w4WgMpLp"
+    ],
+    "id_founders": 72
+  },
+  {
+    "nom": "Moustial",
+    "prenom": "Raphaëlle",
+    "linkedin": "https://www.linkedin.com/in/rapha%C3%ABlle-moustial-55314353/overlay/about-this-profile/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "rec8hyBxP5RAXSeX9"
+    ],
+    "id_founders": 12
+  },
+  {
+    "nom": "Riethmuller",
+    "prenom": "Nils",
+    "linkedin": "https://www.linkedin.com/in/nils-riethmuller/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "rec1jZq4XyjNBkd9g"
+    ],
+    "id_founders": 78
+  },
+  {
+    "nom": "Bessiere",
+    "prenom": "Thomas",
+    "linkedin": "https://www.linkedin.com/in/thomas-bessiere-hinfact/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "recyxgacPKh5SJohG"
+    ],
+    "id_founders": 21
+  },
+  {
+    "nom": "Hadife",
+    "prenom": "Mayssa",
+    "linkedin": "https://www.linkedin.com/in/mayssahadife/overlay/about-this-profile/",
+    "xhecbatch": "XH.24",
+    "startupList": [
+      "reckL9BuozB7QTBGn"
+    ],
+    "id_founders": 95
+  },
+  {
+    "nom": "Multrier",
+    "prenom": "Inès",
+    "linkedin": "https://www.linkedin.com/in/inesmultrier/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recuTR2frhV0WMQ5Z"
+    ],
+    "id_founders": 31
+  },
+  {
+    "nom": "Latouche",
+    "prenom": "Julien",
+    "linkedin": "https://www.linkedin.com/in/julien-latouche/overlay/about-this-profile/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "rec8hyBxP5RAXSeX9"
+    ],
+    "id_founders": 13
+  },
+  {
+    "nom": "Grosso",
+    "prenom": "Mathieu",
+    "linkedin": "https://www.linkedin.com/in/mathieu-grosso-5a0750143/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recsRBHembmauI5gk"
+    ],
+    "id_founders": 52
+  },
+  {
+    "nom": "Bruneau",
+    "prenom": "Audrey",
+    "linkedin": "https://www.linkedin.com/in/audreybruneau/overlay/about-this-profile/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recSnmOP0yYaSPVcW"
+    ],
+    "id_founders": 14
+  },
+  {
+    "nom": "Thierry",
+    "prenom": "Gabriel",
+    "linkedin": "https://www.linkedin.com/in/gabriel-thierry001/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "rechQftxw4BNcracq"
+    ],
+    "id_founders": 103
+  },
+  {
+    "nom": "Prétot",
+    "prenom": "Jules",
+    "linkedin": "https://www.linkedin.com/in/jules-pr%C3%A9tot-7060281b4/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "rec6A5sNxgewwQjxg"
+    ],
+    "id_founders": 55
+  },
+  {
+    "nom": "Dumas",
+    "prenom": "Wilfrid",
+    "linkedin": "https://www.linkedin.com/in/wilfriddumas/overlay/about-this-profile/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recL27iYTPpDFeECv"
+    ],
+    "id_founders": 5
+  },
+  {
+    "nom": "Kelly",
+    "prenom": "Joshua",
+    "linkedin": "https://www.linkedin.com/in/joshcdkelly/overlay/about-this-profile/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "recMUQuoqAwxmg4gi"
+    ],
+    "id_founders": 25
+  },
+  {
+    "nom": "du Pavillon",
+    "prenom": "Alain",
+    "linkedin": "https://www.linkedin.com/in/alain-du-pavillon-3b4264148/overlay/about-this-profile/",
+    "xhecbatch": "XH.25",
+    "startupList": [
+      "reczIXtBmOOolIEN9"
+    ],
+    "id_founders": 86
+  },
+  {
+    "nom": "Locqueville",
+    "prenom": "Octave",
+    "linkedin": "https://www.linkedin.com/in/octave-locqueville/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recuTR2frhV0WMQ5Z"
+    ],
+    "id_founders": 30
+  },
+  {
+    "nom": "Cruvellier",
+    "prenom": "Baptiste",
+    "linkedin": "https://www.linkedin.com/in/baptiste-cruvellier-405809222/",
+    "xhecbatch": "XH.25",
+    "startupList": [
+      "recctsySUYnBcJdzX"
+    ],
+    "id_founders": 119
+  },
+  {
+    "nom": "Starck",
+    "prenom": "Célim",
+    "linkedin": "https://www.linkedin.com/in/celim-starck/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recrgEFIN22NgScdr"
+    ],
+    "id_founders": 106
+  },
+  {
+    "nom": "Lerouxel",
+    "prenom": "François",
+    "linkedin": "https://www.linkedin.com/in/francoislerouxel/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recgHP0OqsWp0QWIh"
+    ],
+    "id_founders": 49
+  },
+  {
+    "nom": "Barras",
+    "prenom": "Hugo",
+    "linkedin": "https://www.linkedin.com/in/hugo-barras-6518871b8/",
+    "xhecbatch": "XH.25",
+    "startupList": [
+      "rec1KjlVF3hbiF4AZ"
+    ],
+    "id_founders": 113
+  },
+  {
+    "nom": "Girard",
+    "prenom": "Alexandre",
+    "linkedin": "https://www.linkedin.com/in/alexandre-girard-orus-energy/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recpsMV0PhAH7PlwT"
+    ],
+    "id_founders": 60
+  },
+  {
+    "nom": "Flageat",
+    "prenom": "Valentin",
+    "linkedin": "https://www.linkedin.com/in/valentinflageat/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recTLiq2VC0t5PFLd"
+    ],
+    "id_founders": 38
+  },
+  {
+    "nom": "Dana",
+    "prenom": "Charles",
+    "linkedin": "https://www.linkedin.com/in/charles-dana/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "rec98xm4aupWtH8VE"
+    ],
+    "id_founders": 74
+  },
+  {
+    "nom": "Rambaud",
+    "prenom": "Bastien",
+    "linkedin": "https://www.linkedin.com/in/bastien-rambaud-839337107/overlay/about-this-profile/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recL27iYTPpDFeECv"
+    ],
+    "id_founders": 6
+  },
+  {
+    "nom": "Lion",
+    "prenom": "Théo",
+    "linkedin": "https://www.linkedin.com/in/th%C3%A9o-lion-25108812a/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "recGSDZt641vR8yv4"
+    ],
+    "id_founders": 20
+  },
+  {
+    "nom": "Sisto",
+    "prenom": "Julia",
+    "linkedin": "https://www.linkedin.com/in/julia-sisto-32a673b2/overlay/about-this-profile/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "recMUQuoqAwxmg4gi"
+    ],
+    "id_founders": 24
+  },
+  {
+    "nom": "Mathian",
+    "prenom": "Léonie",
+    "linkedin": "https://www.linkedin.com/in/l%C3%A9onie-mathian-b9b65518b/overlay/about-this-profile/",
+    "xhecbatch": "XH.24",
+    "startupList": [
+      "recVDhtqmviYcfaTA"
+    ],
+    "id_founders": 92
+  },
+  {
+    "nom": "Minassian",
+    "prenom": "Thomas",
+    "linkedin": "https://www.linkedin.com/in/thomas-minassian-b25626102/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recXrNfWIQQshvXq3"
+    ],
+    "id_founders": 77
+  },
+  {
+    "nom": "Zibetti",
+    "prenom": "Greta",
+    "linkedin": "https://www.linkedin.com/in/greta-zibetti-4694a1127/overlay/about-this-profile/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "rectRgcSZTbVd09Ks"
+    ],
+    "id_founders": 11
+  },
+  {
+    "nom": "Kotait",
+    "prenom": "Christian",
+    "linkedin": "https://www.linkedin.com/in/christian-kotait-8a83151b8/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "rec2xN4oHI7jZqIDi"
+    ],
+    "id_founders": 65
+  },
+  {
+    "nom": "Stubler",
+    "prenom": "Oscar",
+    "linkedin": "https://www.linkedin.com/in/oscar-stubler-6708181a6/overlay/about-this-profile/",
+    "xhecbatch": "XH.23",
+    "startupList": [
+      "recXhb333w4WgMpLp"
+    ],
+    "id_founders": 71
+  },
+  {
+    "nom": "Fosse",
+    "prenom": "Louis",
+    "linkedin": "https://www.linkedin.com/in/louisfosse/",
+    "xhecbatch": "XH.20",
+    "startupList": [
+      "recH7mBlrIiDKmBGT"
+    ],
+    "id_founders": 96
+  },
+  {
+    "nom": "Berlan",
+    "prenom": "Ariane",
+    "linkedin": "https://www.linkedin.com/in/ariane-berlan-5084a814b/overlay/about-this-profile/",
+    "xhecbatch": "XH.21",
+    "startupList": [
+      "recPGLuULptbJwnTd"
+    ],
+    "id_founders": 28
+  },
+  {
+    "nom": "Heckel",
+    "prenom": "Bruno",
+    "linkedin": "https://www.linkedin.com/in/brunoheckel/overlay/about-this-profile/",
+    "xhecbatch": "XH.24",
+    "startupList": [
+      "reciCFOqtgMiCO5Ql"
+    ],
+    "id_founders": 89
+  },
+  {
+    "nom": "Marinier",
+    "prenom": "Hedi",
+    "linkedin": "https://www.linkedin.com/in/hedi-marinier-interfast/overlay/about-this-profile/",
+    "xhecbatch": "XH.22",
+    "startupList": [
+      "recZioZopqr9D1q1T"
+    ],
+    "id_founders": 45
+  }
+]
