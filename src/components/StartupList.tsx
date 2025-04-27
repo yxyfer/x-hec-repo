@@ -9,7 +9,7 @@ import SearchSortBar from './SearchSortBar';
 import CompanyCard from './CompanyCard';
 import NoResultsMessage from './NoResultsMessage';
 import { buildFacet, toggleValue } from '@/utils/utils';
-
+import { useIsMobile } from '@/utils/utils';
 
 type SortKey = 'default' | 'inception_year' | 'Sector' | 'Statut';
 
@@ -27,6 +27,7 @@ export default function CompanyDirectory() {
   const sectorFacet = useMemo(() => buildFacet(startups.map((s) => s.Sector)), []);
   const programmeFacet = useMemo(() => buildFacet(startups.map((s) => s.Programme || 'Unknown')), []);
 
+  const isMobile = useIsMobile();
   const filtered = useMemo(() => {
     const q = query.toLowerCase();
     const visible = startups
@@ -63,13 +64,14 @@ export default function CompanyDirectory() {
   }, [query, sortKey, sortOrder, years, sectors, programmes]);
 
   return (
-    <section className="container mx-auto px-8 py-10">
-      <h1 className="text-center font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:from-indigo-400 dark:via-purple-400 dark:to-pink-400">
-        Portfolio Companies
+    <section className=" px-8 py-10">
+      <h1 className="text-center font-extrabold text-5xl">
+        X-HEC Startups
       </h1>
 
       <div className="mt-10 flex gap-10">
         {/* Sidebar */}
+        {!isMobile ? (
         <aside className="sticky top-24 self-start w-80 shrink-0 space-y-10 rounded-3xl bg-white/70 dark:bg-white/10 backdrop-blur-md shadow-lg p-6 border border-white/40 dark:border-white/20">
           <FacetBlock
             title="Inception year"
@@ -96,6 +98,13 @@ export default function CompanyDirectory() {
             onToggle={(v) => toggleValue(v as string, programmes, setProgrammes)}
           />
         </aside>
+        ) : (
+          <aside className="hidden md:block sticky top-24 self-start w-80 shrink-0 space-y-10 rounded-3xl bg-white/70 dark:bg-white/10 backdrop-blur-md shadow-lg p-6 border border-white/40 dark:border-white/20">
+            <h1 className="text-center font-extrabold text-5xl">
+              X-HEC Startups
+            </h1>
+          </aside>
+        )}
 
         {/* Main content */}
         <div className="flex-1">
@@ -107,7 +116,7 @@ export default function CompanyDirectory() {
             sortOrder={sortOrder}
             toggleSortOrder={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}
           />
-          <div className="mt-10 grid gap-8 grid-cols-1">
+          <div className="grid mt-10 ">
             {filtered.map((company) => (
               <CompanyCard key={company.id_startup} company={company} />
             ))}

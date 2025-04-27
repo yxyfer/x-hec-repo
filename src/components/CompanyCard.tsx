@@ -11,70 +11,51 @@ export default function CompanyCard({ company }: CompanyCardProps) {
   const faviconUrl = company.lien_entreprise ? `https://www.google.com/s2/favicons?domain=${domain}&sz=128` : '';
 
   return (
-    <article
-      key={company.id_startup}
-      className="flex items-center bg-white rounded-2xl shadow-md p-6 max-w-2xl w-full"
-    >
-      {/* Logo à gauche */}
-      <div className="flex-shrink-0 mr-6">
-        {faviconUrl ? (
-          <img
-            src={faviconUrl}
-            alt={`${company.Startup} icon`}
-            className="h-16 w-16 object-contain rounded-full bg-[#F5F5F5]"
-          />
-        ) : (
-          <div className="h-16 w-16 bg-gray-200 rounded-full" />
-        )}
-      </div>
-      {/* Contenu à droite */}
-      <div className="flex-1 min-w-0">
-        <div className="flex items-center gap-2">
-          <h2 className="text-xl font-bold text-black">{company.Startup}</h2>
-          <span className="text-sm text-gray-500">{company.inception_year}</span>
+    <article className="w-full border border-[#E5E5E0] rounded-l px-8 py-6 mb-0">
+  <div className="relative flex w-full items-center justify-start">
+    {/* Logo */}
+    <div className="flex w-20 shrink-0 grow-0 basis-20 items-center pr-4">
+      {faviconUrl ? (
+        <img
+          src={faviconUrl}
+          alt={`${company.Startup} icon`}
+          className="rounded-full bg-gray-100 w-16 h-16"
+        />
+      ) : (
+        <div className="rounded-full bg-gray-100 w-16 h-16" />
+      )}
+    </div>
+    {/* Texte et tags */}
+    <div className="flex flex-1 items-center justify-between">
+      <div className="lg:max-w-[90%]">
+        <div>
+          <span className="font-bold text-xl align-middle">{company.Startup}</span>
+          <span className="ml-3 text-base text-gray-500 font-normal align-middle">{company.inception_year}</span>
         </div>
-        {/* Tags alignés horizontalement */}
-        <div className="mt-3 flex flex-wrap gap-2">
+        {/* Description si tu veux l’ajouter plus tard */}
+        {/* <div>
+          <span className="block mt-1 text-lg text-gray-700">Description ici</span>
+        </div> */}
+        <div className="flex gap-2 mt-2">
           {company.Programme && (
-            <span className="px-2 py-1 bg-[#F5F5F5] text-black text-xs font-medium rounded-md">
+            <span className="rounded-lg bg-[#EAEAE2] text-black text-sm font-medium px-3 py-1 tracking-wide">
               {company.Programme}
             </span>
           )}
           {company.Sector && (
-            <span className="px-2 py-1 bg-[#F5F5F5] text-black text-xs font-medium rounded-md">
+            <span className="rounded-lg bg-[#EAEAE2] text-black text-sm font-medium px-3 py-1 tracking-wide">
               {company.Sector}
             </span>
           )}
           {company.Statut && (
-            <span className="px-2 py-1 bg-[#F5F5F5] text-black text-xs font-medium rounded-md">
+            <span className="rounded-lg bg-[#EAEAE2] text-black text-sm font-medium px-3 py-1 tracking-wide">
               {company.Statut}
             </span>
           )}
         </div>
-        {/* Liens en bas */}
-        <div className="mt-4 flex gap-4 text-sm">
-          {company.lien_entreprise && (
-            <a
-              href={company.lien_entreprise}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-indigo-600 hover:underline"
-            >
-              Site web
-            </a>
-          )}
-          {company.Linkedin_entreprise && (
-            <a
-              href={company.Linkedin_entreprise}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-indigo-600 hover:underline"
-            >
-              LinkedIn
-            </a>
-          )}
-        </div>
       </div>
-    </article>
+    </div>
+  </div>
+</article>
   );
 }
