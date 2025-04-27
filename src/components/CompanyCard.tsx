@@ -1,5 +1,5 @@
 import React from 'react';
-import { Startup } from '@/types/startup';
+import { Startup } from '@/types/Startup';
 
 
 interface CompanyCardProps {
