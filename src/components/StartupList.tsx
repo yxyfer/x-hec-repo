@@ -4,6 +4,7 @@
 
 import { useState, useMemo } from 'react';
 import startups from '@/data/startups.json';
+import type { Startup as StartupType } from '@/types/Startup';
 import FacetBlock from './FacetBlock';
 import SearchSortBar from './SearchSortBar';
 import CompanyCard from './CompanyCard';
@@ -19,32 +20,43 @@ export default function CompanyDirectory() {
   const [sectors, setSectors] = useState<string[]>([]);
   const [programmes, setProgrammes] = useState<string[]>([]);
 
-  const yearFacet = useMemo(() => buildFacet(startups.map((s) => s.inception_year)), []);
-  const sectorFacet = useMemo(() => buildFacet(startups.map((s) => s.Sector)), []);
-  const programmeFacet = useMemo(() => buildFacet(startups.map((s) => s.Programme || 'Unknown')), []);
+  // Convertir les données brutes en objets typés Startup
+  const processedStartups = useMemo<StartupType[]>(
+    () =>
+      startups.map((s) => ({
+        id_startup: s.id_startup,
+        Startup: s.Startup,
+        inception_year: s.inception_year,
+        Linkedin_entreprise: s.Linkedin_entreprise ?? '',
+        lien_entreprise: s.lien_entreprise ?? '',
+        Programme: s.Programme && s.Programme.length > 0 ? s.Programme[0] : 'Unknown',
+        Founders: (s.Founders ?? []).join(', '),
+        Sector: s.Sector ?? 'Unknown',
+        '# FTEs (incl. founders)': s['# FTEs (incl. founders)'] ?? '',
+        Statut: s.Statut && s.Statut.length > 0 ? s.Statut[0] : '',
+        foundersList: (s.Founders ?? []).join(', '),
+      })),
+    []
+  );
+
+  const yearFacet = useMemo(() => buildFacet(processedStartups.map((s) => s.inception_year)), [processedStartups]);
+  const sectorFacet = useMemo(() => buildFacet(processedStartups.map((s) => s.Sector)), [processedStartups]);
+  const programmeFacet = useMemo(() => buildFacet(processedStartups.map((s) => s.Programme)), [processedStartups]);
 
   const isMobile = useIsMobile();
   const filtered = useMemo(() => {
     const q = query.toLowerCase();
-    const visible = startups
-      .map((s) => ({
-        ...s,
-        Founders: String(s.Founders), // Ensure Founders is always a string
-      }))
-      .filter((s) => {
-        const matchesQuery = [s.Startup, s.Sector, s.Statut, s.Programme]
-          .join(' ')
-          .toLowerCase()
-          .includes(q);
-        const matchesYear = years.length === 0 || years.includes(s.inception_year);
-        const matchesSector = sectors.length === 0 || sectors.includes(s.Sector);
-        const prog = s.Programme || 'Unknown';
-        const matchesProgramme = programmes.length === 0 || programmes.includes(prog);
-        return matchesQuery && matchesYear && matchesSector && matchesProgramme;
-      });
-
-    return visible;
-  }, [query, years, sectors, programmes]);
+    return processedStartups.filter((s) => {
+      const matchesQuery = [s.Startup, s.Sector, s.Statut, s.Programme]
+        .join(' ')
+        .toLowerCase()
+        .includes(q);
+      const matchesYear = years.length === 0 || years.includes(s.inception_year);
+      const matchesSector = sectors.length === 0 || sectors.includes(s.Sector);
+      const matchesProgramme = programmes.length === 0 || programmes.includes(s.Programme);
+      return matchesQuery && matchesYear && matchesSector && matchesProgramme;
+    });
+  }, [query, years, sectors, programmes, processedStartups]);
 
   return (
     <section className="w-full px-8 py-10">
