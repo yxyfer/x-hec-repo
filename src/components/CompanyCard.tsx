@@ -1,5 +1,6 @@
 import React from 'react';
-import { Startup } from './StartupList';
+import { Startup } from '@/types/startup';
+
 
 interface CompanyCardProps {
   company: Startup;

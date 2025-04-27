@@ -10,19 +10,6 @@ import CompanyCard from './CompanyCard';
 import NoResultsMessage from './NoResultsMessage';
 import { buildFacet, toggleValue } from '@/utils/utils';
 
-export type Startup = {
-  id_startup: number;
-  Startup: string;
-  inception_year: number;
-  Linkedin_entreprise: string;
-  lien_entreprise: string;
-  Programme: string;
-  Founders: string;
-  Sector: string;
-  '# FTEs (incl. founders)': string;
-  Statut: string;
-  foundersList: string;
-};
 
 type SortKey = 'default' | 'inception_year' | 'Sector' | 'Statut';
 
@@ -42,17 +29,22 @@ export default function CompanyDirectory() {
 
   const filtered = useMemo(() => {
     const q = query.toLowerCase();
-    const visible = startups.filter((s) => {
-      const matchesQuery = [s.Startup, s.Sector, s.Statut, s.Programme]
-        .join(' ')
-        .toLowerCase()
-        .includes(q);
-      const matchesYear = years.length === 0 || years.includes(s.inception_year);
-      const matchesSector = sectors.length === 0 || sectors.includes(s.Sector);
-      const prog = s.Programme || 'Unknown';
-      const matchesProgramme = programmes.length === 0 || programmes.includes(prog);
-      return matchesQuery && matchesYear && matchesSector && matchesProgramme;
-    });
+    const visible = startups
+      .map((s) => ({
+        ...s,
+        Founders: String(s.Founders), // Ensure Founders is always a string
+      }))
+      .filter((s) => {
+        const matchesQuery = [s.Startup, s.Sector, s.Statut, s.Programme]
+          .join(' ')
+          .toLowerCase()
+          .includes(q);
+        const matchesYear = years.length === 0 || years.includes(s.inception_year);
+        const matchesSector = sectors.length === 0 || sectors.includes(s.Sector);
+        const prog = s.Programme || 'Unknown';
+        const matchesProgramme = programmes.length === 0 || programmes.includes(prog);
+        return matchesQuery && matchesYear && matchesSector && matchesProgramme;
+      });
 
     visible.sort((a, b) => {
       const dir = sortOrder === 'asc' ? 1 : -1;
