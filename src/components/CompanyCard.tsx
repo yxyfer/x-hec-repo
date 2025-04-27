@@ -1,62 +1,75 @@
 import React from 'react';
 import { Startup } from '@/types/Startup';
 
-
 interface CompanyCardProps {
   company: Startup;
 }
 
 export default function CompanyCard({ company }: CompanyCardProps) {
+  const domain = company.lien_entreprise ? company.lien_entreprise.replace(/(^\w+:|^)\/\//, '').split('/')[0] : '';
+  const faviconUrl = company.lien_entreprise ? `https://www.google.com/s2/favicons?domain=${domain}&sz=128` : '';
+
+  const link = company.lien_entreprise || company.Linkedin_entreprise || '';
+
+  const WrapperLink = ({ children }: { children: React.ReactNode }) => (
+    link ? (
+      <a href={link} target="_blank" rel="noopener noreferrer" className="flex items-center">
+        {children}
+      </a>
+    ) : (
+      <>{children}</>
+    )
+  );
+
   return (
-    <article
-      key={company.id_startup}
-      className="relative overflow-hidden rounded-3xl bg-white dark:bg-white/5 shadow-xl transition-transform hover:-translate-y-1 hover:shadow-2xl group"
-    >
-      <span className="absolute inset-x-0 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" />
-      <div className="p-6 flex flex-col h-full">
-        <header>
-          <h2 className="text-lg font-semibold group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
-            {company.Startup}
-          </h2>
-          <p className="text-xs text-gray-500 dark:text-gray-400">Founded {company.inception_year}</p>
-        </header>
-        {company.Programme && (
-          <span className="mt-3 inline-block self-start rounded-full bg-indigo-50 dark:bg-indigo-400/20 text-indigo-600 dark:text-indigo-300 text-[10px] font-semibold px-2 py-1 uppercase tracking-wide">
-            {company.Programme}
-          </span>
-        )}
-        <dl className="mt-4 space-y-1 text-sm text-gray-600 dark:text-gray-300 flex-1">
-          <div className="flex justify-between">
-            <dt className="font-medium">Sector</dt>
-            <dd>{company.Sector}</dd>
+    <article className="w-full border border-[#E5E5E0] rounded-l px-8 py-6 mb-0">
+      <div className="relative flex w-full items-center justify-start">
+        {/* Logo */}
+        <div className="flex w-20 shrink-0 grow-0 basis-20 items-center pr-4">
+          <WrapperLink>
+            {faviconUrl ? (
+              <img
+                src={faviconUrl}
+                alt={`${company.Startup} icon`}
+                className="rounded-full bg-gray-100 w-16 h-16"
+              />
+            ) : (
+              <div className="rounded-full bg-gray-100 w-16 h-16" />
+            )}
+          </WrapperLink>
+        </div>
+
+        {/* Texte et tags */}
+        <div className="flex flex-1 items-center justify-between">
+          <div className="lg:max-w-[90%]">
+            <div>
+              <WrapperLink>
+                <span className="font-bold text-xl align-middle">{company.Startup}</span>
+              </WrapperLink>
+              <span className="ml-3 text-base text-gray-500 font-normal align-middle">
+                {company.inception_year}
+              </span>
+            </div>
+
+            <div className="flex gap-2 mt-2">
+              {company.Programme && (
+                <span className="rounded-lg bg-[#EAEAE2] text-black text-sm font-medium px-3 py-1 tracking-wide">
+                  {company.Programme}
+                </span>
+              )}
+              {company.Sector && (
+                <span className="rounded-lg bg-[#EAEAE2] text-black text-sm font-medium px-3 py-1 tracking-wide">
+                  {company.Sector}
+                </span>
+              )}
+              {company.Statut && (
+                <span className="rounded-lg bg-[#EAEAE2] text-black text-sm font-medium px-3 py-1 tracking-wide">
+                  {company.Statut}
+                </span>
+              )}
+            </div>
           </div>
-          <div className="flex justify-between">
-            <dt className="font-medium">Status</dt>
-            <dd>{company.Statut}</dd>
-          </div>
-        </dl>
-        <footer className="pt-4 flex gap-4 text-sm">
-          {company.lien_entreprise && (
-            <a
-              href={company.lien_entreprise}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-indigo-600 dark:text-indigo-400 hover:underline"
-            >
-              Website
-            </a>
-          )}
-          {company.Linkedin_entreprise && (
-            <a
-              href={company.Linkedin_entreprise}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-indigo-600 dark:text-indigo-400 hover:underline"
-            >
-              LinkedIn
-            </a>
-          )}
-        </footer>
+        </div>
       </div>
     </article>
   );
