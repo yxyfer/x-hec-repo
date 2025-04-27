@@ -13,6 +13,9 @@ export default function SiteNav() {
           <Link href="/startups" className="hover:underline underline-offset-4">
             Startups
           </Link>
+          <Link href="/founders" className="hover:underline underline-offset-4">
+            Fondateurs
+          </Link>
           <Link href="/xhec" className="hover:underline underline-offset-4">
             Program
           </Link>

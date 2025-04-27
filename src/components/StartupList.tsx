@@ -4,6 +4,7 @@
 
 import { useState, useMemo } from 'react';
 import startups from '@/data/startups.json';
+import foundersData from '@/data/founders.json';
 import type { Startup as StartupType } from '@/types/Startup';
 import FacetBlock from './FacetBlock';
 import SearchSortBar from './SearchSortBar';
@@ -20,6 +21,17 @@ export default function CompanyDirectory() {
   const [sectors, setSectors] = useState<string[]>([]);
   const [programmes, setProgrammes] = useState<string[]>([]);
 
+  // Créer un mapping de l'ID Airtable des fondateurs vers leurs données
+  const founderMap = useMemo(
+    () =>
+      foundersData.records.reduce((acc, rec) => {
+        const { prenom, nom } = rec.fields;
+        acc[rec.id] = { prenom, nom };
+        return acc;
+      }, {} as Record<string, { prenom: string; nom: string }>),
+    []
+  );
+
   // Convertir les données brutes en objets typés Startup
   const processedStartups = useMemo<StartupType[]>(
     () =>
@@ -30,11 +42,15 @@ export default function CompanyDirectory() {
         Linkedin_entreprise: s.Linkedin_entreprise ?? '',
         lien_entreprise: s.lien_entreprise ?? '',
         Programme: s.Programme && s.Programme.length > 0 ? s.Programme[0] : 'Unknown',
-        Founders: (s.Founders ?? []).join(', '),
+        Founders: (s.Founders ?? [])
+          .map((fid) => (founderMap[fid] ? `${founderMap[fid].prenom} ${founderMap[fid].nom}` : fid))
+          .join(', '),
         Sector: s.Sector ?? 'Unknown',
         '# FTEs (incl. founders)': s['# FTEs (incl. founders)'] ?? '',
         Statut: s.Statut && s.Statut.length > 0 ? s.Statut[0] : '',
-        foundersList: (s.Founders ?? []).join(', '),
+        foundersList: (s.Founders ?? [])
+          .map((fid) => (founderMap[fid] ? `${founderMap[fid].prenom} ${founderMap[fid].nom}` : fid))
+          .join(', '),
       })),
     []
   );
