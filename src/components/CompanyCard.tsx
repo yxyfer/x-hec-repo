@@ -7,43 +7,60 @@ interface CompanyCardProps {
 }
 
 export default function CompanyCard({ company }: CompanyCardProps) {
+  const domain = company.lien_entreprise ? company.lien_entreprise.replace(/(^\w+:|^)\/\//, '').split('/')[0] : '';
+  const faviconUrl = company.lien_entreprise ? `https://www.google.com/s2/favicons?domain=${domain}&sz=128` : '';
+
   return (
     <article
       key={company.id_startup}
-      className="relative overflow-hidden rounded-3xl bg-white dark:bg-white/5 shadow-xl transition-transform hover:-translate-y-1 hover:shadow-2xl group"
+      className="flex items-center bg-white rounded-2xl shadow-md p-6 max-w-2xl w-full"
     >
-      <span className="absolute inset-x-0 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" />
-      <div className="p-6 flex flex-col h-full">
-        <header>
-          <h2 className="text-lg font-semibold group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
-            {company.Startup}
-          </h2>
-          <p className="text-xs text-gray-500 dark:text-gray-400">Founded {company.inception_year}</p>
-        </header>
-        {company.Programme && (
-          <span className="mt-3 inline-block self-start rounded-full bg-indigo-50 dark:bg-indigo-400/20 text-indigo-600 dark:text-indigo-300 text-[10px] font-semibold px-2 py-1 uppercase tracking-wide">
-            {company.Programme}
-          </span>
+      {/* Logo à gauche */}
+      <div className="flex-shrink-0 mr-6">
+        {faviconUrl ? (
+          <img
+            src={faviconUrl}
+            alt={`${company.Startup} icon`}
+            className="h-16 w-16 object-contain rounded-full bg-[#F5F5F5]"
+          />
+        ) : (
+          <div className="h-16 w-16 bg-gray-200 rounded-full" />
         )}
-        <dl className="mt-4 space-y-1 text-sm text-gray-600 dark:text-gray-300 flex-1">
-          <div className="flex justify-between">
-            <dt className="font-medium">Sector</dt>
-            <dd>{company.Sector}</dd>
-          </div>
-          <div className="flex justify-between">
-            <dt className="font-medium">Status</dt>
-            <dd>{company.Statut}</dd>
-          </div>
-        </dl>
-        <footer className="pt-4 flex gap-4 text-sm">
+      </div>
+      {/* Contenu à droite */}
+      <div className="flex-1 min-w-0">
+        <div className="flex items-center gap-2">
+          <h2 className="text-xl font-bold text-black">{company.Startup}</h2>
+          <span className="text-sm text-gray-500">{company.inception_year}</span>
+        </div>
+        {/* Tags alignés horizontalement */}
+        <div className="mt-3 flex flex-wrap gap-2">
+          {company.Programme && (
+            <span className="px-2 py-1 bg-[#F5F5F5] text-black text-xs font-medium rounded-md">
+              {company.Programme}
+            </span>
+          )}
+          {company.Sector && (
+            <span className="px-2 py-1 bg-[#F5F5F5] text-black text-xs font-medium rounded-md">
+              {company.Sector}
+            </span>
+          )}
+          {company.Statut && (
+            <span className="px-2 py-1 bg-[#F5F5F5] text-black text-xs font-medium rounded-md">
+              {company.Statut}
+            </span>
+          )}
+        </div>
+        {/* Liens en bas */}
+        <div className="mt-4 flex gap-4 text-sm">
           {company.lien_entreprise && (
             <a
               href={company.lien_entreprise}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-600 dark:text-indigo-400 hover:underline"
+              className="text-indigo-600 hover:underline"
             >
-              Website
+              Site web
             </a>
           )}
           {company.Linkedin_entreprise && (
@@ -51,12 +68,12 @@ export default function CompanyCard({ company }: CompanyCardProps) {
               href={company.Linkedin_entreprise}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-600 dark:text-indigo-400 hover:underline"
+              className="text-indigo-600 hover:underline"
             >
               LinkedIn
             </a>
           )}
-        </footer>
+        </div>
       </div>
     </article>
   );

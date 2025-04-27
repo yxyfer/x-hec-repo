@@ -28,7 +28,7 @@ export default function SearchSortBar({
         onChange={(e) => setQuery(e.target.value)}
         className="w-full md:max-w-sm px-4 py-2 rounded-xl bg-white/90 dark:bg-white/5 border border-gray-300 dark:border-white/20 focus:ring-2 focus:ring-indigo-500 focus:outline-none text-sm placeholder-gray-400 dark:placeholder-gray-500"
       />
-      <div className="flex gap-2 w-full md:w-auto">
+      {/* <div className="flex gap-2 w-full md:w-auto">
         <select
           value={sortKey}
           onChange={(e) => setSortKey(e.target.value as SortKey)} // Cast to SortKey
@@ -47,7 +47,7 @@ export default function SearchSortBar({
         >
           {sortOrder === 'asc' ? '▲' : '▼'}
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
