@@ -1,6 +1,7 @@
 'use client';
 
 import SiteNav from '@/components/SiteNav';
+import { useState } from 'react';
 import foundersData from '@/data/founders.json';
 import type { Founder as FounderType } from '@/types/Founder';
 import FounderCard from '@/components/FounderCard';
@@ -14,16 +15,32 @@ export default function FoundersPage() {
     linkedin: rec.fields.linkedin,
     xhecbatch: rec.fields.xhecbatch,
   }));
+  const [search, setSearch] = useState('');
+  const filteredFounders = founders.filter((f) =>
+    `${f.prenom} ${f.nom}`.toLowerCase().includes(search.toLowerCase())
+  );
 
   return (
     <main className='font-sans text-blue-900 dark:text-blue-50'>
       <SiteNav />
       <section className='container mx-auto px-8 py-12'>
-        <h1 className='text-center font-extrabold text-5xl'>Fondateurs</h1>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8'>
-          {founders.map((founder) => (
+        <h1 className='text-center font-extrabold text-5xl'>Founders X-HEC</h1>
+        <div className="mt-6 mb-4">
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Rechercher un founder..."
+            className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-300"
+          />
+        </div>
+        <div className='flex flex-wrap justify-center gap-6'>
+          {filteredFounders.map((founder) => (
             <FounderCard key={founder.id} founder={founder} />
           ))}
+          {filteredFounders.length === 0 && (
+            <p className="text-center col-span-full">Aucun founder trouvé.</p>
+          )}
         </div>
       </section>
     </main>

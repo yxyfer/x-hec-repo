@@ -2,6 +2,7 @@
 
 import SiteNav from "@/components/SiteNav";
 import Link from 'next/link';
+import { DocumentTextIcon, BuildingOfficeIcon, UserGroupIcon } from '@heroicons/react/24/outline';
 
 const unicorns = [
   {
@@ -28,26 +29,35 @@ export default function XHECMasterPage() {
       <SiteNav />
 
       {/* HERO */}
-      <section className="bg-gradient-to-b from-blue-50 to-white dark:from-blue-950 dark:to-blue-900 py-20">
-        <div className="container mx-auto px-8 text-center max-w-4xl">
-          <h1 className="text-4xl sm:text-6xl font-extrabold leading-tight">
-            Founders et startups X-HEC
-          </h1>
-          
-          {/* Navigation principale */}
-          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://www.hec.edu/en/Master-of-Science-Entrepreneurs-google-ads?gbraid=0AAAAADelnyugHKGbB7qGWf4Pj-WH42kG1" className="inline-block rounded-full bg-blue-900 px-8 py-3 text-white font-semibold shadow hover:bg-blue-800 transition" target="_blank">
-              Site officiel du Master
-            </a>
-            <Link href="/startups" className="inline-block rounded-full bg-blue-700 px-8 py-3 text-white font-semibold shadow hover:bg-blue-600 transition">
-              Découvrir les startups
-            </Link>
-            <Link href="/founders" className="inline-block rounded-full bg-blue-700 px-8 py-3 text-white font-semibold shadow hover:bg-blue-600 transition">
-              Explorer les fondateurs
-            </Link>
-          </div>
-        </div>
-      </section>
+      <section className="bg-gray-50 py-16">
+  <div className="container mx-auto px-6 text-center max-w-3xl">
+    {/* Hero title */}
+    <h1 className="text-3xl sm:text-6xl font-extrabold text-gray-900 mb-4 leading-tight mt-12">
+      Founders & Startups X-HEC
+    </h1>
+
+    {/* Button group */}
+    <div className="flex flex-row sm:flex-row justify-center items-center gap-6 my-24">
+
+      {/* Outline buttons */}
+      <Link
+        href="/startups"
+        className="flex items-center space-x-2 px-6 py-3 border-2 border-blue-900 text-blue-900 rounded-lg hover:bg-blue-900 hover:text-white transition"
+      >
+        <BuildingOfficeIcon className="h-5 w-5" />
+        <span>Startups</span>
+      </Link>
+
+      <Link
+        href="/founders"
+        className="flex items-center space-x-2 px-6 py-3 border-2 border-blue-900 text-blue-900 rounded-lg hover:bg-blue-900 hover:text-white transition"
+      >
+        <UserGroupIcon className="h-5 w-5" />
+        <span>Founders</span>
+      </Link>
+    </div>
+  </div>
+</section>
 
       {/* UNICORN ALUMNI */}
       <section className="container mx-auto px-8 py-20 bg-blue-50/50 dark:bg-blue-950/20">
@@ -84,21 +94,6 @@ export default function XHECMasterPage() {
         </div>
       </section>
 
-      {/* REGISTRE X-HEC */}
-      <section className="container mx-auto px-8 py-16 text-center">
-        <h2 className="text-2xl font-bold mb-6">Explorez notre communauté d'entrepreneurs</h2>
-        <p className="max-w-2xl mx-auto mb-10 text-blue-800 dark:text-blue-200">
-          Notre registre complet des fondateurs et startups issus du programme X-HEC vous permet de découvrir et de vous connecter avec l'écosystème entrepreneurial.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/founders" className="inline-block rounded-full border border-blue-900 px-8 py-3 text-blue-900 font-semibold hover:bg-blue-900 hover:text-white transition">
-            Annuaire des fondateurs
-          </Link>
-          <Link href="/startups" className="inline-block rounded-full border border-blue-900 px-8 py-3 text-blue-900 font-semibold hover:bg-blue-900 hover:text-white transition">
-            Catalogue des startups
-          </Link>
-        </div>
-      </section>
     </main>
   );
 }
