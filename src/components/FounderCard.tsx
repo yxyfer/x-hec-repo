@@ -1,5 +1,5 @@
-import React from 'react';
-import type { Founder } from '@/types/Founder';
+import React from "react";
+import type { Founder } from "@/types/Founder";
 
 interface FounderCardProps {
   founder: Founder;
@@ -32,10 +32,10 @@ export default function FounderCard({ founder }: FounderCardProps) {
           viewBox="0 0 448 512"
           fill="currentColor"
         >
-          <path d="M100.28 448H7.4V148.9h92.88zm-46.44-344a53.82 53.82 0 1 1 53.81-53.82 53.82 53.82 0 0 1-53.8 53.82zM447.9 448h-92.68V302.4c0-34.72-.7-79.42-48.36-79.42-48.36 0-55.78 37.73-55.78 76.7V448h-92.8V148.9H255v40.8h1.3c12.9-24.4 44.4-50.1 91.3-50.1 97.6 0 115.6 64.2 115.6 147.5V448z"/>
+          <path d="M100.28 448H7.4V148.9h92.88zm-46.44-344a53.82 53.82 0 1 1 53.81-53.82 53.82 53.82 0 0 1-53.8 53.82zM447.9 448h-92.68V302.4c0-34.72-.7-79.42-48.36-79.42-48.36 0-55.78 37.73-55.78 76.7V448h-92.8V148.9H255v40.8h1.3c12.9-24.4 44.4-50.1 91.3-50.1 97.6 0 115.6 64.2 115.6 147.5V448z" />
         </svg>
         <span>Voir le profil LinkedIn</span>
       </a>
     </article>
   );
-} 
+}

@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import SiteNav from '@/components/SiteNav';
-import StartupList from '@/components/StartupList';
+import SiteNav from "@/components/SiteNav";
+import StartupList from "@/components/StartupList";
 
 export default function StartupsPage() {
   return (

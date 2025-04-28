@@ -1,26 +1,34 @@
-import React from 'react';
+import React from "react";
 /* eslint-disable @next/next/no-img-element */
-import { Startup } from '@/types/Startup';
+import { Startup } from "@/types/Startup";
 
 interface CompanyCardProps {
   company: Startup;
 }
 
 export default function CompanyCard({ company }: CompanyCardProps) {
-  const domain = company.lien_entreprise ? company.lien_entreprise.replace(/(^\w+:|^)\/\//, '').split('/')[0] : '';
-  const faviconUrl = company.lien_entreprise ? `https://www.google.com/s2/favicons?domain=${domain}&sz=128` : '';
+  const domain = company.lien_entreprise
+    ? company.lien_entreprise.replace(/(^\w+:|^)\/\//, "").split("/")[0]
+    : "";
+  const faviconUrl = company.lien_entreprise
+    ? `https://www.google.com/s2/favicons?domain=${domain}&sz=128`
+    : "";
 
-  const link = company.lien_entreprise || company.Linkedin_entreprise || '';
+  const link = company.lien_entreprise || company.Linkedin_entreprise || "";
 
-  const WrapperLink = ({ children }: { children: React.ReactNode }) => (
+  const WrapperLink = ({ children }: { children: React.ReactNode }) =>
     link ? (
-      <a href={link} target="_blank" rel="noopener noreferrer" className="flex items-center">
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center"
+      >
         {children}
       </a>
     ) : (
       <>{children}</>
-    )
-  );
+    );
 
   return (
     <article className="w-full border border-[#E5E5E0] rounded-l px-8 py-6 mb-0">
@@ -45,7 +53,9 @@ export default function CompanyCard({ company }: CompanyCardProps) {
           <div className="lg:max-w-[90%]">
             <div>
               <WrapperLink>
-                <span className="font-bold text-xl align-middle">{company.Startup}</span>
+                <span className="font-bold text-xl align-middle">
+                  {company.Startup}
+                </span>
               </WrapperLink>
               <span className="ml-3 text-base text-gray-500 font-normal align-middle">
                 {company.inception_year}
@@ -53,23 +63,24 @@ export default function CompanyCard({ company }: CompanyCardProps) {
             </div>
 
             <div className="flex gap-2 mt-2">
-              {company.Programme && company.Programme !== 'Unknown' && (
+              {company.Programme && company.Programme !== "Unknown" && (
                 <span className="rounded-lg bg-[#EAEAE2] text-black text-sm font-medium px-3 py-1 tracking-wide">
                   {company.Programme}
                 </span>
               )}
-              {company.Sector && company.Sector !== 'Unknown' && (
+              {company.Sector && company.Sector !== "Unknown" && (
                 <span className="rounded-lg bg-[#EAEAE2] text-black text-sm font-medium px-3 py-1 tracking-wide">
                   {company.Sector}
                 </span>
               )}
-              {company.Statut && company.Statut !== 'Unknown' && (
+              {company.Statut && company.Statut !== "Unknown" && (
                 <span className="rounded-lg bg-[#EAEAE2] text-black text-sm font-medium px-3 py-1 tracking-wide flex items-center">
-            {company.Statut} {company.Statut === 'En activité' ? (
-  <span className="inline-block w-4 h-4 bg-green-500 rounded-full ml-2"></span>
-) : (
-  <span className="inline-block w-4 h-4 bg-red-500 rounded-full ml-2"></span>
-)}
+                  {company.Statut}{" "}
+                  {company.Statut === "En activité" ? (
+                    <span className="inline-block w-4 h-4 bg-green-500 rounded-full ml-2"></span>
+                  ) : (
+                    <span className="inline-block w-4 h-4 bg-red-500 rounded-full ml-2"></span>
+                  )}
                 </span>
               )}
             </div>
