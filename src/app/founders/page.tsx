@@ -1,30 +1,29 @@
-'use client';
+"use client";
 
-import SiteNav from '@/components/SiteNav';
-import { useState } from 'react';
-import foundersData from '@/data/founders.json';
-import type { Founder as FounderType } from '@/types/Founder';
-import FounderCard from '@/components/FounderCard';
+import SiteNav from "@/components/SiteNav";
+import { useState } from "react";
+import foundersData from "@/data/founders.json";
+import type { Founder as FounderType } from "@/types/Founder";
+import FounderCard from "@/components/FounderCard";
 
 export default function FoundersPage() {
-  const founders: FounderType[] = foundersData.records.map((rec) => ({
-    id: rec.id,
-    id_founders: rec.fields.id_founders,
-    prenom: rec.fields.prenom,
-    nom: rec.fields.nom,
-    linkedin: rec.fields.linkedin,
-    xhecbatch: rec.fields.xhecbatch,
+  const foundersList: FounderType[] = foundersData.map((founder) => ({
+    id_founders: founder.id_founders.toString(),
+    prenom: founder.prenom,
+    nom: founder.nom,
+    linkedin: founder.linkedin,
+    xhecbatch: founder.xhecbatch,
   }));
-  const [search, setSearch] = useState('');
-  const filteredFounders = founders.filter((f) =>
+  const [search, setSearch] = useState("");
+  const filteredFounders = foundersList.filter((f) =>
     `${f.prenom} ${f.nom}`.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
-    <main className='font-sans text-blue-900 dark:text-blue-50'>
+    <main className="font-sans text-blue-900 dark:text-blue-50">
       <SiteNav />
-      <section className='container mx-auto px-8 py-12'>
-        <h1 className='text-center font-extrabold text-5xl'>Founders X-HEC</h1>
+      <section className="container mx-auto px-8 py-12">
+        <h1 className="text-center font-extrabold text-5xl">Founders X-HEC</h1>
         <div className="mt-6 mb-4">
           <input
             type="text"
@@ -34,9 +33,9 @@ export default function FoundersPage() {
             className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-300"
           />
         </div>
-        <div className='flex flex-wrap justify-center gap-6'>
+        <div className="flex flex-wrap justify-center gap-6">
           {filteredFounders.map((founder) => (
-            <FounderCard key={founder.id} founder={founder} />
+            <FounderCard key={founder.id_founders} founder={founder} />
           ))}
           {filteredFounders.length === 0 && (
             <p className="text-center col-span-full">Aucun founder trouvé.</p>
@@ -45,4 +44,4 @@ export default function FoundersPage() {
       </section>
     </main>
   );
-} 
+}

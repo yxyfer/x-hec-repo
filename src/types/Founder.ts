@@ -1,8 +1,7 @@
 export type Founder = {
-  id: string;
-  id_founders: number;
+  id_founders: string;
   prenom: string;
   nom: string;
   linkedin: string;
   xhecbatch: string;
-}; 
+};
