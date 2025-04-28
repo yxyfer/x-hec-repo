@@ -35,32 +35,36 @@ export default function CompanyDirectory() {
   // Convertir les données brutes en objets typés Startup
   const processedStartups = useMemo<StartupType[]>(
     () =>
-      startups.map((s) => ({
-        id_startup: s.id_startup,
-        Startup: s.Startup,
-        inception_year: s.inception_year,
-        Linkedin_entreprise: s.Linkedin_entreprise ?? "",
-        lien_entreprise: s.lien_entreprise ?? "",
-        Programme:
-          s.Programme && s.Programme.length > 0 ? s.Programme[0] : "Unknown",
-        Founders: (s.Founders ?? [])
-          .map((fid) =>
-            founderMap[fid]
-              ? `${founderMap[fid].prenom} ${founderMap[fid].nom}`
-              : fid
-          )
-          .join(", "),
-        Sector: s.Sector ?? "Unknown",
-        "# FTEs (incl. founders)": s["# FTEs (incl. founders)"] ?? "",
-        Statut: s.Statut && s.Statut.length > 0 ? s.Statut[0] : "",
-        foundersList: (s.Founders ?? [])
-          .map((fid) =>
-            founderMap[fid]
-              ? `${founderMap[fid].prenom} ${founderMap[fid].nom}`
-              : fid
-          )
-          .join(", "),
-      })),
+      startups
+        .filter((s): s is typeof s => s !== null && s !== undefined) // First filter invalid entries
+        .map((s) => {
+          const founderNames = Array.isArray(s.Founders)
+            ? s.Founders.map((fid) =>
+                founderMap[fid]
+                  ? `${founderMap[fid].prenom} ${founderMap[fid].nom}`
+                  : fid
+              )
+            : [];
+
+          return {
+            id_startup: s.id_startup ?? 0,
+            Startup: s.Startup ?? "",
+            inception_year: s.inception_year ?? 0,
+            Linkedin_entreprise: s.Linkedin_entreprise ?? "",
+            lien_entreprise: s.lien_entreprise ?? "",
+            Programme:
+              Array.isArray(s.Programme) && s.Programme.length > 0
+                ? s.Programme[0]
+                : "Unknown",
+            Founders: founderNames, // Keep Founders as array of strings
+            Sector: s.Sector ?? "Unknown",
+            "# FTEs (incl. founders)": s["# FTEs (incl. founders)"] ?? "",
+            Statut:
+              Array.isArray(s.Statut) && s.Statut.length > 0 ? s.Statut[0] : "",
+            foundersList: founderNames.join(", "), // For UI display
+            FounderIds: Array.isArray(s.Founders) ? s.Founders : [],
+          };
+        }),
     [founderMap]
   );
 

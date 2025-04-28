@@ -6,7 +6,8 @@ export type Startup = {
   Linkedin_entreprise: string;
   lien_entreprise: string;
   Programme: string;
-  Founders: string;
+  Founders: string[];
+  FounderIds: number[];
   Sector: string;
   "# FTEs (incl. founders)": string | number;
   Statut: string;
