@@ -7,22 +7,12 @@ import type { Founder as FounderType } from "@/types/Founder";
 import FounderCard from "@/components/FounderCard";
 
 export default function FoundersPage() {
-<<<<<<< HEAD
   const foundersList: FounderType[] = foundersData.map((founder) => ({
     id_founders: founder.id_founders.toString(),
     prenom: founder.prenom,
     nom: founder.nom,
     linkedin: founder.linkedin,
     xhecbatch: founder.xhecbatch,
-=======
-  const founders: FounderType[] = foundersData.map((rec) => ({
-    id: rec.id_founders.toString(),
-    id_founders: rec.id_founders,
-    prenom: rec.prenom,
-    nom: rec.nom,
-    linkedin: rec.linkedin,
-    xhecbatch: rec.xhecbatch,
->>>>>>> 0c416c7 (added better visual on phones)
   }));
   const [search, setSearch] = useState("");
   const filteredFounders = foundersList.filter((f) =>
