@@ -24,8 +24,8 @@ export default function CompanyDirectory() {
   // Créer un mapping de l'ID Airtable des fondateurs vers leurs données
   const founderMap = useMemo(
     () =>
-      foundersData.reduce((acc, founder) => {
-        const { prenom, nom, id_founders } = founder;
+      foundersData.reduce((acc, rec) => {
+        const { prenom, nom, id_founders } = rec;
         acc[id_founders.toString()] = { prenom, nom };
         return acc;
       }, {} as Record<string, { prenom: string; nom: string }>),
@@ -95,10 +95,10 @@ export default function CompanyDirectory() {
   }, [query, years, sectors, programmes, processedStartups]);
 
   return (
-    <section className="w-full px-8 py-10">
+    <section className="w-full py-10">
       <h1 className="text-center font-extrabold text-5xl">X-HEC Startups</h1>
 
-      <div className="mt-10 flex gap-10">
+      <div className="mt-10 flex flex-row md:flex-row gap-10">
         {/* Sidebar */}
         {!isMobile ? (
           <aside className="sticky top-24 self-start w-80 shrink-0 space-y-10 rounded-3xl bg-white/70 dark:bg-white/10 backdrop-blur-md shadow-lg p-6 border border-white/40 dark:border-white/20">
@@ -139,8 +139,11 @@ export default function CompanyDirectory() {
 
         {/* Main content */}
         <div className="flex-1">
-          <SearchSortBar query={query} setQuery={setQuery} />
-          <div className="grid mt-10 ">
+          <SearchSortBar
+            query={query}
+            setQuery={setQuery}
+          />
+          <div className="grid w-full grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-6 mt-10 ">
             {filtered.map((company) => (
               <CompanyCard key={company.id_startup} company={company} />
             ))}
