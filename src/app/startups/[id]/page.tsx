@@ -1,5 +1,7 @@
 import foundersData from "@/data/founders.json";
 import startups from "@/data/startups.json";
+import { SiteNav } from "@/components/layout";
+import { LinkedInLink } from "@/components/LinkedInLink";
 
 import { Startup as StartupType } from "@/types/Startup";
 
@@ -41,24 +43,34 @@ export default async function StartupPage({
   const link = startup.lien_entreprise || startup.Linkedin_entreprise || "";
 
   return (
-    // <div className="max-w-6xl mx-auto p-8">
-    <div className="mx-auto max-w-3xl lg:mx-0">
-      {/* Header Section */}
-      <StartupHeader
-        name={startup.Startup}
-        sector={startup.Sector}
-        faviconUrl={faviconUrl}
-        link={link}
-      />
+    <>
+      <SiteNav />
+      <div className="min-h-[calc(100vh-88px)] bg-gray-50 pt-[88px]">
+        <div className="container mx-auto px-4 py-12 max-w-4xl">
+          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 md:p-8">
+            {/* Header Section */}
+            <StartupHeader
+              name={startup.Startup}
+              sector={startup.Sector}
+              faviconUrl={faviconUrl}
+              link={link}
+            />
 
-      {/* Website Link */}
-      <StartupLink link={link} />
+            {/* Website Link */}
+            <StartupLink link={link} />
 
-      {/* Description Section */}
-      <StartupDescription programme={startup.Programme} />
+            {/* LinkedIn Link */}
+            <LinkedInLink url={startup.Linkedin_entreprise} />
+            
+            {/* Description Section */}
+            <StartupDescription programme={startup.Programme} />
 
-      {/* Founders Section */}
-      <StartupFounders startup={startup} />
-    </div>
+
+            {/* Founders Section */}
+            <StartupFounders startup={startup} />
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
