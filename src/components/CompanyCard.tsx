@@ -7,14 +7,14 @@ interface CompanyCardProps {
 }
 
 export default function CompanyCard({ company }: CompanyCardProps) {
-  const domain = company.lien_entreprise
-    ? company.lien_entreprise.replace(/(^\w+:|^)\/\//, "").split("/")[0]
+  const domain = company.websiteUrl
+    ? company.websiteUrl.replace(/(^\w+:|^)\/\//, "").split("/")[0]
     : "";
-  const faviconUrl = company.lien_entreprise
+  const faviconUrl = company.websiteUrl
     ? `https://www.google.com/s2/favicons?domain=${domain}&sz=128`
     : "";
 
-  const link = company.lien_entreprise || company.Linkedin_entreprise || "";
+  const link = company.websiteUrl || company.linkedinUrl || "";
 
   const WrapperLink = ({ children }: { children: React.ReactNode }) =>
     link ? (
@@ -39,7 +39,7 @@ export default function CompanyCard({ company }: CompanyCardProps) {
             {faviconUrl ? (
               <img
                 src={faviconUrl}
-                alt={`${company.Startup} icon`}
+                alt={`${company.name} icon`}
                 className="rounded-full bg-gray-100 w-16 h-16"
               />
             ) : (
@@ -54,29 +54,29 @@ export default function CompanyCard({ company }: CompanyCardProps) {
             <div>
               <WrapperLink>
                 <span className="font-bold text-xl align-middle">
-                  {company.Startup}
+                  {company.name}
                 </span>
               </WrapperLink>
               <span className="ml-3 text-base text-gray-500 font-normal align-middle">
-                {company.inception_year}
+                {company.inceptionYear}
               </span>
             </div>
 
             <div className="flex gap-2 mt-2">
-              {company.Programme && company.Programme !== "Unknown" && (
+              {company.program && company.program !== "Unknown" && (
                 <span className="rounded-lg bg-[#EAEAE2] text-black text-sm font-medium px-3 py-1 tracking-wide">
-                  {company.Programme}
+                  {company.program}
                 </span>
               )}
-              {company.Sector && company.Sector !== "Unknown" && (
+              {company.sector && company.sector !== "Unknown" && (
                 <span className="rounded-lg bg-[#EAEAE2] text-black text-sm font-medium px-3 py-1 tracking-wide">
-                  {company.Sector}
+                  {company.sector}
                 </span>
               )}
-              {company.Statut && company.Statut !== "Unknown" && (
+              {company.status && company.status !== "Unknown" && (
                 <span className="rounded-lg bg-[#EAEAE2] text-black text-sm font-medium px-3 py-1 tracking-wide flex items-center">
-                  {company.Statut}{" "}
-                  {company.Statut === "En activité" ? (
+                  {company.status}{" "}
+                  {company.status === "En activité" ? (
                     <span className="inline-block w-4 h-4 bg-green-500 rounded-full ml-2"></span>
                   ) : (
                     <span className="inline-block w-4 h-4 bg-red-500 rounded-full ml-2"></span>
@@ -85,9 +85,9 @@ export default function CompanyCard({ company }: CompanyCardProps) {
               )}
             </div>
 
-            {company.Linkedin_entreprise && (
+            {company.linkedinUrl && (
               <a
-                href={company.Linkedin_entreprise}
+                href={company.linkedinUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center mt-2 text-sm text-blue-500 hover:underline"

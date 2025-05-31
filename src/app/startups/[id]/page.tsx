@@ -1,5 +1,6 @@
 import startups from "@/data/startups.json";
 import { SiteNav } from "@/components/layout";
+import { transformLegacyStartup } from "@/utils/data-transform";
 
 import { Startup as StartupType } from "@/types/Startup";
 
@@ -22,23 +23,26 @@ export default async function StartupPage({
 }) {
   const { id } = await params;
 
-  const startup: StartupType | undefined = startups.find(
+  const rawStartup = startups.find(
     (s) => s.id_startup.toString() === id
   );
 
-  if (!startup) {
+  if (!rawStartup) {
     notFound();
     return;
   }
 
-  const domain = startup.lien_entreprise
-    ? startup.lien_entreprise.replace(/(^\w+:|^)\/\//, "").split("/")[0]
+  // Transform the raw data to match the Startup interface
+  const startup: StartupType = transformLegacyStartup(rawStartup);
+
+  const domain = startup.websiteUrl
+    ? startup.websiteUrl.replace(/(^\w+:|^)\/\//, "").split("/")[0]
     : "";
-  const faviconUrl = startup.lien_entreprise
+  const faviconUrl = startup.websiteUrl
     ? `https://www.google.com/s2/favicons?domain=${domain}&sz=128`
     : "";
 
-  const link = startup.lien_entreprise || startup.Linkedin_entreprise || "";
+  const link = startup.websiteUrl || startup.linkedinUrl || "";
 
   return (
     <>
@@ -48,8 +52,8 @@ export default async function StartupPage({
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 md:p-8">
             {/* Header Section */}
             <StartupHeader
-              name={startup.Startup}
-              sector={startup.Sector}
+              name={startup.name}
+              sector={startup.sector}
               faviconUrl={faviconUrl}
               link={link}
             />
@@ -58,7 +62,7 @@ export default async function StartupPage({
             <StartupLink link={link} />
             
             {/* Description Section */}
-            <StartupDescription programme={startup.Programme} />
+            <StartupDescription programme={startup.program} />
 
             {/* Founders Section */}
             <StartupFounders startup={startup} />

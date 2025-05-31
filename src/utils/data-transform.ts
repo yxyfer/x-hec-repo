@@ -11,8 +11,8 @@ interface LegacyStartup {
   Linkedin_entreprise: string;
   lien_entreprise: string;
   Programme: string;
-  Founders: string;
-  FounderIds: string;
+  Founders: string | number;
+  FounderIds: string | number;
   Sector: string;
   "# FTEs (incl. founders)": string | number;
   Statut: string;
@@ -41,8 +41,8 @@ export const transformLegacyStartup = (legacy: LegacyStartup): Startup => ({
   linkedinUrl: legacy.Linkedin_entreprise,
   websiteUrl: legacy.lien_entreprise,
   program: legacy.Programme,
-  founders: legacy.Founders,
-  founderIds: legacy.FounderIds,
+  founders: String(legacy.Founders),
+  founderIds: String(legacy.FounderIds),
   sector: legacy.Sector,
   employeeCount: legacy["# FTEs (incl. founders)"],
   status: legacy.Statut,

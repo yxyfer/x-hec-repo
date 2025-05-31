@@ -2,6 +2,7 @@ import React from "react";
 
 import { Startup as StartupType } from "@/types/Startup";
 import foundersData from "@/data/founders.json";
+import { transformLegacyFounders } from "@/utils/data-transform";
 
 import { Founder as FounderType } from "@/types/Founder";
 
@@ -10,18 +11,18 @@ interface StartupProps {
 }
 
 export default function StartupFounders({ startup }: StartupProps) {
-  const founderMap = foundersData.reduce((acc, founder) => {
-    acc[founder.id_founders.toString()] = {
-      ...founder,
-      id_founders: founder.id_founders.toString(),
-    };
+  // Transform founders data to the new interface format
+  const transformedFounders = transformLegacyFounders(foundersData);
+  
+  const founderMap = transformedFounders.reduce((acc, founder) => {
+    acc[founder.id] = founder;
     return acc;
   }, {} as Record<string, FounderType>);
 
-  const founderIdsArray = Array.isArray(startup.FounderIds)
-    ? startup.FounderIds
-    : typeof startup.FounderIds === "string"
-    ? startup.FounderIds.split(/[,;]+/)
+  const founderIdsArray = Array.isArray(startup.founderIds)
+    ? startup.founderIds
+    : typeof startup.founderIds === "string"
+    ? startup.founderIds.split(/[,;]+/)
         .map((s: string) => s.trim())
         .filter(Boolean)
     : [];
@@ -29,11 +30,12 @@ export default function StartupFounders({ startup }: StartupProps) {
   const resolveFounders =
     founderIdsArray.length > 0
       ? founderIdsArray.map(
-          (fid: string | number) => founderMap[fid] ?? "Unknown"
-        )
-      : ["Unknown"];
+          (fid: string | number) => founderMap[fid.toString()] ?? null
+        ).filter(Boolean)
+      : [];
 
   const founders = resolveFounders;
+  
   return (
     <div className="bg-white py-24 sm:py-32">
       {/* <div className="mx-auto max-w-7xl px-6 lg:px-8"> */}
@@ -59,15 +61,15 @@ export default function StartupFounders({ startup }: StartupProps) {
                 className="mx-auto w-24 rounded-full"
               />
               <h3 className="mt-6 text-base/7 font-semibold tracking-tight text-gray-900">
-                {founder.prenom} {founder.nom}
+                {founder.firstName} {founder.lastName}
               </h3>
               <p className="text-sm/6 text-gray-600">
-                co-founder | {founder.xhecbatch}
+                co-founder | {founder.batch}
               </p>
               <ul role="list" className="flex justify-center gap-x-6">
                 <li>
                   <a
-                    href={founder.linkedin}
+                    href={founder.linkedinUrl}
                     className="text-gray-400 hover:text-gray-300"
                   >
                     <span className="sr-only">LinkedIn</span>
