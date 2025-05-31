@@ -2,14 +2,13 @@
 
 // ── imports ───────────────────────────────────────────
 
-import { useState, useMemo } from "react";
+import React, { memo, useMemo, useState, useCallback } from "react";
 import startups from "@/data/startups.json";
 import foundersData from "@/data/founders.json";
 import type { Startup } from "@/types";
 import { StartupCard } from "@/components/features";
 import { transformLegacyStartups } from "@/utils/data-transform";
 import FacetBlock from "./FacetBlock";
-import SearchSortBar from "./SearchSortBar";
 import NoResultsMessage from "./NoResultsMessage";
 import { buildFacet, toggleValue } from "@/utils/utils";
 import { useIsMobile } from "@/utils/utils";

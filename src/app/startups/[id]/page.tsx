@@ -1,4 +1,3 @@
-import foundersData from "@/data/founders.json";
 import startups from "@/data/startups.json";
 import { SiteNav } from "@/components/layout";
 

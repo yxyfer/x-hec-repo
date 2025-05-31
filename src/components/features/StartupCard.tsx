@@ -14,17 +14,16 @@ export const StartupCard = memo<StartupCardProps>(({ startup, className = '' }) 
   const [isLoading, setIsLoading] = useState(true);
 
   // Memoize computed values to avoid recalculation on each render
-  const { domain, faviconUrl, primaryLink, initials, avatarColor } = useMemo(() => {
+  const { faviconUrl, initials, avatarColor } = useMemo(() => {
     const domain = extractDomain(websiteUrl);
     const faviconUrl = domain 
       ? `https://www.google.com/s2/favicons?domain=${domain}&sz=128`
       : '';
-    const primaryLink = websiteUrl || linkedinUrl || '';
     const initials = getInitials(name);
     const avatarColor = getAvatarColor(name);
 
-    return { domain, faviconUrl, primaryLink, initials, avatarColor };
-  }, [websiteUrl, linkedinUrl, name]);
+    return { faviconUrl, initials, avatarColor };
+  }, [websiteUrl, name]);
 
   const getStatusColor = (status: string): string => {
     switch (status as StartupStatus) {
