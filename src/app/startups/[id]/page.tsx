@@ -1,7 +1,6 @@
 import foundersData from "@/data/founders.json";
 import startups from "@/data/startups.json";
 import { SiteNav } from "@/components/layout";
-import { LinkedInLink } from "@/components/LinkedInLink";
 
 import { Startup as StartupType } from "@/types/Startup";
 
@@ -58,13 +57,9 @@ export default async function StartupPage({
 
             {/* Website Link */}
             <StartupLink link={link} />
-
-            {/* LinkedIn Link */}
-            <LinkedInLink url={startup.Linkedin_entreprise} />
             
             {/* Description Section */}
             <StartupDescription programme={startup.Programme} />
-
 
             {/* Founders Section */}
             <StartupFounders startup={startup} />

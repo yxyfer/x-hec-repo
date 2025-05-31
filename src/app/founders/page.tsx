@@ -58,7 +58,7 @@ export const FoundersPage = () => {
             >
               <div className="bg-white rounded-xl p-8 shadow-sm border border-slate-200">
                 <p className="text-slate-500 text-lg">
-                  Aucun founder trouvé pour "{search}"
+                  Aucun founder trouvé pour &quot;{search}&quot;
                 </p>
               </div>
             </div>

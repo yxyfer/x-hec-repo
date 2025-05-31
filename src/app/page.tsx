@@ -1,11 +1,9 @@
 "use client";
-/* eslint-disable @next/next/no-img-element */
 
 import Image from "next/image";
 import Link from "next/link";
 import { BuildingOfficeIcon, UserGroupIcon } from "@heroicons/react/24/outline";
 import { SiteNav } from "@/components/layout/SiteNav";
-import { Button } from "@/components/ui";
 
 /**
  * Data for unicorn companies featured on the homepage
