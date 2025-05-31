@@ -6,7 +6,7 @@ import { StartupList } from "@/components/StartupList";
 /**
  * Startups page component displaying all startups in the X-HEC portfolio
  */
-export const StartupsPage = () => {
+export default function StartupsPage() {
   return (
     <main className="font-sans text-blue-900 dark:text-blue-50">
       <SiteNav />
@@ -15,6 +15,4 @@ export const StartupsPage = () => {
       </section>
     </main>
   );
-};
-
-export default StartupsPage;
+}
