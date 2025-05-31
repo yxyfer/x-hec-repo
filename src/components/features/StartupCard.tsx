@@ -1,28 +1,29 @@
-import React, { memo, useMemo } from 'react';
+import React, { memo, useMemo, useState, useCallback } from 'react';
 import Image from 'next/image';
 import { StartupCardProps, StartupStatus } from '@/types/Startup';
+import { extractDomain, getAvatarColor, getInitials } from '@/utils/favicon';
 
 /**
  * Card component for displaying startup information
- * Optimized for performance with React.memo and proper image handling
+ * Optimized for performance with React.memo and robust image handling
  */
 export const StartupCard = memo<StartupCardProps>(({ startup, className = '' }) => {
   const { websiteUrl, linkedinUrl, name, inceptionYear, program, sector, status } = startup;
+  const [imageError, setImageError] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   // Memoize computed values to avoid recalculation on each render
-  const { domain, faviconUrl, primaryLink } = useMemo(() => {
-    const domain = websiteUrl
-      ? websiteUrl.replace(/(^\w+:|^)\/\//, '').split('/')[0]
-      : '';
-    
-    const faviconUrl = websiteUrl
+  const { domain, faviconUrl, primaryLink, initials, avatarColor } = useMemo(() => {
+    const domain = extractDomain(websiteUrl);
+    const faviconUrl = domain 
       ? `https://www.google.com/s2/favicons?domain=${domain}&sz=128`
       : '';
-    
     const primaryLink = websiteUrl || linkedinUrl || '';
+    const initials = getInitials(name);
+    const avatarColor = getAvatarColor(name);
 
-    return { domain, faviconUrl, primaryLink };
-  }, [websiteUrl, linkedinUrl]);
+    return { domain, faviconUrl, primaryLink, initials, avatarColor };
+  }, [websiteUrl, linkedinUrl, name]);
 
   const getStatusColor = (status: string): string => {
     switch (status as StartupStatus) {
@@ -35,6 +36,16 @@ export const StartupCard = memo<StartupCardProps>(({ startup, className = '' }) 
         return 'bg-gray-500';
     }
   };
+
+  const handleImageError = useCallback(() => {
+    setImageError(true);
+    setIsLoading(false);
+  }, []);
+
+  const handleImageLoad = useCallback(() => {
+    setImageError(false);
+    setIsLoading(false);
+  }, []);
 
   const LinkWrapper = ({ children }: { children: React.ReactNode }) =>
     primaryLink ? (
@@ -51,6 +62,48 @@ export const StartupCard = memo<StartupCardProps>(({ startup, className = '' }) 
       <div className="flex items-center">{children}</div>
     );
 
+  const LogoComponent = () => {
+    // Show fallback if no favicon URL or if image failed to load
+    if (!faviconUrl || imageError) {
+      return (
+        <div 
+          className={`w-16 h-16 rounded-full flex items-center justify-center text-white font-bold text-lg ${avatarColor}`}
+          aria-hidden="true"
+          title={`${name} logo`}
+        >
+          {initials}
+        </div>
+      );
+    }
+
+    return (
+      <div className="relative w-16 h-16">
+        {/* Loading placeholder */}
+        {isLoading && (
+          <div 
+            className={`absolute inset-0 rounded-full flex items-center justify-center text-white font-bold text-lg ${avatarColor} animate-pulse`}
+            aria-hidden="true"
+          >
+            {initials}
+          </div>
+        )}
+        
+        {/* Favicon image */}
+        <Image
+          src={faviconUrl}
+          alt={`${name} logo`}
+          width={64}
+          height={64}
+          className={`rounded-full bg-gray-100 transition-opacity duration-200 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
+          onError={handleImageError}
+          onLoad={handleImageLoad}
+          unoptimized // Prevent Next.js optimization for external favicons
+          priority={false} // Don't prioritize favicon loading
+        />
+      </div>
+    );
+  };
+
   return (
     <article 
       className={`w-full border border-gray-200 rounded-lg px-8 py-6 mb-0 hover:shadow-md transition-shadow ${className}`}
@@ -60,27 +113,7 @@ export const StartupCard = memo<StartupCardProps>(({ startup, className = '' }) 
         {/* Logo */}
         <div className="flex w-20 shrink-0 grow-0 basis-20 items-center pr-4">
           <LinkWrapper>
-            {faviconUrl ? (
-              <Image
-                src={faviconUrl}
-                alt={`${name} logo`}
-                width={64}
-                height={64}
-                className="rounded-full bg-gray-100"
-                onError={(e) => {
-                  // Fallback to placeholder if image fails to load
-                  const target = e.target as HTMLImageElement;
-                  target.style.display = 'none';
-                  target.nextElementSibling?.classList.remove('hidden');
-                }}
-              />
-            ) : null}
-            <div 
-              className={`rounded-full bg-gray-100 w-16 h-16 flex items-center justify-center text-gray-500 font-semibold ${faviconUrl ? 'hidden' : ''}`}
-              aria-hidden="true"
-            >
-              {name.charAt(0).toUpperCase()}
-            </div>
+            <LogoComponent />
           </LinkWrapper>
         </div>
 
