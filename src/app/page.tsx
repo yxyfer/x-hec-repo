@@ -147,7 +147,7 @@ const DemoDaySection = () => (
 /**
  * Main homepage component for X-HEC Entrepreneurs platform
  */
-export const HomePage = () => {
+export default function HomePage() {
   return (
     <main className="bg-slate-50 min-h-screen">
       <SiteNav />
@@ -156,6 +156,4 @@ export const HomePage = () => {
       <DemoDaySection />
     </main>
   );
-};
-
-export default HomePage;
+}
