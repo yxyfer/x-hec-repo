@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface StartupHeaderProps {
   name: string;
@@ -32,10 +33,12 @@ export default function StartupHeader({
       {/* Logo */}
       <WrapperLink>
         {faviconUrl ? (
-          <img
+          <Image
             src={faviconUrl}
             alt={`${name} icon`}
-            className="bg-gray-100 w-16 h-16"
+            width={64}
+            height={64}
+            className="bg-gray-100 w-16 h-16 rounded"
           />
         ) : (
           <div className="rounded-full bg-gray-100 w-16 h-16" />

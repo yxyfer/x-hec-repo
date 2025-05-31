@@ -6,7 +6,6 @@ import { Startup as StartupType } from "@/types/Startup";
 
 import { notFound } from "next/navigation";
 import StartupHeader from "@/components/StartupHeader";
-import StartupLink from "@/components/StartupLink";
 import StartupDescription from "@/components/StartupDescription";
 import StartupFounders from "@/components/StartupFounders";
 

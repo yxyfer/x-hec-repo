@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 import { Startup as StartupType } from "@/types/Startup";
 import foundersData from "@/data/founders.json";
@@ -53,12 +54,12 @@ export default function StartupFounders({ startup }: StartupProps) {
         {founders.map(
           (founder: FounderType, idx: React.Key | null | undefined) => (
             <li key={idx}>
-              <img
-                alt=""
-                src={
-                  "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                }
-                className="mx-auto w-24 rounded-full"
+              <Image
+                alt={`${founder.firstName} ${founder.lastName}`}
+                src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                width={96}
+                height={96}
+                className="mx-auto w-24 h-24 rounded-full object-cover"
               />
               <h3 className="mt-6 text-base/7 font-semibold tracking-tight text-gray-900">
                 {founder.firstName} {founder.lastName}
