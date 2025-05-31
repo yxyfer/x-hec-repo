@@ -13,6 +13,7 @@ import SearchSortBar from "./SearchSortBar";
 import NoResultsMessage from "./NoResultsMessage";
 import { buildFacet, toggleValue } from "@/utils/utils";
 import { useIsMobile } from "@/utils/utils";
+import SearchBar from "@/components/SearchSortBar";
 
 /**
  * Main component for displaying and filtering the startup directory
@@ -146,8 +147,16 @@ export const StartupList = () => {
         )}
 
         {/* Main content */}
-        <div className="flex-1">
-          <SearchSortBar query={query} setQuery={setQuery} />
+        <div className="flex-1 min-w-0">
+          {/* Search Bar */}
+          <div className="mb-8">
+            <SearchBar 
+              query={query} 
+              setQuery={setQuery}
+              placeholder="Rechercher des entreprises..."
+              resultCount={filteredStartups.length}
+            />
+          </div>
           
           <div 
             className="grid mt-10 gap-4" 

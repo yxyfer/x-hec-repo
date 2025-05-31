@@ -6,6 +6,7 @@ import foundersData from "@/data/founders.json";
 import type { Founder } from "@/types";
 import { FounderCard } from "@/components/features";
 import { transformLegacyFounders } from "@/utils/data-transform";
+import SearchBar from "@/components/SearchSortBar";
 
 /**
  * Founders page component displaying all founders in the X-HEC community
@@ -21,30 +22,25 @@ export const FoundersPage = () => {
   );
 
   return (
-    <main className="font-sans text-blue-900 dark:text-blue-50">
+    <main className="bg-gray-50 min-h-screen">
       <SiteNav />
-      <section className="container mx-auto px-8 py-12">
-        <h1 className="text-center font-extrabold text-5xl mb-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h1 className="text-center font-bold text-4xl text-gray-900 mb-8">
           Founders X-HEC
         </h1>
         
-        <div className="mt-6 mb-8 max-w-md mx-auto">
-          <label htmlFor="founder-search" className="sr-only">
-            Search founders
-          </label>
-          <input
-            id="founder-search"
-            type="text"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
+        {/* Unified Search Bar */}
+        <div className="max-w-xl mx-auto mb-12">
+          <SearchBar
+            query={search}
+            setQuery={setSearch}
             placeholder="Rechercher un founder..."
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-            aria-label="Search founders by name"
+            resultCount={filteredFounders.length}
           />
         </div>
         
         <div 
-          className="flex flex-wrap justify-center gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
           role="list"
           aria-label="Founders directory"
         >
@@ -56,13 +52,15 @@ export const FoundersPage = () => {
           
           {filteredFounders.length === 0 && (
             <div 
-              className="text-center col-span-full py-8"
+              className="col-span-full text-center py-12"
               role="status"
               aria-live="polite"
             >
-              <p className="text-gray-500">
-                Aucun founder trouvé pour "{search}"
-              </p>
+              <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+                <p className="text-gray-500 text-lg">
+                  Aucun founder trouvé pour "{search}"
+                </p>
+              </div>
             </div>
           )}
         </div>
