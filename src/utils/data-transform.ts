@@ -8,15 +8,15 @@ interface LegacyStartup {
   id_startup: number;
   Startup: string;
   inception_year: number;
-  Linkedin_entreprise: string;
-  lien_entreprise: string;
-  Programme: string;
-  Founders: string | number;
-  FounderIds: string | number;
-  Sector: string;
-  "# FTEs (incl. founders)": string | number;
-  Statut: string;
-  foundersList: string;
+  Linkedin_entreprise?: string;
+  lien_entreprise?: string;
+  Programme?: string[];
+  Founders?: string[];
+  FounderIds?: string[];
+  Sector?: string;
+  "# FTEs (incl. founders)"?: string | number;
+  Statut?: string[];
+  foundersList?: string;
 }
 
 /**
@@ -38,15 +38,15 @@ export const transformLegacyStartup = (legacy: LegacyStartup): Startup => ({
   id: legacy.id_startup,
   name: legacy.Startup,
   inceptionYear: legacy.inception_year,
-  linkedinUrl: legacy.Linkedin_entreprise,
-  websiteUrl: legacy.lien_entreprise,
-  program: legacy.Programme,
-  founders: String(legacy.Founders),
-  founderIds: String(legacy.FounderIds),
-  sector: legacy.Sector,
-  employeeCount: legacy["# FTEs (incl. founders)"],
-  status: legacy.Statut,
-  foundersList: legacy.foundersList,
+  linkedinUrl: legacy.Linkedin_entreprise || '',
+  websiteUrl: legacy.lien_entreprise || '',
+  program: Array.isArray(legacy.Programme) ? legacy.Programme[0] || 'Unknown' : 'Unknown',
+  founders: Array.isArray(legacy.Founders) ? legacy.Founders.join(', ') : '',
+  founderIds: Array.isArray(legacy.FounderIds) ? legacy.FounderIds.join(',') : '',
+  sector: legacy.Sector || 'Unknown',
+  employeeCount: legacy["# FTEs (incl. founders)"] || '',
+  status: Array.isArray(legacy.Statut) ? legacy.Statut[0] || 'Unknown' : 'Unknown',
+  foundersList: legacy.foundersList || '',
 });
 
 /**

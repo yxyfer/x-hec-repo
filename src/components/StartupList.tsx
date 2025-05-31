@@ -4,7 +4,6 @@
 
 import React, { useMemo, useState } from "react";
 import startups from "@/data/startups.json";
-import foundersData from "@/data/founders.json";
 import type { Startup } from "@/types";
 import { StartupCard } from "@/components/features";
 import { transformLegacyStartups } from "@/utils/data-transform";
@@ -23,48 +22,11 @@ export const StartupList = () => {
   const [sectors, setSectors] = useState<string[]>([]);
   const [programmes, setProgrammes] = useState<string[]>([]);
 
-  // Create founder mapping for enriching startup data
-  const founderMap = useMemo(
-    () =>
-      foundersData.reduce((acc, rec) => {
-        const { prenom, nom, id_founders } = rec;
-        acc[id_founders.toString()] = { prenom, nom };
-        return acc;
-      }, {} as Record<string, { prenom: string; nom: string }>),
-    []
-  );
-
   // Process and transform startup data
   const processedStartups = useMemo<Startup[]>(() => {
-    const enrichedStartups = startups
-      .filter((s): s is typeof s => s !== null && s !== undefined)
-      .map((s) => {
-        // Enrich with founder names
-        const founderNames = Array.isArray(s.Founders)
-          ? s.Founders.map((fid) =>
-              founderMap[fid]
-                ? `${founderMap[fid].prenom} ${founderMap[fid].nom}`
-                : fid
-            )
-          : [];
-
-        return {
-          ...s,
-          Founders: founderNames.join(", "),
-          FounderIds: Array.isArray(s.Founders) ? s.Founders.join(",") : "",
-          foundersList: founderNames.join(", "),
-          Programme: Array.isArray(s.Programme) && s.Programme.length > 0
-            ? s.Programme[0]
-            : "Unknown",
-          Statut: Array.isArray(s.Statut) && s.Statut.length > 0 
-            ? s.Statut[0] 
-            : "Unknown",
-        };
-      });
-
-    // Transform to new interface format
-    return transformLegacyStartups(enrichedStartups);
-  }, [founderMap]);
+    // Transform raw startup data directly to the new interface format
+    return transformLegacyStartups(startups);
+  }, []);
 
   // Build facets for filtering
   const yearFacet = useMemo(
