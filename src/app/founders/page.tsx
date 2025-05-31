@@ -1,44 +1,67 @@
 "use client";
 
-import SiteNav from "@/components/SiteNav";
+import { SiteNav } from "@/components/layout";
 import { useState } from "react";
 import foundersData from "@/data/founders.json";
-import type { Founder as FounderType } from "@/types/Founder";
-import FounderCard from "@/components/FounderCard";
+import type { Founder } from "@/types";
+import { FounderCard } from "@/components/features";
+import { transformLegacyFounders } from "@/utils/data-transform";
+import SearchBar from "@/components/SearchSortBar";
 
+/**
+ * Founders page component displaying all founders in the X-HEC community
+ */
 export default function FoundersPage() {
-  const foundersList: FounderType[] = foundersData.map((founder) => ({
-    id_founders: founder.id_founders.toString(),
-    prenom: founder.prenom,
-    nom: founder.nom,
-    linkedin: founder.linkedin,
-    xhecbatch: founder.xhecbatch,
-  }));
+  // Transform legacy data to new interface format
+  const foundersList: Founder[] = transformLegacyFounders(foundersData);
+  
   const [search, setSearch] = useState("");
-  const filteredFounders = foundersList.filter((f) =>
-    `${f.prenom} ${f.nom}`.toLowerCase().includes(search.toLowerCase())
+  
+  const filteredFounders = foundersList.filter((founder) =>
+    `${founder.firstName} ${founder.lastName}`.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
-    <main className="font-sans text-blue-900 dark:text-blue-50">
+    <main className="bg-slate-50 min-h-screen">
       <SiteNav />
-      <section className="container mx-auto px-8 py-12">
-        <h1 className="text-center font-extrabold text-5xl">Founders X-HEC</h1>
-        <div className="mt-6 mb-4">
-          <input
-            type="text"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h1 className="text-center font-bold text-4xl text-gray-900 mb-8">
+          Founders X-HEC
+        </h1>
+        
+        {/* Unified Search Bar */}
+        <div className="max-w-xl mx-auto mb-12">
+          <SearchBar
+            query={search}
+            setQuery={setSearch}
             placeholder="Rechercher un founder..."
-            className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-300"
+            resultCount={filteredFounders.length}
           />
         </div>
-        <div className="flex flex-wrap justify-center gap-6">
+        
+        <div 
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+          role="list"
+          aria-label="Founders directory"
+        >
           {filteredFounders.map((founder) => (
-            <FounderCard key={founder.id_founders} founder={founder} />
+            <div key={founder.id} role="listitem">
+              <FounderCard founder={founder} />
+            </div>
           ))}
+          
           {filteredFounders.length === 0 && (
-            <p className="text-center col-span-full">Aucun founder trouvé.</p>
+            <div 
+              className="col-span-full text-center py-12"
+              role="status"
+              aria-live="polite"
+            >
+              <div className="bg-white rounded-xl p-8 shadow-sm border border-slate-200">
+                <p className="text-slate-500 text-lg">
+                  Aucun founder trouvé pour &quot;{search}&quot;
+                </p>
+              </div>
+            </div>
           )}
         </div>
       </section>

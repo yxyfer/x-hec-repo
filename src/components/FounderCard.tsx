@@ -11,17 +11,17 @@ export default function FounderCard({ founder }: FounderCardProps) {
       {/* Affichage des initiales dans un carré */}
       <div className="flex items-center mb-4">
         <div className="h-12 w-12 flex items-center justify-center bg-blue-500 text-white rounded-sm mr-4">
-          {founder.prenom.charAt(0)}
-          {founder.nom.charAt(0)}
+          {founder.firstName.charAt(0)}
+          {founder.lastName.charAt(0)}
         </div>
         <div className="flex flex-col">
-          <span className="font-bold text-xl">{`${founder.prenom} ${founder.nom}`}</span>
-          <span className="text-sm text-gray-500">{founder.xhecbatch}</span>
+          <span className="font-bold text-xl">{`${founder.firstName} ${founder.lastName}`}</span>
+          <span className="text-sm text-gray-500">{founder.batch}</span>
         </div>
       </div>
       {/* Lien LinkedIn avec icône */}
       <a
-        href={founder.linkedin}
+        href={founder.linkedinUrl}
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center mt-2 text-sm text-blue-500 hover:underline"

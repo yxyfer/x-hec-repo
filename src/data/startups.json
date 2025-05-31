@@ -1,1340 +1,1010 @@
 [
   {
-    "Startup": "Clarity",
-    "inception_year": 2023,
-    "Founders": [
-      "rec40gIu75UXhLM6K"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 41,
-    "FounderIds": [
-      "75"
-    ]
-  },
-  {
-    "Startup": "VegaSpark Technologies",
-    "inception_year": 2025,
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recfLbQnDIGTGBeEM",
-      "rectFpQxlIyJNhcGg"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 56,
-    "FounderIds": [
-      "112",
-      "113"
-    ]
-  },
-  {
-    "Startup": "Ako",
-    "inception_year": 2023,
-    "lien_entreprise": "https://ako-ai.com",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/ako-ai/posts/?feedView=all",
-    "Founders": [
-      "recjYlimXJ1KZfawJ",
-      "recZsnU9A5Fc5TfPY"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 44,
-    "FounderIds": [
-      "78",
-      "79"
-    ]
-  },
-  {
-    "Startup": "Veeton",
-    "inception_year": 2023,
-    "lien_entreprise": "https://veeton.co",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/veeton/posts/?feedView=all",
-    "Founders": [
-      "recKknGT4MyMCajX4",
-      "recxI3jVmgbVEp6cr",
-      "recaW6JJwpfUSiJcB"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 35,
-    "FounderIds": [
-      "64",
-      "65",
-      "66"
-    ]
-  },
-  {
-    "Startup": "Pimster",
-    "inception_year": 2021,
-    "lien_entreprise": "https://www.pimster.app/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/pimster-app/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recWy4pWQcqzXDBwy",
-      "recHN9eKwL1OxPZMn"
-    ],
-    "# FTEs (incl. founders)": "5",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 67,
-    "FounderIds": [
-      "107",
-      "1008"
-    ]
-  },
-  {
-    "Startup": "Redesk",
-    "inception_year": 2023,
-    "Founders": [
-      "recpbdokWeywaljhD"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 31,
-    "FounderIds": [
-      "55"
-    ]
-  },
-  {
-    "Startup": "Simio",
-    "inception_year": 2023,
-    "lien_entreprise": "https://www.getsimio.com/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/getsimio/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 63
-  },
-  {
-    "Startup": "Robin",
-    "inception_year": 2020,
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "reciRZcgJ5yj1Dmo3",
-      "recn2dnw8qZsaBAca"
-    ],
-    "Sector": "Legaltech",
-    "Statut": [
-      "Arrêtée"
-    ],
-    "id_startup": 7,
-    "FounderIds": [
-      "12",
-      "13"
-    ]
-  },
-  {
-    "Startup": "Paire",
-    "inception_year": 2021,
-    "lien_entreprise": "https://www.paire.tech/fr",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/paire-tech/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recMr2C1I1kmqPmYL"
-    ],
-    "Sector": "Medtech",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 10,
-    "FounderIds": [
-      "16"
-    ]
-  },
-  {
-    "Startup": "FinGreen AI",
-    "inception_year": 2021,
-    "lien_entreprise": "https://fingreen.ai",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/fingreen-ai/",
-    "Founders": [
-      "recWn477WleHbY0Ii"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 17,
-    "FounderIds": [
-      "26"
-    ]
-  },
-  {
-    "Startup": "Algorithme.AI",
-    "inception_year": 2023,
-    "lien_entreprise": "https://www.algorithme.ai",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/algorithmeai/",
-    "Founders": [
-      "rectnqpzRpCH6s7tr"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 40,
-    "FounderIds": [
-      "74"
-    ]
-  },
-  {
-    "Startup": "Predikeep",
-    "inception_year": 2020,
-    "Programme": [
-      "L2L Berkeley"
-    ],
-    "Founders": [
-      "recHwdSF2zPdJJMUg"
-    ],
-    "Sector": "Retail",
-    "Statut": [
-      "Arrêtée"
-    ],
-    "id_startup": 9,
-    "FounderIds": [
-      "15"
-    ]
-  },
-  {
-    "Startup": "Kesako",
-    "inception_year": 2024,
-    "lien_entreprise": "https://www.kesako-groupe.com/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/kesako-groupe/posts/?feedView=all",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recgYwkoLFBtRi7Ie",
-      "recJ8DZnw6BufX8c6"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 65,
-    "FounderIds": [
-      "104",
-      "105"
-    ]
-  },
-  {
-    "Startup": "Pho Club",
-    "inception_year": 2025,
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recCX0j7M8oXgFZf6",
-      "recEjgBXdzvtADkop"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 57,
-    "FounderIds": [
-      "114",
-      "115"
-    ]
-  },
-  {
-    "Startup": "GoodVest",
-    "inception_year": 2020,
-    "lien_entreprise": "https://www.goodvest.fr/?utm_source=LinkedIn",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/goodvest-epargne/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recIUIOYDhfYcpIzu"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 62,
-    "FounderIds": [
-      "99"
-    ]
-  },
-  {
-    "Startup": "Coudac",
-    "inception_year": 2021,
-    "lien_entreprise": "https://www.coudac.com/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/coudac/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recvVwovzPZSr7sxr"
-    ],
-    "Sector": "Ad agency",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 13,
-    "FounderIds": [
-      "20"
-    ]
-  },
-  {
-    "Startup": "Via Sana",
-    "inception_year": 2020,
-    "lien_entreprise": "http://www.centreviasana.com",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/via-sana/posts/?feedView=all",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recy2HLcOC9FHAHrf",
-      "rec5z96wJXA5WaYgw"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 60,
-    "FounderIds": [
-      "96",
-      "97"
-    ]
-  },
-  {
-    "Startup": "Vocca.AI",
-    "inception_year": 2024,
-    "Founders": [
-      "rec9AIHEIbXf4CNf6"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 49,
-    "FounderIds": [
-      "84"
-    ]
-  },
-  {
-    "Startup": "Embrace",
-    "inception_year": 2023,
-    "lien_entreprise": "https://drinkembrace.eu\n",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/drinkembrace/people/",
-    "Founders": [
-      "rec7JL1uK7gMQZ8yM"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 39,
-    "FounderIds": [
-      "73"
-    ]
-  },
-  {
-    "Startup": "Konkrete",
-    "inception_year": 2021,
-    "lien_entreprise": "https://www.konkretelabs.com/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/konkretelabs/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "rec9XvhCUMslkYeyf"
-    ],
-    "Sector": "Web3",
-    "# FTEs (incl. founders)": "2",
-    "Statut": [
-      "Arrêtée"
-    ],
-    "id_startup": 68,
-    "FounderIds": [
-      "109"
-    ]
-  },
-  {
-    "Startup": "Les Demeures du Chêne",
-    "inception_year": 2022,
-    "lien_entreprise": "https://lesdemeuresduchene.com/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/les-demeures-du-ch%C3%AAne/people/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recOlO5rNsyrCZaQ8",
-      "recTXOXYwSMqUPoOM"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 25,
-    "FounderIds": [
-      "43",
-      "44"
-    ]
-  },
-  {
-    "Startup": "Moonz",
-    "inception_year": 2021,
-    "lien_entreprise": "https://www.moonzapp.com/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/moonz-app/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "rec97XoFdjze3PrJB"
-    ],
-    "Sector": "Consumer",
-    "# FTEs (incl. founders)": "3",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 71,
-    "FounderIds": [
-      "122"
-    ]
-  },
-  {
-    "Startup": "Vesto",
-    "inception_year": 2020,
-    "lien_entreprise": "https://vesto.fr/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/vesto-startup/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recqI2DMWLv7HLURc",
-      "recv4plkBjq9pX8ZY"
-    ],
-    "Sector": "Circular Economy",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 3,
-    "FounderIds": [
-      "5",
-      "6"
-    ]
-  },
-  {
-    "Startup": "Escape",
-    "inception_year": 2020,
-    "lien_entreprise": "https://escape.tech/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/escapetech/",
-    "Programme": [
-      "L2L Berkeley"
-    ],
-    "Founders": [
-      "rec3np2Iglv2U1PdK",
-      "recDi478bivjZrnlR"
-    ],
-    "Sector": "Infrastructure tech",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 2,
-    "FounderIds": [
-      "3",
-      "4"
-    ]
-  },
-  {
-    "Startup": "Sève",
-    "inception_year": 2021,
-    "lien_entreprise": "http://www.seve.app",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/s%C3%A8veapp/",
-    "Founders": [
-      "recwOkLmSeZWUWHEa",
-      "recqxnwm28CbLWQWE"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 16,
-    "FounderIds": [
-      "24",
-      "25"
-    ]
-  },
-  {
-    "Startup": "Lola Health",
-    "inception_year": 2021,
-    "lien_entreprise": "https://www.lolahealth.fr/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/lolainsurance/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "rec9bSALNfESGNTvt"
-    ],
-    "Sector": "Medtech",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 12,
-    "FounderIds": [
-      "19"
-    ]
-  },
-  {
-    "Startup": "Buddy",
-    "inception_year": 2022,
-    "lien_entreprise": "https://www.theonlybuddy.com/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/theonlybuddy/posts/?feedView=all",
-    "Founders": [
-      "recMAoAYpYTiWUCrZ",
-      "recTgGJSBPn8ssRV8",
-      "recEVbehIX7aFwxG7"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 27,
-    "FounderIds": [
-      "46",
-      "47",
-      "48"
-    ]
-  },
-  {
-    "Startup": "Gynger",
-    "inception_year": 2023,
-    "Founders": [
-      "rec9oxAW1MZYVffk5",
-      "recfq3Zf3J8ZJKQwS"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 37,
-    "FounderIds": [
-      "69",
-      "70"
-    ]
-  },
-  {
-    "Startup": "Deskape",
-    "inception_year": 2021,
-    "lien_entreprise": "https://www.deskape.fr/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/deskapefrance/",
-    "Founders": [
-      "recyiRhgVBYXI9Pvk"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 19,
-    "FounderIds": [
-      "28"
-    ]
-  },
-  {
-    "Startup": "Grâce",
-    "inception_year": 2022,
-    "lien_entreprise": "https://grace.io/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/gr-ce/",
-    "Founders": [
-      "rec3ziPLkFTjQOym4",
-      "recRwUiMlrT67aWH5"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 29,
-    "FounderIds": [
-      "50",
-      "51"
-    ]
-  },
-  {
-    "Startup": "Sage Drinks",
-    "inception_year": 2020,
-    "lien_entreprise": "http://www.sage-drinks.fr/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/sagedrinks/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recp5dbwSsBpvCrgj"
-    ],
-    "Sector": "Food & Beverages",
-    "Statut": [
-      "Arrêtée"
-    ],
-    "id_startup": 8,
-    "FounderIds": [
-      "14"
-    ]
-  },
-  {
-    "Startup": "Rounded",
-    "inception_year": 2022,
-    "lien_entreprise": "https://callrounded.com/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/callrounded/",
-    "Programme": [
-      "L2L Berkeley"
-    ],
-    "Founders": [
-      "rectUwnYhRC3AX4VW",
-      "recQXS077NX540YLW",
-      "rec0S4NAXUN622pbc"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 23,
-    "FounderIds": [
-      "38",
-      "39",
-      "40"
-    ]
-  },
-  {
-    "Startup": "Bib Batteries",
-    "inception_year": 2021,
-    "lien_entreprise": "https://bib-batteries.fr/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/bib-batteries/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recWrbZZfuDvolMYt",
-      "recPkljwTa1IvxPrQ"
-    ],
-    "Sector": "Energy",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 15,
-    "FounderIds": [
-      "22",
-      "23"
-    ]
-  },
-  {
-    "Startup": "AmonAI",
-    "inception_year": 2024,
-    "lien_entreprise": "https://www.amonai.fr/\n",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/amonai/about/",
-    "Founders": [
-      "rec8HC0mWWGOSfh0M",
-      "recwRiD0uRqdA4tZQ",
-      "rechLPcD4ZYZEETVg"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 53,
-    "FounderIds": [
-      "91",
-      "92",
-      "93"
-    ]
-  },
-  {
-    "Startup": "Vision Janine",
-    "inception_year": 2023,
-    "Founders": [
-      "recZ3DoMOcUkcmg0k"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 48,
-    "FounderIds": [
-      "83"
-    ]
-  },
-  {
-    "Startup": "Mauna",
-    "inception_year": 2023,
-    "lien_entreprise": "https://mauna-ai.com/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/ai-mauna/people/",
-    "Founders": [
-      "recxkFx7ZcoX8H1Xl",
-      "reciROxf3uHUhVB1s"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 38,
-    "FounderIds": [
-      "71",
-      "72"
-    ]
-  },
-  {
-    "Startup": "Dollyglot",
-    "inception_year": 2023,
-    "Founders": [
-      "recwggB2a63INj156"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 43,
-    "FounderIds": [
-      "77"
-    ]
-  },
-  {
-    "Startup": "Fringuant",
-    "inception_year": 2022,
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recQRVt5IuYylR2H5"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 61,
-    "FounderIds": [
-      "98"
-    ]
-  },
-  {
-    "Startup": "InterFast",
-    "inception_year": 2022,
-    "lien_entreprise": "https://www.inter-fast.fr/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/interfast0/",
-    "Founders": [
-      "reczw6a9udx7CeDGH"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 26,
-    "FounderIds": [
-      "45"
-    ]
-  },
-  {
-    "Startup": "Byzantine Finance",
-    "inception_year": 2024,
-    "lien_entreprise": "https://www.byzantine.fi/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/byzantine-finance/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "id_startup": 72
-  },
-  {
-    "Startup": "Simio",
-    "inception_year": 2023,
-    "Founders": [
-      "rechMDSoR1VeS0fR8",
-      "recc0FOfclfOtH0Sb",
-      "recW9DFv09Rszt1C7"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 46,
-    "FounderIds": [
-      "81",
-      "100",
-      "101"
-    ]
-  },
-  {
-    "Startup": "Makehub.AI",
-    "inception_year": 2025,
-    "lien_entreprise": "https://makehub.ai/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/makehub-ai/",
-    "Programme": [
-      "L2L Berkeley"
-    ],
-    "Founders": [
-      "rec3trzPOHIQh53w0",
-      "rec6chizM682dQVGw",
-      "recsAXsZ3aMJcpCmY"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 59,
-    "FounderIds": [
-      "117",
-      "118",
-      "119"
-    ]
-  },
-  {
-    "Startup": "Becchi",
-    "inception_year": 2023,
-    "lien_entreprise": "https://becchi.fr/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/becchi-pinsa/",
-    "Founders": [
-      "recQa7JlAXnMCukWr"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 42,
-    "FounderIds": [
-      "76"
-    ]
-  },
-  {
-    "Startup": "Coda",
-    "inception_year": 2022,
-    "lien_entreprise": "https://www.coda.school/",
-    "Linkedin_entreprise": "https://www.linkedin.com/school/coda-school/posts/?feedView=all",
-    "Founders": [
-      "recYJGuKpPidbkaqZ",
-      "rec1Vhj9DDOl0hnWk"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 24,
-    "FounderIds": [
-      "41",
-      "42"
-    ]
-  },
-  {
-    "Startup": "Phospho",
-    "inception_year": 2023,
-    "Founders": [
-      "recVxAmuEqhi2ynpI",
-      "recDOu8mY2GGhYLZG"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 36,
-    "FounderIds": [
-      "67",
-      "68"
-    ]
-  },
-  {
-    "Startup": "Peppers",
-    "inception_year": 2025,
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recIRzVMETK1pX0wv",
-      "recEtqbWyFmq1i4Wk"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 55,
-    "FounderIds": [
-      "121",
-      "120"
-    ]
-  },
-  {
-    "Startup": "Mediflash",
-    "inception_year": 2020,
-    "lien_entreprise": "https://mediflash.fr/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/mediflash/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recGPd1VQd5qrJeNi",
-      "recDDKd2XiMHU95wr",
-      "recDMPb4fEBUfeRho"
-    ],
-    "Sector": "Medtech",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 5,
-    "FounderIds": [
-      "8",
-      "9",
-      "10"
-    ]
-  },
-  {
-    "Startup": "Revyze",
-    "inception_year": 2022,
-    "lien_entreprise": "https://revyze.fr/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/revyze/posts/?feedView=all",
-    "Founders": [
-      "recG7mz4sAtqi2yfb",
-      "rechw98ZjkE4cijkU",
-      "rechw7EgAONS0wgl0"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 22,
-    "FounderIds": [
-      "35",
-      "36",
-      "37"
-    ]
-  },
-  {
-    "Startup": "Broko",
-    "inception_year": 2022,
-    "lien_entreprise": "https://www.broko.fr/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/broko-france/",
-    "Founders": [
-      "rect1qdaEHsThAb2k"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 28,
-    "FounderIds": [
-      "49"
-    ]
-  },
-  {
-    "Startup": "Karmen",
-    "inception_year": 2021,
-    "lien_entreprise": "https://www.karmen.io/?utm_source=linkedin&utm_medium=social&utm_campaign=lkdpage",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/karmen-io/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recheKRt59NLursmY",
-      "recpXbLfajdMam5c1"
-    ],
-    "Sector": "Fintech",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 64,
-    "FounderIds": [
-      "102",
-      "103"
-    ]
-  },
-  {
-    "Startup": "Logiadapt’",
-    "inception_year": 2021,
-    "lien_entreprise": "https://logiadapt.fr",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/logiadapt/",
-    "Founders": [
-      "rec4ZBmCrhbTlXjxO"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 18,
-    "FounderIds": [
-      "27"
-    ]
-  },
-  {
-    "Startup": "Solteo",
-    "inception_year": 2023,
-    "Founders": [
-      "recO4HfUGbKK9VqHX",
-      "recU6VKc1qX2NGc5e"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 32,
-    "FounderIds": [
-      "56",
-      "57"
-    ]
-  },
-  {
-    "Startup": "Eledone",
-    "inception_year": 2024,
-    "Founders": [
-      "recz2sXq2nZ1m8HLe",
-      "recQH3C38nCNwRJzS"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 52,
-    "FounderIds": [
-      "89",
-      "90"
-    ]
-  },
-  {
-    "Startup": "Fioro",
-    "inception_year": 2020,
-    "lien_entreprise": "https://www.fioro.ai/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/fioro-ai/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "rec55ZSq7URlFwLxZ"
-    ],
-    "Sector": "Education",
-    "# FTEs (incl. founders)": "3",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 69,
-    "FounderIds": [
-      "110"
-    ]
-  },
-  {
-    "Startup": "Suny Club",
-    "inception_year": 2024,
-    "lien_entreprise": "https://linktr.ee/SUNYCLUB",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/sunyclub",
-    "Founders": [
-      "recg9RzJ65J6RyED8",
-      "recmoOMbMCA1udYlc"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 54,
-    "FounderIds": [
-      "94",
-      "95"
-    ]
-  },
-  {
-    "Startup": "Corma",
-    "inception_year": 2023,
-    "lien_entreprise": "https://www.corma.io/fr",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/getcorma/?originalSubdomain=fr",
-    "Founders": [
-      "rec3pXPGbG9BA09K4",
-      "recSYTmXluNmneED9",
-      "recTdvbvcDqFOHjBJ"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 34,
-    "FounderIds": [
-      "61",
-      "62",
-      "63"
-    ]
-  },
-  {
-    "Startup": "TerraGrow",
-    "inception_year": 2025,
-    "lien_entreprise": "https://www.terragrow.fr/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/terragrow-ag/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recgLBVHcjUO0W96D"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 58,
-    "FounderIds": [
-      "116"
-    ]
-  },
-  {
+    "id_startup": 1,
     "Startup": "Aplo",
     "inception_year": 2019,
-    "lien_entreprise": "https://www.aplo.io/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/aplocrypto/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recWqEBIAu4thoG33",
-      "recCR046Zh8s7hqU9"
-    ],
+    "lien_entreprise": "https://www.aplo.io/",
+    "Programme": "Launchpad Paris",
+    "Founders": "1,2",
+    "FounderIds": "1,2",
     "Sector": "Cryptocurrency",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 1,
-    "FounderIds": [
-      "1",
-      "2"
-    ]
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
   },
   {
-    "Startup": "Yumi",
-    "inception_year": 2023,
-    "Founders": [
-      "recdHkSejEMD9gENU"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 47,
-    "FounderIds": [
-      "82"
-    ]
-  },
-  {
-    "Startup": "Revolty",
-    "inception_year": 2024,
-    "Founders": [
-      "recRhZTMiIhi4WL6j",
-      "rec8I0eb8qHECiEFL"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 51,
-    "FounderIds": [
-      "87",
-      "88"
-    ]
-  },
-  {
-    "Startup": "Orus Energy",
-    "inception_year": 2023,
-    "Founders": [
-      "recVxsapEFFpguzOq",
-      "recds1cLJwUJlhbwo",
-      "rectS4elzDPpJVoSh"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 33,
-    "FounderIds": [
-      "58",
-      "59",
-      "60"
-    ]
-  },
-  {
-    "Startup": "Intacte",
-    "inception_year": 2023,
-    "lien_entreprise": "https://intacte.fr/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/intactebeauty/",
-    "Founders": [
-      "recOrXX5Y6CqEWRM2"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 45,
-    "FounderIds": [
-      "80"
-    ]
-  },
-  {
-    "Startup": "Nefture",
-    "inception_year": 2022,
-    "lien_entreprise": "https://www.nefture.com/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/nefture/",
-    "Founders": [
-      "recsV15ew4bsV3YgV"
-    ],
-    "Sector": "Web3",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 66,
-    "FounderIds": [
-      "106"
-    ]
-  },
-  {
-    "Startup": "Ida",
-    "inception_year": 2023,
-    "lien_entreprise": "https://www.ida.eu/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/ai-ida/posts/?feedView=all",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recoA33Rrn4l7ICN9",
-      "recZ9mUvsTCL4VfTW",
-      "recGHWZsVmh0QsG7U"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 30,
-    "FounderIds": [
-      "52",
-      "53",
-      "54"
-    ]
-  },
-  {
-    "Startup": "Omena",
-    "inception_year": 2021,
-    "lien_entreprise": "https://www.omena.app/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/omena-app/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recAOPWkLBaWNuJnl",
-      "recDPLyQBeILX6pZm"
-    ],
-    "Sector": "Medtech",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 11,
-    "FounderIds": [
-      "17",
-      "18"
-    ]
-  },
-  {
-    "Startup": "Auxilia",
+    "id_startup": 2,
+    "Startup": "Escape",
     "inception_year": 2020,
-    "lien_entreprise": "https://www.auxilia-tech.com/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/auxilia-tech/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recwkw7ZW4XHGETA1"
-    ],
-    "Sector": "Securtech",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 6,
-    "FounderIds": [
-      "11"
-    ]
+    "Linkedin_entreprise": "https://www.linkedin.com/company/escapetech/",
+    "lien_entreprise": "https://escape.tech/",
+    "Programme": "L2L Berkeley",
+    "Founders": "3,4",
+    "FounderIds": "3,4",
+    "Sector": "Infrastructure tech",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
   },
   {
-    "Startup": "Nelson",
-    "inception_year": 2022,
-    "lien_entreprise": "https://www.nelson-mobility.com/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/nelson-mobility/",
-    "Programme": [
-      "L2L Berkeley"
-    ],
-    "Founders": [
-      "recOD5NE29gaUU7Kl",
-      "recr06OzcbcTg4l6k",
-      "recmtuIqGeqDJ7FlR",
-      "rec6nXt7XgvdnDiud"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 20,
-    "FounderIds": [
-      "29",
-      "30",
-      "31",
-      "32"
-    ]
+    "id_startup": 3,
+    "Startup": "Vesto",
+    "inception_year": 2020,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/vesto-startup/",
+    "lien_entreprise": "https://vesto.fr/",
+    "Programme": "Launchpad Paris",
+    "Founders": "5,6",
+    "FounderIds": "5,6",
+    "Sector": "Circular Economy",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
   },
   {
+    "id_startup": 4,
     "Startup": "Lakaa",
     "inception_year": 2020,
-    "lien_entreprise": "https://www.lakaa.io/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/lakaa/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recC3mo0WbOcIM2eX"
-    ],
+    "lien_entreprise": "https://www.lakaa.io/",
+    "Programme": "Launchpad Paris",
+    "Founders": 7,
+    "FounderIds": 7,
     "Sector": "RSE",
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 4,
-    "FounderIds": [
-      "7"
-    ]
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
   },
   {
-    "Startup": "Tranché!",
-    "inception_year": 2022,
-    "lien_entreprise": "https://xn--tranch-gva.com/",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/tranch%C3%A9/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recaMcma8PmmhZqmZ",
-      "rec20O28Yq2g21FNW"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 21,
-    "FounderIds": [
-      "33",
-      "34"
-    ]
+    "id_startup": 5,
+    "Startup": "Mediflash",
+    "inception_year": 2020,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/mediflash/",
+    "lien_entreprise": "https://mediflash.fr/",
+    "Programme": "Launchpad Paris",
+    "Founders": "8,9,10",
+    "FounderIds": "8,9,10",
+    "Sector": "Medtech",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
   },
   {
+    "id_startup": 6,
+    "Startup": "Auxilia",
+    "inception_year": 2020,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/auxilia-tech/",
+    "lien_entreprise": "https://www.auxilia-tech.com/",
+    "Programme": "Launchpad Paris",
+    "Founders": 11,
+    "FounderIds": 11,
+    "Sector": "Securtech",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 7,
+    "Startup": "Robin",
+    "inception_year": 2020,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "Launchpad Paris",
+    "Founders": "12,13",
+    "FounderIds": "12,13",
+    "Sector": "Legaltech",
+    "# FTEs (incl. founders)": "",
+    "Statut": "Arrêtée",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 8,
+    "Startup": "Sage Drinks",
+    "inception_year": 2020,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/sagedrinks/",
+    "lien_entreprise": "http://www.sage-drinks.fr/",
+    "Programme": "Launchpad Paris",
+    "Founders": 14,
+    "FounderIds": 14,
+    "Sector": "Food & Beverages",
+    "# FTEs (incl. founders)": "",
+    "Statut": "Arrêtée",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 9,
+    "Startup": "Predikeep",
+    "inception_year": 2020,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "L2L Berkeley",
+    "Founders": 15,
+    "FounderIds": 15,
+    "Sector": "Retail",
+    "# FTEs (incl. founders)": "",
+    "Statut": "Arrêtée",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 10,
+    "Startup": "Paire",
+    "inception_year": 2021,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/paire-tech/",
+    "lien_entreprise": "https://www.paire.tech/fr",
+    "Programme": "Launchpad Paris",
+    "Founders": 16,
+    "FounderIds": 16,
+    "Sector": "Medtech",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 11,
+    "Startup": "Omena",
+    "inception_year": 2021,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/omena-app/",
+    "lien_entreprise": "https://www.omena.app/",
+    "Programme": "Launchpad Paris",
+    "Founders": "17,18",
+    "FounderIds": "17,18",
+    "Sector": "Medtech",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 12,
+    "Startup": "Lola Health",
+    "inception_year": 2021,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/lolainsurance/",
+    "lien_entreprise": "https://www.lolahealth.fr/",
+    "Programme": "Launchpad Paris",
+    "Founders": 19,
+    "FounderIds": 19,
+    "Sector": "Medtech",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 13,
+    "Startup": "Coudac",
+    "inception_year": 2021,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/coudac/",
+    "lien_entreprise": "https://www.coudac.com/",
+    "Programme": "Launchpad Paris",
+    "Founders": 20,
+    "FounderIds": 20,
+    "Sector": "Ad agency",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 14,
     "Startup": "Hinfact",
     "inception_year": 2021,
-    "lien_entreprise": "https://hinfact.com/fr/accueil/",
     "Linkedin_entreprise": "https://www.linkedin.com/company/hinfact/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "reckSnEMKERs0OaF9"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 14,
-    "FounderIds": [
-      "21"
-    ]
+    "lien_entreprise": "https://hinfact.com/fr/accueil/",
+    "Programme": "Launchpad Paris",
+    "Founders": 21,
+    "FounderIds": 21,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
   },
   {
+    "id_startup": 15,
+    "Startup": "Bib Batteries",
+    "inception_year": 2021,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/bib-batteries/",
+    "lien_entreprise": "https://bib-batteries.fr/",
+    "Programme": "Launchpad Paris",
+    "Founders": "22,23",
+    "FounderIds": "22,23",
+    "Sector": "Energy",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 16,
+    "Startup": "Sève",
+    "inception_year": 2021,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/s%C3%A8veapp/",
+    "lien_entreprise": "http://www.seve.app",
+    "Programme": "",
+    "Founders": "24,25",
+    "FounderIds": "24,25",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 17,
+    "Startup": "FinGreen AI",
+    "inception_year": 2021,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/fingreen-ai/",
+    "lien_entreprise": "https://fingreen.ai",
+    "Programme": "",
+    "Founders": 26,
+    "FounderIds": 26,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 18,
+    "Startup": "Logiadapt’",
+    "inception_year": 2021,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/logiadapt/",
+    "lien_entreprise": "https://logiadapt.fr",
+    "Programme": "",
+    "Founders": 27,
+    "FounderIds": 27,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 19,
+    "Startup": "Deskape",
+    "inception_year": 2021,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/deskapefrance/",
+    "lien_entreprise": "https://www.deskape.fr/",
+    "Programme": "",
+    "Founders": 28,
+    "FounderIds": 28,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 20,
+    "Startup": "Nelson",
+    "inception_year": 2022,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/nelson-mobility/",
+    "lien_entreprise": "https://www.nelson-mobility.com/",
+    "Programme": "L2L Berkeley",
+    "Founders": "29,30,31,32",
+    "FounderIds": "29,30,31,32",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 21,
+    "Startup": "Tranché!",
+    "inception_year": 2022,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/tranch%C3%A9/",
+    "lien_entreprise": "https://xn--tranch-gva.com/",
+    "Programme": "Launchpad Paris",
+    "Founders": "33,34",
+    "FounderIds": "33,34",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 22,
+    "Startup": "Revyze",
+    "inception_year": 2022,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/revyze/posts/?feedView=all",
+    "lien_entreprise": "https://revyze.fr/",
+    "Programme": "",
+    "Founders": "35,36,37",
+    "FounderIds": "35,36,37",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 23,
+    "Startup": "Rounded",
+    "inception_year": 2022,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/callrounded/",
+    "lien_entreprise": "https://callrounded.com/",
+    "Programme": "L2L Berkeley",
+    "Founders": "38,39,40",
+    "FounderIds": "38,39,40",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 24,
+    "Startup": "Coda",
+    "inception_year": 2022,
+    "Linkedin_entreprise": "https://www.linkedin.com/school/coda-school/posts/?feedView=all",
+    "lien_entreprise": "https://www.coda.school/",
+    "Programme": "",
+    "Founders": "41,42",
+    "FounderIds": "41,42",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 25,
+    "Startup": "Les Demeures du Chêne",
+    "inception_year": 2022,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/les-demeures-du-ch%C3%AAne/people/",
+    "lien_entreprise": "https://lesdemeuresduchene.com/",
+    "Programme": "Launchpad Paris",
+    "Founders": "43,44",
+    "FounderIds": "43,44",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 26,
+    "Startup": "InterFast",
+    "inception_year": 2022,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/interfast0/",
+    "lien_entreprise": "https://www.inter-fast.fr/",
+    "Programme": "",
+    "Founders": 45,
+    "FounderIds": 45,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 27,
+    "Startup": "Buddy",
+    "inception_year": 2022,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/theonlybuddy/posts/?feedView=all",
+    "lien_entreprise": "https://www.theonlybuddy.com/",
+    "Programme": "",
+    "Founders": "46,47,48",
+    "FounderIds": "46,47,48",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 28,
+    "Startup": "Broko",
+    "inception_year": 2022,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/broko-france/",
+    "lien_entreprise": "https://www.broko.fr/",
+    "Programme": "",
+    "Founders": 49,
+    "FounderIds": 49,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 29,
+    "Startup": "Grâce",
+    "inception_year": 2022,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/gr-ce/",
+    "lien_entreprise": "https://grace.io/",
+    "Programme": "",
+    "Founders": "50,51",
+    "FounderIds": "50,51",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 30,
+    "Startup": "Ida",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/ai-ida/posts/?feedView=all",
+    "lien_entreprise": "https://www.ida.eu/",
+    "Programme": "Launchpad Paris",
+    "Founders": "52,53,54",
+    "FounderIds": "52,53,54",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 31,
+    "Startup": "Redesk",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "",
+    "Founders": 55,
+    "FounderIds": 55,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 32,
+    "Startup": "Solteo",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "",
+    "Founders": "56,57",
+    "FounderIds": "56,57",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 33,
+    "Startup": "Orus Energy",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "",
+    "Founders": "58,59,60",
+    "FounderIds": "58,59,60",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 34,
+    "Startup": "Corma",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/getcorma/?originalSubdomain=fr",
+    "lien_entreprise": "https://www.corma.io/fr",
+    "Programme": "",
+    "Founders": "61,62,63",
+    "FounderIds": "61,62,63",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 35,
+    "Startup": "Veeton",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/veeton/posts/?feedView=all",
+    "lien_entreprise": "https://veeton.co",
+    "Programme": "",
+    "Founders": "64,65,66",
+    "FounderIds": "64,65,66",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 36,
+    "Startup": "Phospho",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "",
+    "Founders": "67,68",
+    "FounderIds": "67,68",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 37,
+    "Startup": "Gynger",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "",
+    "Founders": "69,70",
+    "FounderIds": "69,70",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 38,
+    "Startup": "Mauna",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/ai-mauna/people/",
+    "lien_entreprise": "https://mauna-ai.com/",
+    "Programme": "",
+    "Founders": "71,72",
+    "FounderIds": "71,72",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 39,
+    "Startup": "Embrace",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/drinkembrace/people/",
+    "lien_entreprise": "https://drinkembrace.eu",
+    "Programme": "",
+    "Founders": 73,
+    "FounderIds": 73,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 40,
+    "Startup": "Algorithme.AI",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/algorithmeai/",
+    "lien_entreprise": "https://www.algorithme.ai",
+    "Programme": "",
+    "Founders": 74,
+    "FounderIds": 74,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 41,
+    "Startup": "Clarity",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "",
+    "Founders": 75,
+    "FounderIds": 75,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 42,
+    "Startup": "Becchi",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/becchi-pinsa/",
+    "lien_entreprise": "https://becchi.fr/",
+    "Programme": "",
+    "Founders": 76,
+    "FounderIds": 76,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 43,
+    "Startup": "Dollyglot",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "",
+    "Founders": 77,
+    "FounderIds": 77,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 44,
+    "Startup": "Ako",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/ako-ai/posts/?feedView=all",
+    "lien_entreprise": "https://ako-ai.com",
+    "Programme": "",
+    "Founders": "78,79",
+    "FounderIds": "78,79",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 45,
+    "Startup": "Intacte",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/intactebeauty/",
+    "lien_entreprise": "https://intacte.fr/",
+    "Programme": "",
+    "Founders": 80,
+    "FounderIds": 80,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 46,
+    "Startup": "Simio",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "",
+    "Founders": "81,100,101",
+    "FounderIds": "81,100,101",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 47,
+    "Startup": "Yumi",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "",
+    "Founders": 82,
+    "FounderIds": 82,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 48,
+    "Startup": "Vision Janine",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "",
+    "Founders": 83,
+    "FounderIds": 83,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 49,
+    "Startup": "Vocca.AI",
+    "inception_year": 2024,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "",
+    "Founders": 84,
+    "FounderIds": 84,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 50,
+    "Startup": "Klaire",
+    "inception_year": 2024,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/klaire-ai/",
+    "lien_entreprise": "https://klaire.cc",
+    "Programme": "",
+    "Founders": "85,86",
+    "FounderIds": "85,86",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 51,
+    "Startup": "Revolty",
+    "inception_year": 2024,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "",
+    "Founders": "87,88",
+    "FounderIds": "87,88",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 52,
+    "Startup": "Eledone",
+    "inception_year": 2024,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "",
+    "Founders": "89,90",
+    "FounderIds": "89,90",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 53,
+    "Startup": "AmonAI",
+    "inception_year": 2024,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/amonai/about/",
+    "lien_entreprise": "https://www.amonai.fr/",
+    "Programme": "",
+    "Founders": "91,92,93",
+    "FounderIds": "91,92,93",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 54,
+    "Startup": "Suny Club",
+    "inception_year": 2024,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/sunyclub",
+    "lien_entreprise": "https://linktr.ee/SUNYCLUB",
+    "Programme": "",
+    "Founders": "94,95",
+    "FounderIds": "94,95",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 55,
+    "Startup": "Peppers",
+    "inception_year": 2025,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "Launchpad Paris",
+    "Founders": "121,120",
+    "FounderIds": "121,120",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 56,
+    "Startup": "VegaSpark Technologies",
+    "inception_year": 2025,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "Launchpad Paris",
+    "Founders": "112,113",
+    "FounderIds": "112,113",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 57,
+    "Startup": "Pho Club",
+    "inception_year": 2025,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "Launchpad Paris",
+    "Founders": "114,115",
+    "FounderIds": "114,115",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 58,
+    "Startup": "TerraGrow",
+    "inception_year": 2025,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/terragrow-ag/",
+    "lien_entreprise": "https://www.terragrow.fr/",
+    "Programme": "Launchpad Paris",
+    "Founders": 116,
+    "FounderIds": 116,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 59,
+    "Startup": "Makehub.AI",
+    "inception_year": 2025,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/makehub-ai/",
+    "lien_entreprise": "https://makehub.ai/",
+    "Programme": "L2L Berkeley",
+    "Founders": "117,118,119",
+    "FounderIds": "117,118,119",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 60,
+    "Startup": "Via Sana",
+    "inception_year": 2020,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/via-sana/posts/?feedView=all",
+    "lien_entreprise": "http://www.centreviasana.com",
+    "Programme": "Launchpad Paris",
+    "Founders": "96,97",
+    "FounderIds": "96,97",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 61,
+    "Startup": "Fringuant",
+    "inception_year": 2022,
+    "Linkedin_entreprise": "",
+    "lien_entreprise": "",
+    "Programme": "Launchpad Paris",
+    "Founders": 98,
+    "FounderIds": 98,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 62,
+    "Startup": "GoodVest",
+    "inception_year": 2020,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/goodvest-epargne/",
+    "lien_entreprise": "https://www.goodvest.fr/?utm_source=LinkedIn",
+    "Programme": "Launchpad Paris",
+    "Founders": 99,
+    "FounderIds": 99,
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 63,
+    "Startup": "Simio",
+    "inception_year": 2023,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/getsimio/",
+    "lien_entreprise": "https://www.getsimio.com/",
+    "Programme": "Launchpad Paris",
+    "Founders": "",
+    "FounderIds": "",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 64,
+    "Startup": "Karmen",
+    "inception_year": 2021,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/karmen-io/",
+    "lien_entreprise": "https://www.karmen.io/?utm_source=linkedin&utm_medium=social&utm_campaign=lkdpage",
+    "Programme": "Launchpad Paris",
+    "Founders": "102,103",
+    "FounderIds": "102,103",
+    "Sector": "Fintech",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 65,
+    "Startup": "Kesako",
+    "inception_year": 2024,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/kesako-groupe/posts/?feedView=all",
+    "lien_entreprise": "https://www.kesako-groupe.com/",
+    "Programme": "Launchpad Paris",
+    "Founders": "104,105",
+    "FounderIds": "104,105",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 66,
+    "Startup": "Nefture",
+    "inception_year": 2022,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/nefture/",
+    "lien_entreprise": "https://www.nefture.com/",
+    "Programme": "",
+    "Founders": 106,
+    "FounderIds": 106,
+    "Sector": "Web3",
+    "# FTEs (incl. founders)": "",
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 67,
+    "Startup": "Pimster",
+    "inception_year": 2021,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/pimster-app/",
+    "lien_entreprise": "https://www.pimster.app/",
+    "Programme": "Launchpad Paris",
+    "Founders": "107,108",
+    "FounderIds": "107,1008",
+    "Sector": "",
+    "# FTEs (incl. founders)": 5,
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 68,
+    "Startup": "Konkrete",
+    "inception_year": 2021,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/konkretelabs/",
+    "lien_entreprise": "https://www.konkretelabs.com/",
+    "Programme": "Launchpad Paris",
+    "Founders": 109,
+    "FounderIds": 109,
+    "Sector": "Web3",
+    "# FTEs (incl. founders)": 2,
+    "Statut": "Arrêtée",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 69,
+    "Startup": "Fioro",
+    "inception_year": 2020,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/fioro-ai/",
+    "lien_entreprise": "https://www.fioro.ai/",
+    "Programme": "Launchpad Paris",
+    "Founders": 110,
+    "FounderIds": 110,
+    "Sector": "Education",
+    "# FTEs (incl. founders)": 3,
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 70,
     "Startup": "Seerona",
     "inception_year": 2022,
     "Linkedin_entreprise": "https://www.linkedin.com/company/seerona/",
-    "Programme": [
-      "Launchpad Paris"
-    ],
-    "Founders": [
-      "recgQ4LBsNyyObVRr"
-    ],
+    "lien_entreprise": "",
+    "Programme": "Launchpad Paris",
+    "Founders": 111,
+    "FounderIds": 111,
     "Sector": "Health",
-    "# FTEs (incl. founders)": "1",
-    "Statut": [
-      "Arrêtée"
-    ],
-    "id_startup": 70,
-    "FounderIds": [
-      "111"
-    ]
+    "# FTEs (incl. founders)": 1,
+    "Statut": "Arrêtée",
+    "foundersList": ""
   },
   {
-    "Startup": "Klaire",
+    "id_startup": 71,
+    "Startup": "Moonz",
+    "inception_year": 2021,
+    "Linkedin_entreprise": "https://www.linkedin.com/company/moonz-app/",
+    "lien_entreprise": "https://www.moonzapp.com/",
+    "Programme": "Launchpad Paris",
+    "Founders": 122,
+    "FounderIds": 122,
+    "Sector": "Consumer",
+    "# FTEs (incl. founders)": 3,
+    "Statut": "En activité",
+    "foundersList": ""
+  },
+  {
+    "id_startup": 72,
+    "Startup": "Byzantine Finance",
     "inception_year": 2024,
-    "lien_entreprise": "https://klaire.cc",
-    "Linkedin_entreprise": "https://www.linkedin.com/company/klaire-ai/",
-    "Founders": [
-      "recY1K5SIaT2A8YE5",
-      "recqy0HugldMtmosQ"
-    ],
-    "Statut": [
-      "En activité"
-    ],
-    "id_startup": 50,
-    "FounderIds": [
-      "85",
-      "86"
-    ]
+    "Linkedin_entreprise": "https://www.linkedin.com/company/byzantine-finance/",
+    "lien_entreprise": "https://www.byzantine.fi/",
+    "Programme": "Launchpad Paris",
+    "Founders": "",
+    "FounderIds": "",
+    "Sector": "",
+    "# FTEs (incl. founders)": "",
+    "Statut": "",
+    "foundersList": ""
   }
 ]
