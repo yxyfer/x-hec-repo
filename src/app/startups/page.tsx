@@ -1,9 +1,12 @@
 "use client";
 
-import SiteNav from "@/components/SiteNav";
-import StartupList from "@/components/StartupList";
+import { SiteNav } from "@/components/layout";
+import { StartupList } from "@/components/StartupList";
 
-export default function StartupsPage() {
+/**
+ * Startups page component displaying all startups in the X-HEC portfolio
+ */
+export const StartupsPage = () => {
   return (
     <main className="font-sans text-blue-900 dark:text-blue-50">
       <SiteNav />
@@ -12,4 +15,6 @@ export default function StartupsPage() {
       </section>
     </main>
   );
-}
+};
+
+export default StartupsPage;

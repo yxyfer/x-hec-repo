@@ -1,11 +1,17 @@
 import foundersData from "@/data/founders.json";
 import startups from "@/data/startups.json";
 
+import { Startup as StartupType } from "@/types/Startup";
+
 import { notFound } from "next/navigation";
+import StartupHeader from "@/components/StartupHeader";
+import StartupLink from "@/components/StartupLink";
+import StartupDescription from "@/components/StartupDescription";
+import StartupFounders from "@/components/StartupFounders";
 
 export async function generateStaticParams() {
   return startups.map((startup) => ({
-    id: startup.id_startup.toString(), // ou juste startup.id_startup selon ton type
+    id: startup.id_startup.toString(),
   }));
 }
 
@@ -16,35 +22,43 @@ export default async function StartupPage({
 }) {
   const { id } = await params;
 
-  const startup = startups.find((s) => s.id_startup.toString() === id);
+  const startup: StartupType | undefined = startups.find(
+    (s) => s.id_startup.toString() === id
+  );
 
   if (!startup) {
     notFound();
+    return;
   }
 
-  const founderMap = foundersData.reduce((acc, founder) => {
-    acc[founder.id_founders.toString()] = `${founder.prenom} ${founder.nom}`;
-    return acc;
-  }, {} as Record<string, string>);
+  const domain = startup.lien_entreprise
+    ? startup.lien_entreprise.replace(/(^\w+:|^)\/\//, "").split("/")[0]
+    : "";
+  const faviconUrl = startup.lien_entreprise
+    ? `https://www.google.com/s2/favicons?domain=${domain}&sz=128`
+    : "";
 
-  const Founders = Array.isArray(startup.FounderIds)
-    ? startup.FounderIds.map((fid) => founderMap[fid] ?? fid)
-    : [];
+  const link = startup.lien_entreprise || startup.Linkedin_entreprise || "";
 
   return (
-    <div className="p-8">
-      <h1 className="text-3xl font-bold">{startup.Startup}</h1>
-      <p className="mt-4">Sector: {startup.Sector}</p>
-      <p className="mt-2">Programme: {startup.Programme?.[0] || "Unknown"}</p>
-      <p className="mt-2">Founders: {Founders.join(", ")}</p>
-      <a
-        href={startup.lien_entreprise || startup.Linkedin_entreprise}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-4 inline-block text-blue-600"
-      >
-        Visit Website
-      </a>
+    // <div className="max-w-6xl mx-auto p-8">
+    <div className="mx-auto max-w-3xl lg:mx-0">
+      {/* Header Section */}
+      <StartupHeader
+        name={startup.Startup}
+        sector={startup.Sector}
+        faviconUrl={faviconUrl}
+        link={link}
+      />
+
+      {/* Website Link */}
+      <StartupLink link={link} />
+
+      {/* Description Section */}
+      <StartupDescription programme={startup.Programme} />
+
+      {/* Founders Section */}
+      <StartupFounders startup={startup} />
     </div>
   );
 }
