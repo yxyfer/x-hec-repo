@@ -32,7 +32,7 @@ export default function SearchBar({
           placeholder={placeholder}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="w-full pl-12 pr-12 py-4 text-lg font-medium text-gray-900 placeholder-gray-500 bg-white border-2 border-gray-200 rounded-xl shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-200"
+          className="w-full pl-12 pr-12 py-4 text-lg font-medium text-gray-900 placeholder-gray-500 bg-white border-2 border-gray-200 rounded-xl shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-500 transition-all duration-200"
         />
         {query && (
           <button
@@ -48,8 +48,8 @@ export default function SearchBar({
       {/* Results Counter */}
       {query && resultCount !== undefined && (
         <div className="flex justify-center">
-          <span className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-50 text-indigo-700 text-sm font-medium rounded-full border border-indigo-200">
-            <div className="w-2 h-2 bg-indigo-400 rounded-full animate-pulse"></div>
+          <span className="inline-flex items-center gap-2 px-4 py-2 bg-slate-50 text-slate-700 text-sm font-medium rounded-full border border-slate-200">
+            <div className="w-2 h-2 bg-slate-400 rounded-full animate-pulse"></div>
             {resultCount} {resultCount === 1 ? 'résultat trouvé' : 'résultats trouvés'}
           </span>
         </div>

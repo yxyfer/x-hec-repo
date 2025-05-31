@@ -38,7 +38,7 @@ const unicornCompanies: UnicornCompany[] = [
  * Hero section component
  */
 const HeroSection = () => (
-  <section className="bg-gray-50 py-16" aria-labelledby="hero-title">
+  <section className="bg-slate-50 py-16" aria-labelledby="hero-title">
     <div className="container mx-auto px-6 text-center max-w-3xl">
       <h1 
         id="hero-title"
@@ -50,7 +50,7 @@ const HeroSection = () => (
       <div className="flex flex-row sm:flex-row justify-center items-center gap-6 my-24">
         <Link 
           href="/startups" 
-          className="inline-flex items-center space-x-2 px-6 py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-colors rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          className="inline-flex items-center space-x-2 px-6 py-3 border-2 border-slate-700 text-slate-700 hover:bg-slate-700 hover:text-white transition-colors rounded-lg focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2"
         >
           <BuildingOfficeIcon className="h-5 w-5" aria-hidden="true" />
           <span>Startups</span>
@@ -58,7 +58,7 @@ const HeroSection = () => (
 
         <Link 
           href="/founders" 
-          className="inline-flex items-center space-x-2 px-6 py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-colors rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          className="inline-flex items-center space-x-2 px-6 py-3 border-2 border-slate-700 text-slate-700 hover:bg-slate-700 hover:text-white transition-colors rounded-lg focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2"
         >
           <UserGroupIcon className="h-5 w-5" aria-hidden="true" />
           <span>Founders</span>
@@ -73,7 +73,7 @@ const HeroSection = () => (
  */
 const UnicornSection = () => (
   <section 
-    className="container mx-auto px-8 py-20 bg-blue-50/50 dark:bg-blue-950/20"
+    className="container mx-auto px-8 py-20 bg-slate-100"
     aria-labelledby="unicorns-title"
   >
     <h2 
@@ -87,7 +87,7 @@ const UnicornSection = () => (
       {unicornCompanies.map((company) => (
         <article
           key={company.name}
-          className="rounded-2xl bg-white dark:bg-blue-950/40 p-8 text-center border border-blue-100 dark:border-blue-800 shadow-sm hover:shadow-md transition-shadow"
+          className="rounded-2xl bg-white p-8 text-center border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
         >
           <div className="mx-auto h-14 mb-6 relative">
             <Image
@@ -99,7 +99,7 @@ const UnicornSection = () => (
             />
           </div>
           <h3 className="font-semibold text-lg mb-2">{company.name}</h3>
-          <p className="text-sm text-blue-700 dark:text-blue-300 max-w-prose mx-auto">
+          <p className="text-sm text-slate-600 max-w-prose mx-auto">
             {company.description}
           </p>
         </article>
@@ -109,7 +109,7 @@ const UnicornSection = () => (
     <div className="text-center mt-12">
       <Link 
         href="/startups"
-        className="inline-flex items-center px-6 py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-colors rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 font-semibold"
+        className="inline-flex items-center px-6 py-3 border-2 border-slate-700 text-slate-700 hover:bg-slate-700 hover:text-white transition-colors rounded-lg focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2 font-semibold"
       >
         Voir plus de startups
       </Link>
@@ -122,7 +122,7 @@ const UnicornSection = () => (
  */
 const DemoDaySection = () => (
   <section 
-    className="container mx-auto px-8 py-20"
+    className="container mx-auto px-8 py-20 bg-slate-50"
     aria-labelledby="demo-day-title"
   >
     <h2 
@@ -132,7 +132,7 @@ const DemoDaySection = () => (
       Regardez les moments forts du Demo Day
     </h2>
     
-    <div className="relative max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg border border-blue-100 dark:border-blue-800">
+    <div className="relative max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg border border-slate-200">
       <div className="relative w-full aspect-video">
         <iframe
           className="absolute inset-0 w-full h-full"
@@ -151,7 +151,7 @@ const DemoDaySection = () => (
  */
 export const HomePage = () => {
   return (
-    <main className="font-sans text-blue-900 dark:text-blue-50">
+    <main className="bg-slate-50 min-h-screen">
       <SiteNav />
       <HeroSection />
       <UnicornSection />

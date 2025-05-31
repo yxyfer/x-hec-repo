@@ -22,7 +22,7 @@ export const FoundersPage = () => {
   );
 
   return (
-    <main className="bg-gray-50 min-h-screen">
+    <main className="bg-slate-50 min-h-screen">
       <SiteNav />
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-center font-bold text-4xl text-gray-900 mb-8">
@@ -56,8 +56,8 @@ export const FoundersPage = () => {
               role="status"
               aria-live="polite"
             >
-              <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
-                <p className="text-gray-500 text-lg">
+              <div className="bg-white rounded-xl p-8 shadow-sm border border-slate-200">
+                <p className="text-slate-500 text-lg">
                   Aucun founder trouvé pour "{search}"
                 </p>
               </div>

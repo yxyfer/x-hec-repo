@@ -104,15 +104,15 @@ export const StartupList = () => {
   }, [query, years, sectors, programmes, processedStartups]);
 
   return (
-    <section className="w-full px-8 py-10">
-      <h1 className="text-center font-extrabold text-5xl mb-10">
+    <section className="w-full">
+      <h1 className="text-center font-extrabold text-5xl mb-10 text-gray-900">
         X-HEC Startups
       </h1>
 
       <div className="mt-10 flex gap-10">
         {/* Sidebar */}
         {!isMobile ? (
-          <aside className="sticky top-24 self-start w-80 shrink-0 space-y-10 rounded-3xl bg-white/70 dark:bg-white/10 backdrop-blur-md shadow-lg p-6 border border-white/40 dark:border-white/20">
+          <aside className="sticky top-24 self-start w-80 shrink-0 space-y-10 rounded-3xl bg-white/90 backdrop-blur-sm shadow-lg p-6 border border-slate-200">
             <FacetBlock
               title="Inception year"
               options={yearFacet}
@@ -139,7 +139,7 @@ export const StartupList = () => {
             />
           </aside>
         ) : (
-          <aside className="hidden md:block sticky top-24 self-start w-80 shrink-0 space-y-10 rounded-3xl bg-white/70 dark:bg-white/10 backdrop-blur-md shadow-lg p-6 border border-white/40 dark:border-white/20">
+          <aside className="hidden md:block sticky top-24 self-start w-80 shrink-0 space-y-10 rounded-3xl bg-white/90 backdrop-blur-sm shadow-lg p-6 border border-slate-200">
             <h2 className="text-center font-extrabold text-2xl">
               Filters
             </h2>
@@ -173,7 +173,7 @@ export const StartupList = () => {
           </div>
           
           {/* Results count */}
-          <div className="mt-6 text-center text-sm text-gray-500">
+          <div className="mt-6 text-center text-sm text-slate-500">
             Showing {filteredStartups.length} of {processedStartups.length} startups
           </div>
         </div>

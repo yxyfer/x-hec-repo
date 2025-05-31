@@ -15,11 +15,11 @@ export const FounderCard = memo<FounderCardProps>(({ founder, className = '' }) 
   // Generate consistent color based on name
   const colorIndex = (fullName.charCodeAt(0) + fullName.charCodeAt(fullName.length - 1)) % 5;
   const avatarColors = [
-    'bg-indigo-500',
-    'bg-purple-500', 
-    'bg-blue-500',
-    'bg-green-500',
-    'bg-pink-500'
+    'bg-slate-600',
+    'bg-slate-700', 
+    'bg-slate-800',
+    'bg-blue-900',
+    'bg-gray-800'
   ];
 
   return (
@@ -43,7 +43,7 @@ export const FounderCard = memo<FounderCardProps>(({ founder, className = '' }) 
             {fullName}
           </h3>
           {batch && (
-            <span className="inline-block mt-1 px-2 py-1 text-xs font-medium text-indigo-700 bg-indigo-50 rounded-full border border-indigo-200">
+            <span className="inline-block mt-1 px-2 py-1 text-xs font-medium text-slate-700 bg-slate-50 rounded-full border border-slate-200">
               {batch}
             </span>
           )}
@@ -56,7 +56,7 @@ export const FounderCard = memo<FounderCardProps>(({ founder, className = '' }) 
           href={linkedinUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 mt-3 px-3 py-2 text-sm font-medium text-blue-600 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 rounded-lg border border-blue-200 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          className="inline-flex items-center gap-2 mt-3 text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2 rounded-md"
           aria-label={`View ${fullName} LinkedIn profile`}
         >
           <svg
