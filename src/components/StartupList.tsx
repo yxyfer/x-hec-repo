@@ -26,8 +26,8 @@ export const StartupList = () => {
   // Create founder mapping for enriching startup data
   const founderMap = useMemo(
     () =>
-      foundersData.reduce((acc, founder) => {
-        const { prenom, nom, id_founders } = founder;
+      foundersData.reduce((acc, rec) => {
+        const { prenom, nom, id_founders } = rec;
         acc[id_founders.toString()] = { prenom, nom };
         return acc;
       }, {} as Record<string, { prenom: string; nom: string }>),
@@ -108,7 +108,7 @@ export const StartupList = () => {
         X-HEC Startups
       </h1>
 
-      <div className="mt-10 flex gap-10">
+      <div className="mt-10 flex flex-row md:flex-row gap-10">
         {/* Sidebar */}
         {!isMobile ? (
           <aside className="sticky top-24 self-start w-80 shrink-0 space-y-10 rounded-3xl bg-white/90 backdrop-blur-sm shadow-lg p-6 border border-slate-200">

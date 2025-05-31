@@ -64,6 +64,7 @@ export default function CompanyCard({ company }: CompanyCardProps) {
 
             <div className="flex gap-2 mt-2">
               {company.program && company.program !== "Unknown" && (
+
                 <span className="rounded-lg bg-[#EAEAE2] text-black text-sm font-medium px-3 py-1 tracking-wide">
                   {company.program}
                 </span>
