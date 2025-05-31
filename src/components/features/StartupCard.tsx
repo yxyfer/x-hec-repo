@@ -9,7 +9,7 @@ import { extractDomain, getAvatarColor, getInitials } from '@/utils/favicon';
  * Optimized for performance with React.memo and robust image handling
  */
 export const StartupCard = memo<StartupCardProps>(({ startup, className = '' }) => {
-  const { websiteUrl, linkedinUrl, name, inceptionYear, program, sector, status } = startup;
+  const { websiteUrl, name, inceptionYear, program, sector, status } = startup;
   const [imageError, setImageError] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 

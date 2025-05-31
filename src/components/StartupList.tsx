@@ -2,7 +2,7 @@
 
 // ── imports ───────────────────────────────────────────
 
-import React, { memo, useMemo, useState, useCallback } from "react";
+import React, { useMemo, useState } from "react";
 import startups from "@/data/startups.json";
 import foundersData from "@/data/founders.json";
 import type { Startup } from "@/types";
