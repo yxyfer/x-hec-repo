@@ -11,7 +11,7 @@ import SearchBar from "@/components/SearchSortBar";
 /**
  * Founders page component displaying all founders in the X-HEC community
  */
-export const FoundersPage = () => {
+export default function FoundersPage() {
   // Transform legacy data to new interface format
   const foundersList: Founder[] = transformLegacyFounders(foundersData);
   
@@ -67,6 +67,4 @@ export const FoundersPage = () => {
       </section>
     </main>
   );
-};
-
-export default FoundersPage;
+}
